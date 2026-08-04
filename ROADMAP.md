@@ -25,11 +25,11 @@ Size alone is not the goal. The project wins when someone can make a safer decis
 
 ## v0.4 — Decision engine
 
-- Shareable filtered URLs.
-- Hardware-aware local-model and stack recommendations.
-- Exportable personal stack manifests.
-- Structured comparisons for hosted APIs and local runtimes.
-- Historical changes to pricing, quotas, licenses, and privacy claims.
+- [x] Shareable filtered URLs.
+- [x] Hardware-aware local-model and stack recommendations.
+- [x] Exportable personal stack manifests.
+- [ ] Structured comparisons for hosted APIs and local runtimes.
+- [ ] Historical changes to pricing, quotas, licenses, and privacy claims.
 
 ## v1.0 — Reference infrastructure
 
