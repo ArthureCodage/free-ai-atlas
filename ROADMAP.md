@@ -17,11 +17,11 @@ Size alone is not the goal. The project wins when someone can make a safer decis
 
 ## v0.3 — Community curation
 
-- Contributor profile and acknowledgements.
-- Public category ownership for volunteer curators.
-- A weekly evidence-review queue with small, reviewable issues.
-- Translation workflow for English and French, then community-maintained languages.
-- Monthly release notes covering additions, removals, and changed limits.
+- [x] Contributor profile and acknowledgements.
+- [x] Public category ownership for volunteer curators.
+- [x] A weekly evidence-review queue with small, reviewable issues.
+- [x] Translation workflow for English and French, then community-maintained languages.
+- [x] Monthly release notes covering additions, removals, and changed limits.
 
 ## v0.4 — Decision engine
 

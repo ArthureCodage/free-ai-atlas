@@ -1,0 +1,59 @@
+name: Become a category owner
+description: Request ownership of a category you've contributed to.
+title: "[Category Owner]: "
+labels: ["governance", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Category owners volunteer to review contributions and maintain accuracy for a specific topic area.
+        
+        See [CONTRIBUTORS.md](CONTRIBUTORS.md) for requirements.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category you want to own
+      options:
+        - agents
+        - api
+        - app-builder
+        - assistant
+        - coding
+        - compute
+        - dataset
+        - evaluation
+        - image-generation
+        - inference-server
+        - interface
+        - learning
+        - local-runtime
+        - ml-framework
+        - model-hub
+        - rag
+        - speech
+        - vector-database
+    validations:
+      required: true
+  - type: textarea
+    id: contributions
+    attributes:
+      label: Your contributions to this category
+      description: List the PRs, issues, or reviews you've contributed to this category.
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: Your plan for maintaining this category
+      description: How will you review contributions and keep the category accurate?
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      options:
+        - label: I understand the responsibilities of a category owner.
+          required: true
+        - label: I commit to reviewing contributions within 7 days.
+          required: true
