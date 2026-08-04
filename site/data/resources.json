@@ -1,12 +1,12 @@
 {
   "meta": {
-    "resource_count": 60,
+    "resource_count": 73,
     "category_count": 17,
     "latest_verification": "2026-08-04",
-    "open_source_count": 46,
-    "local_count": 42,
-    "no_account_count": 50,
-    "high_confidence_count": 60
+    "open_source_count": 56,
+    "local_count": 54,
+    "no_account_count": 61,
+    "high_confidence_count": 73
   },
   "resources": [
     {
@@ -701,6 +701,99 @@
       ],
       "source": {
         "url": "https://support.google.com/gemini/answer/16275805?hl=en",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "jan",
+      "name": "Jan",
+      "description": "An open-source desktop application for running local AI chatbots with support for multiple LLM providers and a privacy-focused approach.",
+      "description_fr": "Une application de bureau open source pour exécuter des chatbots IA locaux avec support pour plusieurs fournisseurs de LLM et une approche axée sur la vie privée.",
+      "best_for": "Private local AI chatbot",
+      "best_for_fr": "Chatbot IA local privé",
+      "category": "assistant",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/janhq/jan",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "AGPL-3.0",
+      "limits": "Performance depends on hardware and model selection.",
+      "limits_fr": "Les performances dépendent du matériel et de la sélection du modèle.",
+      "caveats": [
+        "Limited model selection compared to cloud services.",
+        "Some features are in beta."
+      ],
+      "caveats_fr": [
+        "Sélection de modèles limitée par rapport aux services cloud.",
+        "Certaines fonctionnalités sont en bêta."
+      ],
+      "tags": [
+        "chatbot",
+        "local",
+        "privacy",
+        "desktop"
+      ],
+      "source": {
+        "url": "https://github.com/janhq/jan",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "msty",
+      "name": "Msty",
+      "description": "A desktop application for running local AI chatbots with support for multiple LLM providers and a clean, modern interface.",
+      "description_fr": "Une application de bureau pour exécuter des chatbots IA locaux avec support pour plusieurs fournisseurs de LLM et une interface propre et moderne.",
+      "best_for": "Modern local AI chatbot interface",
+      "best_for_fr": "Interface de chatbot IA local moderne",
+      "category": "assistant",
+      "free_type": "free-tier",
+      "access": "local",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos"
+      ],
+      "homepage": "https://msty.app",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "local",
+      "license": "proprietary",
+      "limits": "Free for personal use; Pro version has additional features.",
+      "limits_fr": "Gratuit pour usage personnel; la version Pro a des fonctionnalités supplémentaires.",
+      "caveats": [
+        "Commercial use requires license.",
+        "Limited to supported platforms."
+      ],
+      "caveats_fr": [
+        "L'usage commercial nécessite une licence.",
+        "Limité aux plateformes supportées."
+      ],
+      "tags": [
+        "chatbot",
+        "local",
+        "modern",
+        "desktop"
+      ],
+      "source": {
+        "url": "https://msty.app",
         "type": "official-docs",
         "official": true
       },
@@ -1496,12 +1589,58 @@
       "confidence": "high"
     },
     {
+      "id": "text-generation-inference",
+      "name": "Text Generation Inference (TGI)",
+      "description": "A production-ready inference solution for running LLMs with support for quantization, streaming, and continuous batching.",
+      "description_fr": "Une solution d'inférence prête pour la production pour exécuter des LLMs avec support pour la quantification, le streaming et le traitement par lots continu.",
+      "best_for": "Production LLM inference",
+      "best_for_fr": "Inférence LLM en production",
+      "category": "inference-server",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/huggingface/text-generation-inference",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "Requires GPU with sufficient VRAM for optimal performance.",
+      "limits_fr": "Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.",
+      "caveats": [
+        "Complex setup for production deployments.",
+        "Requires GPU with sufficient VRAM."
+      ],
+      "caveats_fr": [
+        "Configuration complexe pour les déploiements en production.",
+        "Nécessite un GPU avec suffisamment de VRAM."
+      ],
+      "tags": [
+        "inference",
+        "serving",
+        "huggingface",
+        "production"
+      ],
+      "source": {
+        "url": "https://github.com/huggingface/text-generation-inference",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "vllm",
       "name": "vLLM",
-      "description": "A high-throughput, memory-efficient inference and serving engine for language models, with an OpenAI-compatible API and production-oriented batching.",
-      "description_fr": "Un moteur d’inférence et de service à haut débit pour modèles de langage, avec API compatible OpenAI et traitement en lots orienté production.",
-      "best_for": "Serving open models efficiently on GPUs",
-      "best_for_fr": "Servir efficacement des modèles ouverts sur GPU",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs with continuous batching and paged attention.",
+      "description_fr": "Un moteur d'inférence et de service haute performance et économe en mémoire pour les LLMs avec traitement par lots continu et attention paginée.",
+      "best_for": "High-performance LLM serving",
+      "best_for_fr": "Service LLM haute performance",
       "category": "inference-server",
       "free_type": "open-source",
       "access": "local",
@@ -1516,19 +1655,21 @@
       "commercial_use": "yes",
       "privacy": "local",
       "license": "Apache-2.0",
-      "limits": "Practical use usually requires a compatible accelerator, sufficient VRAM, and careful model-specific configuration.",
-      "limits_fr": "L’usage pratique exige généralement un accélérateur compatible, assez de VRAM et une configuration adaptée au modèle.",
+      "limits": "Requires GPU with sufficient VRAM for optimal performance.",
+      "limits_fr": "Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.",
       "caveats": [
-        "The engine license and the served model license are separate."
+        "Complex setup for production deployments.",
+        "Requires GPU with sufficient VRAM."
       ],
       "caveats_fr": [
-        "La licence du moteur et celle du modèle servi sont distinctes."
+        "Configuration complexe pour les déploiements en production.",
+        "Nécessite un GPU avec suffisamment de VRAM."
       ],
       "tags": [
-        "llm",
+        "inference",
         "serving",
-        "gpu",
-        "openai-compatible"
+        "high-throughput",
+        "gpu"
       ],
       "source": {
         "url": "https://github.com/vllm-project/vllm",
@@ -1817,6 +1958,53 @@
       "confidence": "high"
     },
     {
+      "id": "llama-cpp-python",
+      "name": "llama-cpp-python",
+      "description": "A Python binding for llama.cpp with support for OpenAI API compatibility and easy integration with Python projects.",
+      "description_fr": "Un binding Python pour llama.cpp avec support pour la compatibilité API OpenAI et une intégration facile avec les projets Python.",
+      "best_for": "Python integration for llama.cpp",
+      "best_for_fr": "Intégration Python pour llama.cpp",
+      "category": "local-runtime",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/abetlen/llama-cpp-python",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Performance depends on hardware and model selection.",
+      "limits_fr": "Les performances dépendent du matériel et de la sélection du modèle.",
+      "caveats": [
+        "Requires compilation.",
+        "Model quality varies by size."
+      ],
+      "caveats_fr": [
+        "Nécessite une compilation.",
+        "La qualité du modèle varie selon la taille."
+      ],
+      "tags": [
+        "llm",
+        "local",
+        "python",
+        "llama"
+      ],
+      "source": {
+        "url": "https://github.com/abetlen/llama-cpp-python",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "llama-cpp",
       "name": "llama.cpp",
       "description": "A C++ library for running Meta's LLaMA and other large language models efficiently on CPU and GPU with quantization support.",
@@ -1858,6 +2046,53 @@
       "source": {
         "url": "https://github.com/ggml-org/llama.cpp",
         "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "lm-studio",
+      "name": "LM Studio",
+      "description": "A desktop application for running local LLMs with a user-friendly interface and support for multiple model formats.",
+      "description_fr": "Une application de bureau pour exécuter des LLMs locaux avec une interface conviviale et support pour plusieurs formats de modèles.",
+      "best_for": "Easy local LLM hosting",
+      "best_for_fr": "Hébergement LLM local facile",
+      "category": "local-runtime",
+      "free_type": "free-tier",
+      "access": "local",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://lmstudio.ai",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "local",
+      "license": "proprietary",
+      "limits": "Free for personal use; commercial license required for business use.",
+      "limits_fr": "Gratuit pour usage personnel; licence commerciale requise pour usage professionnel.",
+      "caveats": [
+        "Commercial use requires license.",
+        "Limited model customization."
+      ],
+      "caveats_fr": [
+        "L'usage commercial nécessite une licence.",
+        "Personnalisation des modèles limitée."
+      ],
+      "tags": [
+        "local",
+        "llm",
+        "desktop",
+        "user-friendly"
+      ],
+      "source": {
+        "url": "https://lmstudio.ai",
+        "type": "official-docs",
         "official": true
       },
       "last_verified": "2026-08-04",
@@ -2051,6 +2286,53 @@
       "confidence": "high"
     },
     {
+      "id": "keras",
+      "name": "Keras",
+      "description": "A high-level neural networks API with support for multiple backends including TensorFlow, JAX, and PyTorch.",
+      "description_fr": "Une API de réseaux neuronaux de haut niveau avec support pour plusieurs backends dont TensorFlow, JAX et PyTorch.",
+      "best_for": "Beginner-friendly deep learning",
+      "best_for_fr": "Deep learning pour débutants",
+      "category": "ml-framework",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/keras-team/keras",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "Performance depends on backend and hardware.",
+      "limits_fr": "Les performances dépendent du backend et du matériel.",
+      "caveats": [
+        "Limited customization compared to lower-level frameworks.",
+        "Backend selection affects performance."
+      ],
+      "caveats_fr": [
+        "Personnalisation limitée par rapport aux cadres de niveau inférieur.",
+        "La sélection du backend affecte les performances."
+      ],
+      "tags": [
+        "deep-learning",
+        "ml",
+        "beginner",
+        "high-level"
+      ],
+      "source": {
+        "url": "https://github.com/keras-team/keras",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "mlflow",
       "name": "MLflow",
       "description": "An open-source platform for managing the end-to-end machine learning lifecycle with experiment tracking, model deployment, and registry.",
@@ -2090,6 +2372,100 @@
       ],
       "source": {
         "url": "https://github.com/mlflow/mlflow",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "description": "An open-source machine learning framework with dynamic computation graphs and strong GPU acceleration support.",
+      "description_fr": "Un cadre de machine learning open source avec des graphes de calcul dynamiques et un fort support d'accélération GPU.",
+      "best_for": "Deep learning research and production",
+      "best_for_fr": "Recherche et production en deep learning",
+      "category": "ml-framework",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/pytorch/pytorch",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "BSD-3-Clause",
+      "limits": "Performance depends on hardware; GPU acceleration recommended.",
+      "limits_fr": "Les performances dépendent du matériel; l'accélération GPU recommandée.",
+      "caveats": [
+        "Requires GPU for optimal performance.",
+        "Steep learning curve for beginners."
+      ],
+      "caveats_fr": [
+        "Nécessite un GPU pour des performances optimales.",
+        "Courbe d'apprentissage raide pour les débutants."
+      ],
+      "tags": [
+        "deep-learning",
+        "ml",
+        "gpu",
+        "research"
+      ],
+      "source": {
+        "url": "https://github.com/pytorch/pytorch",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "scikit-learn",
+      "name": "scikit-learn",
+      "description": "A machine learning library for Python with support for classification, regression, clustering, and model evaluation.",
+      "description_fr": "Une bibliothèque de machine learning pour Python avec support pour la classification, la régression, le clustering et l'évaluation des modèles.",
+      "best_for": "Classical machine learning in Python",
+      "best_for_fr": "Machine learning classique en Python",
+      "category": "ml-framework",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/scikit-learn/scikit-learn",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "BSD-3-Clause",
+      "limits": "Not optimized for deep learning; CPU-only.",
+      "limits_fr": "Non optimisé pour le deep learning; CPU uniquement.",
+      "caveats": [
+        "Not suitable for deep learning.",
+        "Limited GPU support."
+      ],
+      "caveats_fr": [
+        "Non adapté au deep learning.",
+        "Support GPU limité."
+      ],
+      "tags": [
+        "machine-learning",
+        "python",
+        "classical",
+        "beginner"
+      ],
+      "source": {
+        "url": "https://github.com/scikit-learn/scikit-learn",
         "type": "official-repository",
         "official": true
       },
@@ -2194,45 +2570,93 @@
       "confidence": "high"
     },
     {
-      "id": "hugging-face-hub",
-      "name": "Hugging Face Model Hub",
-      "description": "A community platform for discovering, storing, downloading, and sharing model checkpoints that integrate with many machine-learning libraries.",
-      "description_fr": "Une plateforme communautaire pour découvrir, stocker, télécharger et partager des modèles intégrés à de nombreuses bibliothèques d’apprentissage automatique.",
-      "best_for": "Finding downloadable models and model cards",
-      "best_for_fr": "Trouver des modèles téléchargeables et leurs fiches",
+      "id": "civitai",
+      "name": "Civitai",
+      "description": "A platform for sharing and discovering AI art models, especially for Stable Diffusion with a community-driven approach.",
+      "description_fr": "Une plateforme pour partager et découvrir des modèles d'art IA, en particulier pour Stable Diffusion avec une approche communautaire.",
+      "best_for": "Discovering AI art models",
+      "best_for_fr": "Découvrir des modèles d'art IA",
       "category": "model-hub",
-      "free_type": "freemium",
-      "access": "hybrid",
-      "difficulty": "intermediate",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "beginner",
       "platforms": [
-        "web",
         "windows",
         "macos",
         "linux"
       ],
-      "homepage": "https://huggingface.co/models",
-      "account_required": false,
+      "homepage": "https://civitai.com",
+      "account_required": true,
       "card_required": false,
       "commercial_use": "check-license",
-      "privacy": "configurable",
-      "license": null,
-      "limits": "Public discovery and many downloads are free; gated models, hosted inference, storage, and compute have separate rules and limits.",
-      "limits_fr": "La découverte publique et beaucoup de téléchargements sont gratuits; les modèles restreints, l’inférence, le stockage et le calcul ont des règles distinctes.",
+      "privacy": "provider-processed",
+      "license": "varies",
+      "limits": "Free tier has download limits; paid plans available.",
+      "limits_fr": "Le tier gratuit a des limites de téléchargement; des plans payants disponibles.",
       "caveats": [
-        "Every repository can use a different license; 'available on Hugging Face' does not mean open source or commercially usable."
+        "Requires account for full access.",
+        "Model licenses vary."
       ],
       "caveats_fr": [
-        "Chaque dépôt peut utiliser une licence différente; être disponible sur Hugging Face ne signifie pas être open source ni utilisable commercialement."
+        "Nécessite un compte pour un accès complet.",
+        "Les licences des modèles varient."
+      ],
+      "tags": [
+        "models",
+        "art",
+        "stable-diffusion",
+        "community"
+      ],
+      "source": {
+        "url": "https://civitai.com",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "hugging-face-hub",
+      "name": "Hugging Face Hub",
+      "description": "A platform for hosting and sharing machine learning models, datasets, and spaces with a Python client library.",
+      "description_fr": "Une plateforme pour héberger et partager des modèles de machine learning, des datasets et des espaces avec une bibliothèque client Python.",
+      "best_for": "Discovering and sharing ML models",
+      "best_for_fr": "Découvrir et partager des modèles ML",
+      "category": "model-hub",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/huggingface/huggingface_hub",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "provider-processed",
+      "license": "Apache-2.0",
+      "limits": "Free tier has storage and compute limits; paid plans available.",
+      "limits_fr": "Le tier gratuit a des limites de stockage et de calcul; des plans payants disponibles.",
+      "caveats": [
+        "Requires account for full access.",
+        "Some models have restricted licenses."
+      ],
+      "caveats_fr": [
+        "Nécessite un compte pour un accès complet.",
+        "Certains modèles ont des licences restreintes."
       ],
       "tags": [
         "models",
         "datasets",
-        "model-cards",
+        "sharing",
         "community"
       ],
       "source": {
-        "url": "https://huggingface.co/docs/hub/en/models-the-hub",
-        "type": "official-docs",
+        "url": "https://github.com/huggingface/huggingface_hub",
+        "type": "official-repository",
         "official": true
       },
       "last_verified": "2026-08-04",
@@ -2326,6 +2750,147 @@
       ],
       "source": {
         "url": "https://github.com/run-llama/llama_index",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "audiocraft",
+      "name": "AudioCraft",
+      "description": "A library for audio processing and generation with support for music, sound effects, and audio compression from Meta AI.",
+      "description_fr": "Une bibliothèque pour le traitement et la génération audio avec support pour la musique, les effets sonores et la compression audio de Meta AI.",
+      "best_for": "Music and audio generation",
+      "best_for_fr": "Génération de musique et d'audio",
+      "category": "speech",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/facebookresearch/audiocraft",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Requires GPU for optimal performance.",
+      "limits_fr": "Nécessite un GPU pour des performances optimales.",
+      "caveats": [
+        "Requires GPU for optimal performance.",
+        "Music generation can be slow."
+      ],
+      "caveats_fr": [
+        "Nécessite un GPU pour des performances optimales.",
+        "La génération de musique peut être lente."
+      ],
+      "tags": [
+        "music",
+        "audio",
+        "generation",
+        "meta"
+      ],
+      "source": {
+        "url": "https://github.com/facebookresearch/audiocraft",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "bark",
+      "name": "Bark",
+      "description": "A transformer-based text-to-audio model capable of generating highly realistic multilingual speech with non-verbal sounds.",
+      "description_fr": "Un modèle de synthèse text-audio basé sur des transformateurs capable de générer de la parole multilingue très réaliste avec des sons non verbaux.",
+      "best_for": "Realistic speech with non-verbal sounds",
+      "best_for_fr": "Parole réaliste avec des sons non verbaux",
+      "category": "speech",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/suno-ai/bark",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Requires GPU for optimal performance.",
+      "limits_fr": "Nécessite un GPU pour des performances optimales.",
+      "caveats": [
+        "Requires GPU for optimal performance.",
+        "Generation can be slow on CPU."
+      ],
+      "caveats_fr": [
+        "Nécessite un GPU pour des performances optimales.",
+        "La génération peut être lente sur CPU."
+      ],
+      "tags": [
+        "speech",
+        "tts",
+        "realistic",
+        "multilingual"
+      ],
+      "source": {
+        "url": "https://github.com/suno-ai/bark",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "coqui-tts",
+      "name": "Coqui TTS",
+      "description": "An open-source text-to-speech library with support for multiple languages, voice cloning, and high-quality synthesis.",
+      "description_fr": "Une bibliothèque open source de synthèse vocale avec support pour plusieurs langues, le clonage de voix et une synthèse de haute qualité.",
+      "best_for": "Custom text-to-speech with voice cloning",
+      "best_for_fr": "Synthèse vocale personnalisée avec clonage de voix",
+      "category": "speech",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/coqui-ai/TTS",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "Performance depends on hardware; GPU recommended.",
+      "limits_fr": "Les performances dépendent du matériel; GPU recommandé.",
+      "caveats": [
+        "Requires GPU for optimal performance.",
+        "Voice cloning requires training data."
+      ],
+      "caveats_fr": [
+        "Nécessite un GPU pour des performances optimales.",
+        "Le clonage de voix nécessite des données d'entraînement."
+      ],
+      "tags": [
+        "speech",
+        "tts",
+        "voice-cloning",
+        "multilingual"
+      ],
+      "source": {
+        "url": "https://github.com/coqui-ai/TTS",
         "type": "official-repository",
         "official": true
       },
@@ -2561,6 +3126,53 @@
       ],
       "source": {
         "url": "https://github.com/ggerganov/whisper.cpp",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "whisperx",
+      "name": "WhisperX",
+      "description": "An extended version of OpenAI's Whisper with word-level timestamps, speaker diarization, and improved accuracy.",
+      "description_fr": "Une version étendue d'OpenAI Whisper avec des horodatages au niveau du mot, la diarisation de locuteurs et une précision améliorée.",
+      "best_for": "Accurate speech recognition with timestamps",
+      "best_for_fr": "Reconnaissance vocale précise avec horodatages",
+      "category": "speech",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/m-bain/whisperX",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Requires GPU for optimal performance.",
+      "limits_fr": "Nécessite un GPU pour des performances optimales.",
+      "caveats": [
+        "Requires GPU for optimal performance.",
+        "Speaker diarization requires additional setup."
+      ],
+      "caveats_fr": [
+        "Nécessite un GPU pour des performances optimales.",
+        "La diarisation de locuteurs nécessite une configuration supplémentaire."
+      ],
+      "tags": [
+        "speech",
+        "recognition",
+        "timestamps",
+        "diarization"
+      ],
+      "source": {
+        "url": "https://github.com/m-bain/whisperX",
         "type": "official-repository",
         "official": true
       },

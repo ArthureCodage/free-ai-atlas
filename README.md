@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img alt="Resources" src="https://img.shields.io/badge/resources-60-7c5cff">
+  <img alt="Resources" src="https://img.shields.io/badge/resources-73-7c5cff">
   <img alt="Categories" src="https://img.shields.io/badge/categories-17-19c6a3">
   <img alt="Latest verification" src="https://img.shields.io/badge/latest%20verification-2026-08-04-f4b942">
   <img alt="Content license CC0" src="https://img.shields.io/badge/data%20%26%20content-CC0-0b7285">
@@ -72,6 +72,8 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | [ChatGPT](https://chatgpt.com/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
 | [Claude](https://claude.ai/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
 | [Gemini](https://gemini.google.com/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
+| [Jan](https://github.com/janhq/jan) | assistant | Open source | local | beginner | 2026-08-04 |
+| [Msty](https://msty.app) | assistant | Free tier | local | beginner | 2026-08-04 |
 | [Open WebUI](https://github.com/open-webui/open-webui) | assistant | Open source | local | beginner | 2026-08-04 |
 | [Perplexity](https://www.perplexity.ai/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
 | [Aider](https://github.com/paul-gauthier/aider) | coding | Open source | local | intermediate | 2026-08-04 |
@@ -89,6 +91,7 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | image-generation | Open source | local | intermediate | 2026-08-04 |
 | [Stable Diffusion WebUI Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) | image-generation | Open source | local | intermediate | 2026-08-04 |
 | [ONNX Runtime](https://github.com/microsoft/onnxruntime) | inference-server | Open source | local | intermediate | 2026-08-04 |
+| [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) | inference-server | Open source | local | advanced | 2026-08-04 |
 | [vLLM](https://github.com/vllm-project/vllm) | inference-server | Open source | local | advanced | 2026-08-04 |
 | [Hugging Face Agents Course](https://github.com/huggingface/agents-course) | learning | Open source | cloud | intermediate | 2026-08-04 |
 | [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | learning | Free tier | cloud | intermediate | 2026-08-04 |
@@ -96,22 +99,32 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | learning | Open source | cloud | beginner | 2026-08-04 |
 | [Practical Deep Learning for Coders](https://course.fast.ai/) | learning | Free tier | cloud | intermediate | 2026-08-04 |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | local-runtime | Open source | local | beginner | 2026-08-04 |
+| [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | local-runtime | Open source | local | intermediate | 2026-08-04 |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | local-runtime | Open source | local | advanced | 2026-08-04 |
+| [LM Studio](https://lmstudio.ai) | local-runtime | Free tier | local | beginner | 2026-08-04 |
 | [LocalAI](https://github.com/mudler/LocalAI) | local-runtime | Open source | local | intermediate | 2026-08-04 |
 | [Ollama](https://github.com/ollama/ollama) | local-runtime | Open source | local | beginner | 2026-08-04 |
 | [BentoML](https://github.com/bentoml/BentoML) | ml-framework | Open source | local | intermediate | 2026-08-04 |
 | [JAX](https://github.com/jax-ml/jax) | ml-framework | Open source | local | advanced | 2026-08-04 |
+| [Keras](https://github.com/keras-team/keras) | ml-framework | Open source | local | beginner | 2026-08-04 |
 | [MLflow](https://github.com/mlflow/mlflow) | ml-framework | Open source | local | intermediate | 2026-08-04 |
+| [PyTorch](https://github.com/pytorch/pytorch) | ml-framework | Open source | local | intermediate | 2026-08-04 |
+| [scikit-learn](https://github.com/scikit-learn/scikit-learn) | ml-framework | Open source | local | beginner | 2026-08-04 |
 | [TensorFlow](https://github.com/tensorflow/tensorflow) | ml-framework | Open source | local | intermediate | 2026-08-04 |
 | [Transformers](https://github.com/huggingface/transformers) | ml-framework | Open source | local | intermediate | 2026-08-04 |
-| [Hugging Face Model Hub](https://huggingface.co/models) | model-hub | Freemium | hybrid | intermediate | 2026-08-04 |
+| [Civitai](https://civitai.com) | model-hub | Free tier | cloud | beginner | 2026-08-04 |
+| [Hugging Face Hub](https://github.com/huggingface/huggingface_hub) | model-hub | Free tier | cloud | beginner | 2026-08-04 |
 | [DSPy](https://github.com/stanfordnlp/dspy) | rag | Open source | local | advanced | 2026-08-04 |
 | [LlamaIndex](https://github.com/run-llama/llama_index) | rag | Open source | local | intermediate | 2026-08-04 |
+| [AudioCraft](https://github.com/facebookresearch/audiocraft) | speech | Open source | local | intermediate | 2026-08-04 |
+| [Bark](https://github.com/suno-ai/bark) | speech | Open source | local | intermediate | 2026-08-04 |
+| [Coqui TTS](https://github.com/coqui-ai/TTS) | speech | Open source | local | intermediate | 2026-08-04 |
 | [Edge TTS](https://github.com/rany2/edge-tts) | speech | Free tier | cloud | beginner | 2026-08-04 |
 | [Faster Whisper](https://github.com/SYSTRAN/faster-whisper) | speech | Open source | local | intermediate | 2026-08-04 |
 | [OpenAI Whisper](https://github.com/openai/whisper) | speech | Open source | local | intermediate | 2026-08-04 |
 | [Pyannote Audio](https://github.com/pyannote/pyannote-audio) | speech | Open source | local | intermediate | 2026-08-04 |
 | [whisper.cpp](https://github.com/ggerganov/whisper.cpp) | speech | Open source | local | intermediate | 2026-08-04 |
+| [WhisperX](https://github.com/m-bain/whisperX) | speech | Open source | local | intermediate | 2026-08-04 |
 | [Chroma](https://github.com/chroma-core/chroma) | vector-database | Open source | local | intermediate | 2026-08-04 |
 | [Faiss](https://github.com/facebookresearch/faiss) | vector-database | Open source | local | advanced | 2026-08-04 |
 | [Milvus](https://github.com/milvus-io/milvus) | vector-database | Open source | local | advanced | 2026-08-04 |

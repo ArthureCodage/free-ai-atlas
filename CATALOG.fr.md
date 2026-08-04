@@ -236,6 +236,38 @@ L’assistant hébergé de Google fournit un accès standard sans abonnement IA,
 
 - Les fonctions et modèles disponibles varient selon le pays, le type de compte et l’âge.
 
+## Jan
+
+Une application de bureau open source pour exécuter des chatbots IA locaux avec support pour plusieurs fournisseurs de LLM et une approche axée sur la vie privée.
+
+- **Idéal pour:** Chatbot IA local privé
+- **Gratuité:** Open source
+- **Limites:** Les performances dépendent du matériel et de la sélection du modèle.
+- **Licence:** AGPL-3.0
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/janhq/jan)
+
+**À savoir**
+
+- Sélection de modèles limitée par rapport aux services cloud.
+- Certaines fonctionnalités sont en bêta.
+
+## Msty
+
+Une application de bureau pour exécuter des chatbots IA locaux avec support pour plusieurs fournisseurs de LLM et une interface propre et moderne.
+
+- **Idéal pour:** Interface de chatbot IA local moderne
+- **Gratuité:** Offre gratuite
+- **Limites:** Gratuit pour usage personnel; la version Pro a des fonctionnalités supplémentaires.
+- **Licence:** proprietary
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://msty.app)
+
+**À savoir**
+
+- L'usage commercial nécessite une licence.
+- Limité aux plateformes supportées.
+
 ## Open WebUI
 
 Une interface web riche en fonctionnalités et conviviale pour interagir avec les LLMs locaux avec support pour plusieurs fournisseurs et historique de chat.
@@ -505,20 +537,37 @@ Un accélérateur d'inférence et d'entraînement ML multiplateforme et haute pe
 - Nécessite la conversion du modèle au format ONNX.
 - L'accélération matérielle nécessite des fournisseurs spécifiques.
 
+## Text Generation Inference (TGI)
+
+Une solution d'inférence prête pour la production pour exécuter des LLMs avec support pour la quantification, le streaming et le traitement par lots continu.
+
+- **Idéal pour:** Inférence LLM en production
+- **Gratuité:** Open source
+- **Limites:** Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.
+- **Licence:** Apache-2.0
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/text-generation-inference)
+
+**À savoir**
+
+- Configuration complexe pour les déploiements en production.
+- Nécessite un GPU avec suffisamment de VRAM.
+
 ## vLLM
 
-Un moteur d’inférence et de service à haut débit pour modèles de langage, avec API compatible OpenAI et traitement en lots orienté production.
+Un moteur d'inférence et de service haute performance et économe en mémoire pour les LLMs avec traitement par lots continu et attention paginée.
 
-- **Idéal pour:** Servir efficacement des modèles ouverts sur GPU
+- **Idéal pour:** Service LLM haute performance
 - **Gratuité:** Open source
-- **Limites:** L’usage pratique exige généralement un accélérateur compatible, assez de VRAM et une configuration adaptée au modèle.
+- **Limites:** Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
 - **Vérifié:** 2026-08-04 — [source officielle](https://github.com/vllm-project/vllm)
 
 **À savoir**
 
-- La licence du moteur et celle du modèle servi sont distinctes.
+- Configuration complexe pour les déploiements en production.
+- Nécessite un GPU avec suffisamment de VRAM.
 
 ## Hugging Face Agents Course
 
@@ -614,6 +663,22 @@ Un chatbot gratuit et open source qui s'exécute localement sur votre ordinateur
 - La licence de l'application ne remplace pas les licences des modèles.
 - L'activité du dépôt doit être vérifiée.
 
+## llama-cpp-python
+
+Un binding Python pour llama.cpp avec support pour la compatibilité API OpenAI et une intégration facile avec les projets Python.
+
+- **Idéal pour:** Intégration Python pour llama.cpp
+- **Gratuité:** Open source
+- **Limites:** Les performances dépendent du matériel et de la sélection du modèle.
+- **Licence:** MIT
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/abetlen/llama-cpp-python)
+
+**À savoir**
+
+- Nécessite une compilation.
+- La qualité du modèle varie selon la taille.
+
 ## llama.cpp
 
 Une bibliothèque C++ pour exécuter efficacement les grands modèles de langage Meta LLaMA et autres sur CPU et GPU avec support de la quantification.
@@ -629,6 +694,22 @@ Une bibliothèque C++ pour exécuter efficacement les grands modèles de langage
 
 - Nécessite une compilation ou des binaires pré-construits.
 - Les fichiers de modèles ont des licences indépendantes.
+
+## LM Studio
+
+Une application de bureau pour exécuter des LLMs locaux avec une interface conviviale et support pour plusieurs formats de modèles.
+
+- **Idéal pour:** Hébergement LLM local facile
+- **Gratuité:** Offre gratuite
+- **Limites:** Gratuit pour usage personnel; licence commerciale requise pour usage professionnel.
+- **Licence:** proprietary
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://lmstudio.ai)
+
+**À savoir**
+
+- L'usage commercial nécessite une licence.
+- Personnalisation des modèles limitée.
 
 ## LocalAI
 
@@ -694,6 +775,22 @@ Une bibliothèque Python pour le calcul numérique haute performance avec differ
 - Courbe d'apprentissage raide.
 - Nécessite GPU/TPU pour des performances optimales.
 
+## Keras
+
+Une API de réseaux neuronaux de haut niveau avec support pour plusieurs backends dont TensorFlow, JAX et PyTorch.
+
+- **Idéal pour:** Deep learning pour débutants
+- **Gratuité:** Open source
+- **Limites:** Les performances dépendent du backend et du matériel.
+- **Licence:** Apache-2.0
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/keras-team/keras)
+
+**À savoir**
+
+- Personnalisation limitée par rapport aux cadres de niveau inférieur.
+- La sélection du backend affecte les performances.
+
 ## MLflow
 
 Une plateforme open source pour gérer le cycle de vie complet de l'apprentissage automatique avec suivi d'expériences, déploiement de modèles et registre.
@@ -709,6 +806,38 @@ Une plateforme open source pour gérer le cycle de vie complet de l'apprentissag
 
 - Configuration complexe pour un usage en production.
 - Les services managés ont une tarification séparée.
+
+## PyTorch
+
+Un cadre de machine learning open source avec des graphes de calcul dynamiques et un fort support d'accélération GPU.
+
+- **Idéal pour:** Recherche et production en deep learning
+- **Gratuité:** Open source
+- **Limites:** Les performances dépendent du matériel; l'accélération GPU recommandée.
+- **Licence:** BSD-3-Clause
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/pytorch/pytorch)
+
+**À savoir**
+
+- Nécessite un GPU pour des performances optimales.
+- Courbe d'apprentissage raide pour les débutants.
+
+## scikit-learn
+
+Une bibliothèque de machine learning pour Python avec support pour la classification, la régression, le clustering et l'évaluation des modèles.
+
+- **Idéal pour:** Machine learning classique en Python
+- **Gratuité:** Open source
+- **Limites:** Non optimisé pour le deep learning; CPU uniquement.
+- **Licence:** BSD-3-Clause
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/scikit-learn/scikit-learn)
+
+**À savoir**
+
+- Non adapté au deep learning.
+- Support GPU limité.
 
 ## TensorFlow
 
@@ -742,20 +871,37 @@ Une bibliothèque d'apprentissage automatique de pointe pour PyTorch, TensorFlow
 - Grande bibliothèque avec API complexe.
 - Les licences des modèles varient selon le modèle.
 
-## Hugging Face Model Hub
+## Civitai
 
-Une plateforme communautaire pour découvrir, stocker, télécharger et partager des modèles intégrés à de nombreuses bibliothèques d’apprentissage automatique.
+Une plateforme pour partager et découvrir des modèles d'art IA, en particulier pour Stable Diffusion avec une approche communautaire.
 
-- **Idéal pour:** Trouver des modèles téléchargeables et leurs fiches
-- **Gratuité:** Freemium
-- **Limites:** La découverte publique et beaucoup de téléchargements sont gratuits; les modèles restreints, l’inférence, le stockage et le calcul ont des règles distinctes.
-- **Licence:** Variable ou propriétaire
-- **Confidentialité:** configurable
-- **Vérifié:** 2026-08-04 — [source officielle](https://huggingface.co/docs/hub/en/models-the-hub)
+- **Idéal pour:** Découvrir des modèles d'art IA
+- **Gratuité:** Offre gratuite
+- **Limites:** Le tier gratuit a des limites de téléchargement; des plans payants disponibles.
+- **Licence:** varies
+- **Confidentialité:** provider-processed
+- **Vérifié:** 2026-08-04 — [source officielle](https://civitai.com)
 
 **À savoir**
 
-- Chaque dépôt peut utiliser une licence différente; être disponible sur Hugging Face ne signifie pas être open source ni utilisable commercialement.
+- Nécessite un compte pour un accès complet.
+- Les licences des modèles varient.
+
+## Hugging Face Hub
+
+Une plateforme pour héberger et partager des modèles de machine learning, des datasets et des espaces avec une bibliothèque client Python.
+
+- **Idéal pour:** Découvrir et partager des modèles ML
+- **Gratuité:** Offre gratuite
+- **Limites:** Le tier gratuit a des limites de stockage et de calcul; des plans payants disponibles.
+- **Licence:** Apache-2.0
+- **Confidentialité:** provider-processed
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/huggingface_hub)
+
+**À savoir**
+
+- Nécessite un compte pour un accès complet.
+- Certains modèles ont des licences restreintes.
 
 ## DSPy
 
@@ -788,6 +934,54 @@ Un cadre de données pour construire des applications LLM avec support pour les 
 
 - Nécessite des clés API pour les fournisseurs LLM externes.
 - Les services managés ont une tarification séparée.
+
+## AudioCraft
+
+Une bibliothèque pour le traitement et la génération audio avec support pour la musique, les effets sonores et la compression audio de Meta AI.
+
+- **Idéal pour:** Génération de musique et d'audio
+- **Gratuité:** Open source
+- **Limites:** Nécessite un GPU pour des performances optimales.
+- **Licence:** MIT
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/facebookresearch/audiocraft)
+
+**À savoir**
+
+- Nécessite un GPU pour des performances optimales.
+- La génération de musique peut être lente.
+
+## Bark
+
+Un modèle de synthèse text-audio basé sur des transformateurs capable de générer de la parole multilingue très réaliste avec des sons non verbaux.
+
+- **Idéal pour:** Parole réaliste avec des sons non verbaux
+- **Gratuité:** Open source
+- **Limites:** Nécessite un GPU pour des performances optimales.
+- **Licence:** MIT
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/suno-ai/bark)
+
+**À savoir**
+
+- Nécessite un GPU pour des performances optimales.
+- La génération peut être lente sur CPU.
+
+## Coqui TTS
+
+Une bibliothèque open source de synthèse vocale avec support pour plusieurs langues, le clonage de voix et une synthèse de haute qualité.
+
+- **Idéal pour:** Synthèse vocale personnalisée avec clonage de voix
+- **Gratuité:** Open source
+- **Limites:** Les performances dépendent du matériel; GPU recommandé.
+- **Licence:** Apache-2.0
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/coqui-ai/TTS)
+
+**À savoir**
+
+- Nécessite un GPU pour des performances optimales.
+- Le clonage de voix nécessite des données d'entraînement.
 
 ## Edge TTS
 
@@ -868,6 +1062,22 @@ Une implémentation C++ haute performance du modèle Whisper d'OpenAI pour la re
 
 - Nécessite une compilation.
 - Les grands modèles sont plus lents mais plus précis.
+
+## WhisperX
+
+Une version étendue d'OpenAI Whisper avec des horodatages au niveau du mot, la diarisation de locuteurs et une précision améliorée.
+
+- **Idéal pour:** Reconnaissance vocale précise avec horodatages
+- **Gratuité:** Open source
+- **Limites:** Nécessite un GPU pour des performances optimales.
+- **Licence:** MIT
+- **Confidentialité:** local
+- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/m-bain/whisperX)
+
+**À savoir**
+
+- Nécessite un GPU pour des performances optimales.
+- La diarisation de locuteurs nécessite une configuration supplémentaire.
 
 ## Chroma
 
