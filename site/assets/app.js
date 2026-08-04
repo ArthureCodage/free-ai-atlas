@@ -16,6 +16,7 @@ const translations = {
     sortName: "Name", sortNewest: "Newest verification", sortBeginner: "Beginner first", reset: "Reset filters",
     emptyTitle: "No matching resources", emptyCopy: "Try fewer filters or a broader search.",
     footerCopy: "Useful at $0. Honest about the catch.", contribute: "Contribute", contributors: "Contributors", method: "Verification method", fullCatalog: "Full catalog", shareFilters: "Share filters",
+    hardwareKicker: "Hardware", hardwareTitle: "What is your setup?", hardwareBasic: "8GB RAM, no GPU", hardwareMid: "16GB RAM, 4GB+ VRAM", hardwareHigh: "32GB+ RAM, 8GB+ VRAM", hardwarePro: "64GB+ RAM, 24GB+ VRAM", hardwareGuide: "Full hardware guide",
     bestFor: "Best for", source: "Official source", verified: "Verified", details: "Details", compare: "Compare", close: "Close", clear: "Clear",
     compareTitle: "Compare resources", compareKicker: "Decision table", compareHeading: "Compare before you commit.",
     account: "Account required", card: "Payment card required", privacy: "Privacy", commercial: "Commercial use", license: "License", limitsField: "Limits", caveats: "Caveats",
@@ -39,6 +40,7 @@ const translations = {
     sortName: "Nom", sortNewest: "Vérification récente", sortBeginner: "Débutant d’abord", reset: "Réinitialiser",
     emptyTitle: "Aucune ressource correspondante", emptyCopy: "Essaie moins de filtres ou une recherche plus large.",
     footerCopy: "Utile à 0 $. Honnête sur les limites.", contribute: "Contribuer", contributors: "Contributeurs", method: "Méthode de vérification", fullCatalog: "Catalogue complet", shareFilters: "Partager les filtres",
+    hardwareKicker: "Matériel", hardwareTitle: "Quel est ton setup ?", hardwareBasic: "8 RAM, pas de GPU", hardwareMid: "16 RAM, 4+ VRAM", hardwareHigh: "32+ RAM, 8+ VRAM", hardwarePro: "64+ RAM, 24+ VRAM", hardwareGuide: "Guide matériel complet",
     bestFor: "Idéal pour", source: "Source officielle", verified: "Vérifié", details: "Détails", compare: "Comparer", close: "Fermer", clear: "Effacer",
     compareTitle: "Comparer les ressources", compareKicker: "Tableau de décision", compareHeading: "Compare avant de choisir.",
     account: "Compte requis", card: "Carte de paiement requise", privacy: "Confidentialité", commercial: "Usage commercial", license: "Licence", limitsField: "Limites", caveats: "À savoir",
@@ -132,6 +134,34 @@ function copyShareableURL() {
     }
   }).catch(function () {
     prompt(state.language === "fr" ? "Copiez cette URL :" : "Copy this URL:", url);
+  });
+}
+
+const hardwareRecommendations = {
+  en: {
+    basic: "Basic setup: Try GPT4All or Ollama with small models (3B-7B). Good for simple chat and text generation.",
+    mid: "Mid-range: Use Ollama or llama.cpp with medium models (7B-13B). Great for coding and analysis.",
+    high: "High-end: Try llama.cpp or LocalAI with large models (13B-70B). Excellent for complex tasks.",
+    pro: "Professional: Use vLLM or TGI with very large models (70B+). Production-ready performance."
+  },
+  fr: {
+    basic: "Setup basique : Essaie GPT4All ou Ollama avec de petits modèles (3B-7B). Idéal pour le chat simple.",
+    mid: "Milieu de gamme : Utilise Ollama ou llama.cpp avec des modèles moyens (7B-13B). Parfait pour la programmation.",
+    high: "Haut de gamme : Essaie llama.cpp ou LocalAI avec de grands modèles (13B-70B). Excellent pour les tâches complexes.",
+    pro: "Professionnel : Utilise vLLM ou TGI avec de très grands modèles (70B+). Performance production."
+  }
+};
+
+function showHardwareRecommendation(tier) {
+  const t = translations[state.language];
+  const recommendation = hardwareRecommendations[state.language][tier];
+  const element = document.querySelector("#hardware-recommendation");
+  if (element && recommendation) {
+    element.textContent = recommendation;
+    element.hidden = false;
+  }
+  document.querySelectorAll("[data-hardware]").forEach(function (button) {
+    button.setAttribute("aria-pressed", String(button.dataset.hardware === tier));
   });
 }
 const elements = {};
@@ -382,6 +412,9 @@ async function init() {
     });
     elements.openCompare.addEventListener("click", showComparison);
     document.querySelector("#share-filters").addEventListener("click", copyShareableURL);
+    document.querySelectorAll("[data-hardware]").forEach(function (button) {
+      button.addEventListener("click", function () { showHardwareRecommendation(button.dataset.hardware); });
+    });
     translatePage();
   } catch (error) {
     elements.empty.hidden = false;
