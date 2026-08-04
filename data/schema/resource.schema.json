@@ -41,7 +41,7 @@
     "best_for_fr": {"type": "string", "minLength": 3},
     "category": {
       "type": "string",
-      "enum": ["assistant", "api", "compute", "image-generation", "inference-server", "interface", "learning", "local-runtime", "model-hub", "rag", "speech"]
+      "enum": ["agents", "api", "app-builder", "assistant", "coding", "compute", "dataset", "evaluation", "image-generation", "inference-server", "interface", "learning", "local-runtime", "ml-framework", "model-hub", "rag", "speech", "vector-database"]
     },
     "free_type": {"type": "string", "enum": ["free-tier", "freemium", "open-source", "free-compute"]},
     "access": {"type": "string", "enum": ["cloud", "hybrid", "local"]},

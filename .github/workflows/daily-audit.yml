@@ -5,6 +5,10 @@ on:
     - cron: "17 7 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: daily-source-audit
+  cancel-in-progress: true
+
 permissions:
   contents: read
   issues: write
@@ -19,6 +23,8 @@ jobs:
           python-version: "3.12"
       - name: Validate catalog
         run: python scripts/validate.py
+      - name: Verify generated exports
+        run: python scripts/build.py --check
       - name: Audit official URLs
         id: audit
         continue-on-error: true
@@ -63,3 +69,12 @@ jobs:
       - name: Fail after reporting
         if: steps.audit.outcome == 'failure' || steps.freshness.outcome == 'failure'
         run: exit 1
+      - name: Publish healthy summary
+        if: steps.audit.outcome == 'success' && steps.freshness.outcome == 'success'
+        shell: bash
+        run: |
+          echo "## Free AI Atlas daily health" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Catalog schema, generated exports, official URLs, and evidence age all passed." >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          cat reports/link-audit.md >> "$GITHUB_STEP_SUMMARY"

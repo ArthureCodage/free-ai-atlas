@@ -7,8 +7,8 @@
   <meta name="theme-color" content="#0c1024">
   <title>Free AI Atlas — Verified zero-cost AI</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
-  <script src="assets/app.js" defer></script>
+  <link rel="stylesheet" href="assets/styles.css?v=0.2.1">
+  <script src="assets/app.js?v=0.2.1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#catalog">Skip to catalog</a>
@@ -32,12 +32,30 @@
       <div class="hero-stats" aria-label="Catalog statistics">
         <div><strong id="resource-count">—</strong><span data-i18n="resources">verified resources</span></div>
         <div><strong id="category-count">—</strong><span data-i18n="categories">useful categories</span></div>
+        <div><strong id="open-source-count">—</strong><span data-i18n="openSourceResources">open-source resources</span></div>
+        <div><strong id="no-account-count">—</strong><span data-i18n="noAccountResources">without an account</span></div>
         <div><strong id="latest-verification">—</strong><span data-i18n="latest">latest verification</span></div>
       </div>
     </section>
   </header>
 
   <main id="catalog" class="wrap main-content">
+    <section class="paths" aria-labelledby="paths-heading">
+      <div class="section-heading">
+        <div>
+          <p class="kicker" data-i18n="pathsKicker">Start with your goal</p>
+          <h2 id="paths-heading" data-i18n="pathsTitle">Find your path in one click.</h2>
+        </div>
+        <button class="button button-quiet preset-clear" type="button" data-preset="" data-i18n="showEverything">Show everything</button>
+      </div>
+      <div class="path-grid">
+        <button class="path-card" type="button" data-preset="beginner"><span>01</span><strong data-i18n="pathBeginnerTitle">I am starting</strong><small data-i18n="pathBeginnerCopy">Useful tools and guided learning with the lowest barrier.</small></button>
+        <button class="path-card" type="button" data-preset="private"><span>02</span><strong data-i18n="pathPrivateTitle">I need privacy</strong><small data-i18n="pathPrivateCopy">Local tools that can keep inference on your hardware.</small></button>
+        <button class="path-card" type="button" data-preset="builder"><span>03</span><strong data-i18n="pathBuilderTitle">I build AI apps</strong><small data-i18n="pathBuilderCopy">APIs, coding agents, app builders, RAG, and orchestration.</small></button>
+        <button class="path-card" type="button" data-preset="advanced"><span>04</span><strong data-i18n="pathAdvancedTitle">I run AI systems</strong><small data-i18n="pathAdvancedCopy">Serving, vector databases, evaluation, and ML frameworks.</small></button>
+      </div>
+    </section>
+
     <section class="principles" aria-labelledby="why-heading">
       <div>
         <p class="kicker" data-i18n="trustKicker">Trust model</p>
@@ -70,6 +88,7 @@
         <label><span data-i18n="accessLabel">Access</span><select id="access"><option value="">Local and cloud</option></select></label>
         <label><span data-i18n="levelLabel">Level</span><select id="difficulty"><option value="">Every level</option></select></label>
         <label><span data-i18n="platformLabel">Platform</span><select id="platform"><option value="">Every platform</option></select></label>
+        <label><span data-i18n="sortLabel">Sort</span><select id="sort"><option value="name" data-i18n="sortName">Name</option><option value="newest" data-i18n="sortNewest">Newest verification</option><option value="beginner" data-i18n="sortBeginner">Beginner first</option></select></label>
         <button id="reset" class="button button-reset" type="reset" data-i18n="reset">Reset filters</button>
       </form>
 
@@ -79,9 +98,23 @@
         <h3 data-i18n="emptyTitle">No matching resources</h3>
         <p data-i18n="emptyCopy">Try fewer filters or a broader search.</p>
       </div>
+      <aside id="compare-tray" class="compare-tray" hidden aria-live="polite">
+        <div><strong data-i18n="compareTitle">Compare resources</strong><span id="compare-selection"></span></div>
+        <div class="compare-actions"><button id="clear-compare" class="button button-quiet" type="button" data-i18n="clear">Clear</button><button id="open-compare" class="button button-primary" type="button"></button></div>
+      </aside>
       <noscript><p class="empty-state">JavaScript is required for the filtered catalog. The complete Markdown catalog remains available in the repository.</p></noscript>
     </section>
   </main>
+
+  <dialog id="resource-dialog" class="resource-dialog">
+    <div id="resource-dialog-content"></div>
+    <form method="dialog"><button class="button button-primary" data-i18n="close">Close</button></form>
+  </dialog>
+
+  <dialog id="compare-dialog" class="compare-dialog">
+    <div class="dialog-heading"><div><p class="kicker" data-i18n="compareKicker">Decision table</p><h2 data-i18n="compareHeading">Compare before you commit.</h2></div><form method="dialog"><button class="button button-quiet" data-i18n="close">Close</button></form></div>
+    <div id="compare-dialog-content" class="compare-table-wrap"></div>
+  </dialog>
 
   <footer>
     <div class="wrap footer-grid">

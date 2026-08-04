@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import argparse
+import csv
+import io
 import json
 import sys
 from collections import Counter
@@ -96,6 +98,52 @@ def render_template(name: str, replacements: dict[str, str]) -> str:
     return content
 
 
+def catalog_csv(resources: list[dict]) -> str:
+    fields = [
+        "id", "name", "category", "free_type", "access", "difficulty",
+        "platforms", "account_required", "card_required", "commercial_use",
+        "privacy", "license", "homepage", "source_url", "last_verified",
+        "status", "confidence",
+    ]
+    output = io.StringIO(newline="")
+    writer = csv.DictWriter(output, fieldnames=fields, lineterminator="\n")
+    writer.writeheader()
+    for item in resources:
+        writer.writerow({
+            **{field: item.get(field) for field in fields if field not in {"platforms", "source_url"}},
+            "platforms": "|".join(item["platforms"]),
+            "source_url": item["source"]["url"],
+        })
+    return output.getvalue()
+
+
+def stats_markdown(resources: list[dict], latest: str) -> str:
+    def table(title: str, values: Counter) -> list[str]:
+        lines = [f"## {title}", "", "| Value | Resources |", "|---|---:|"]
+        lines.extend(f"| {name} | {count} |" for name, count in sorted(values.items()))
+        lines.append("")
+        return lines
+
+    lines = [
+        "# Catalog health",
+        "",
+        "This file is generated from the catalog source records.",
+        "",
+        f"- **Resources:** {len(resources)}",
+        f"- **Latest verification:** {latest}",
+        f"- **Open source:** {sum(item['free_type'] == 'open-source' for item in resources)}",
+        f"- **Local-first:** {sum(item['access'] == 'local' for item in resources)}",
+        f"- **No account required:** {sum(not item['account_required'] for item in resources)}",
+        f"- **High confidence:** {sum(item['confidence'] == 'high' for item in resources)}",
+        "",
+    ]
+    lines += table("Categories", Counter(item["category"] for item in resources))
+    lines += table("Free access", Counter(item["free_type"] for item in resources))
+    lines += table("Access", Counter(item["access"] for item in resources))
+    lines += table("Difficulty", Counter(item["difficulty"] for item in resources))
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def expected_outputs() -> dict[Path, str]:
     resources = sorted(load_resources(), key=lambda item: (item["category"], item["name"].lower()))
     public = [public_resource(item) for item in resources]
@@ -107,7 +155,15 @@ def expected_outputs() -> dict[Path, str]:
         "LATEST_VERIFICATION": latest,
     }
     site_payload = {
-        "meta": {"resource_count": len(resources), "category_count": len(categories), "latest_verification": latest},
+        "meta": {
+            "resource_count": len(resources),
+            "category_count": len(categories),
+            "latest_verification": latest,
+            "open_source_count": sum(item["free_type"] == "open-source" for item in resources),
+            "local_count": sum(item["access"] == "local" for item in resources),
+            "no_account_count": sum(not item["account_required"] for item in resources),
+            "high_confidence_count": sum(item["confidence"] == "high" for item in resources),
+        },
         "resources": public,
     }
     return {
@@ -115,7 +171,9 @@ def expected_outputs() -> dict[Path, str]:
         ROOT / "README.fr.md": render_template("README.fr.template.md", {**common, "RESOURCE_TABLE": markdown_table(resources, french=True)}),
         ROOT / "CATALOG.md": catalog_markdown(resources),
         ROOT / "CATALOG.fr.md": catalog_markdown(resources, french=True),
+        ROOT / "STATS.md": stats_markdown(resources, latest),
         ROOT / "site" / "data" / "resources.json": json.dumps(site_payload, ensure_ascii=False, indent=2) + "\n",
+        ROOT / "site" / "data" / "resources.csv": catalog_csv(public),
     }
 
 

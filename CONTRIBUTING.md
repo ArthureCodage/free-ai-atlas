@@ -61,3 +61,9 @@ Third-party articles can help discovery but cannot be the primary evidence.
 - Expect maintainers to narrow descriptions or reject low-value duplication.
 
 By contributing data or documentation, you agree to release that contribution under CC0-1.0. Code contributions are accepted under MIT.
+
+## Ways to own a lane
+
+Recurring contributors can take responsibility for one category, one language, documentation, accessibility, or link-verification triage. Start with a focused issue, document the official sources you checked, and keep uncertain claims explicit.
+
+Contributors are recognized in GitHub history and in milestone release notes; see [CONTRIBUTORS.md](CONTRIBUTORS.md).

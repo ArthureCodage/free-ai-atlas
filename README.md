@@ -8,14 +8,15 @@
 
 <p align="center">
   <a href="README.fr.md">Français</a> ·
+  <a href="https://arthurecodage.github.io/free-ai-atlas/">Explore the live atlas</a> ·
   <a href="CATALOG.md">Full catalog</a> ·
   <a href="guides/start-here/README.md">Start here</a> ·
   <a href="CONTRIBUTING.md">Contribute</a>
 </p>
 
 <p align="center">
-  <img alt="Resources" src="https://img.shields.io/badge/resources-20-7c5cff">
-  <img alt="Categories" src="https://img.shields.io/badge/categories-11-19c6a3">
+  <img alt="Resources" src="https://img.shields.io/badge/resources-56-7c5cff">
+  <img alt="Categories" src="https://img.shields.io/badge/categories-18-19c6a3">
   <img alt="Latest verification" src="https://img.shields.io/badge/latest%20verification-2026-08-04-f4b942">
   <img alt="Content license CC0" src="https://img.shields.io/badge/data%20%26%20content-CC0-0b7285">
   <img alt="Code license MIT" src="https://img.shields.io/badge/code-MIT-0b7285">
@@ -41,7 +42,9 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | Generate images locally | [Image generation stack](stacks/image-generation.md) |
 | Chat with private documents | [RAG and documents stack](stacks/rag-and-documents.md) |
 | Learn AI from the beginning | [Learning path](guides/start-here/README.md#learn-the-foundations) |
-| Compare everything | [Full catalog](CATALOG.md) or open `site/index.html` |
+| Compare tools side by side | [Open the live atlas](https://arthurecodage.github.io/free-ai-atlas/) |
+| Build on the catalog data | Use the public [JSON/CSV exports](DATA.md) |
+| Inspect catalog coverage | Open the generated [catalog health dashboard](STATS.md) |
 
 ## What the labels mean
 
@@ -54,26 +57,62 @@ Every entry records what “free” means, its real limits, privacy model, requi
 
 | Resource | Category | Free access | Access | Level | Verified |
 |---|---|---|---|---|---|
+| [CrewAI](https://github.com/crewAIInc/crewAI) | agents | Open source | hybrid | intermediate | 2026-08-04 |
+| [LangChain](https://github.com/langchain-ai/langchain) | agents | Open source | hybrid | intermediate | 2026-08-04 |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | agents | Open source | hybrid | advanced | 2026-08-04 |
+| [LlamaIndex](https://github.com/run-llama/llama_index) | agents | Open source | hybrid | intermediate | 2026-08-04 |
 | [Gemini Developer API](https://ai.google.dev/) | api | Free tier | cloud | intermediate | 2026-08-04 |
 | [GitHub Models](https://github.com/marketplace/models) | api | Free tier | cloud | intermediate | 2026-08-04 |
 | [Groq API Free Plan](https://console.groq.com/) | api | Free tier | cloud | intermediate | 2026-08-04 |
 | [OpenRouter Free Models](https://openrouter.ai/models?pricing=free) | api | Free tier | cloud | intermediate | 2026-08-04 |
+| [Gradio](https://github.com/gradio-app/gradio) | app-builder | Open source | hybrid | beginner | 2026-08-04 |
+| [Langflow](https://github.com/langflow-ai/langflow) | app-builder | Open source | hybrid | beginner | 2026-08-04 |
+| [Streamlit](https://github.com/streamlit/streamlit) | app-builder | Open source | hybrid | beginner | 2026-08-04 |
 | [ChatGPT](https://chatgpt.com/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
 | [Claude](https://claude.ai/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
 | [Gemini](https://gemini.google.com/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
 | [Perplexity](https://www.perplexity.ai/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
+| [Aider](https://github.com/Aider-AI/aider) | coding | Open source | hybrid | intermediate | 2026-08-04 |
+| [Cline](https://github.com/cline/cline) | coding | Open source | hybrid | intermediate | 2026-08-04 |
+| [Continue](https://github.com/continuedev/continue) | coding | Open source | hybrid | intermediate | 2026-08-04 |
+| [OpenHands](https://github.com/OpenHands/OpenHands) | coding | Open source | hybrid | advanced | 2026-08-04 |
 | [Google Colab](https://colab.research.google.com/) | compute | Free compute | cloud | beginner | 2026-08-04 |
 | [Kaggle Notebooks](https://www.kaggle.com/code) | compute | Free compute | cloud | beginner | 2026-08-04 |
+| [Hugging Face Datasets](https://github.com/huggingface/datasets) | dataset | Open source | hybrid | intermediate | 2026-08-04 |
+| [DeepEval](https://github.com/confident-ai/deepeval) | evaluation | Open source | hybrid | intermediate | 2026-08-04 |
+| [MLflow](https://github.com/mlflow/mlflow) | evaluation | Open source | hybrid | advanced | 2026-08-04 |
+| [Promptfoo](https://github.com/promptfoo/promptfoo) | evaluation | Open source | hybrid | intermediate | 2026-08-04 |
+| [Ragas](https://github.com/vibrantlabsai/ragas) | evaluation | Open source | hybrid | intermediate | 2026-08-04 |
 | [ComfyUI](https://github.com/comfy-org/ComfyUI) | image-generation | Open source | local | intermediate | 2026-08-04 |
+| [InvokeAI](https://github.com/invoke-ai/InvokeAI) | image-generation | Open source | local | intermediate | 2026-08-04 |
+| [Stable Diffusion WebUI Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) | image-generation | Open source | local | advanced | 2026-08-04 |
+| [BentoML](https://github.com/bentoml/BentoML) | inference-server | Open source | hybrid | advanced | 2026-08-04 |
+| [ONNX Runtime](https://github.com/microsoft/onnxruntime) | inference-server | Open source | local | advanced | 2026-08-04 |
 | [vLLM](https://github.com/vllm-project/vllm) | inference-server | Open source | local | advanced | 2026-08-04 |
 | [Open WebUI](https://github.com/open-webui/open-webui) | interface | Open source | hybrid | intermediate | 2026-08-04 |
+| [Hugging Face Agents Course](https://github.com/huggingface/agents-course) | learning | Open source | cloud | intermediate | 2026-08-04 |
 | [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | learning | Free tier | cloud | intermediate | 2026-08-04 |
+| [Microsoft AI for Beginners](https://github.com/microsoft/AI-For-Beginners) | learning | Open source | cloud | beginner | 2026-08-04 |
+| [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | learning | Open source | cloud | beginner | 2026-08-04 |
 | [Practical Deep Learning for Coders](https://course.fast.ai/) | learning | Free tier | cloud | intermediate | 2026-08-04 |
+| [GPT4All](https://github.com/nomic-ai/gpt4all) | local-runtime | Open source | local | beginner | 2026-08-04 |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | local-runtime | Open source | local | advanced | 2026-08-04 |
+| [LocalAI](https://github.com/mudler/LocalAI) | local-runtime | Open source | local | intermediate | 2026-08-04 |
 | [Ollama](https://ollama.com/) | local-runtime | Open source | local | beginner | 2026-08-04 |
+| [Hugging Face Diffusers](https://github.com/huggingface/diffusers) | ml-framework | Open source | local | advanced | 2026-08-04 |
+| [Hugging Face Transformers](https://github.com/huggingface/transformers) | ml-framework | Open source | local | intermediate | 2026-08-04 |
+| [JAX](https://github.com/jax-ml/jax) | ml-framework | Open source | local | advanced | 2026-08-04 |
+| [TensorFlow](https://github.com/tensorflow/tensorflow) | ml-framework | Open source | local | advanced | 2026-08-04 |
 | [Hugging Face Model Hub](https://huggingface.co/models) | model-hub | Freemium | hybrid | intermediate | 2026-08-04 |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | rag | Open source | hybrid | beginner | 2026-08-04 |
+| [Faster Whisper](https://github.com/SYSTRAN/faster-whisper) | speech | Open source | local | intermediate | 2026-08-04 |
+| [OpenAI Whisper](https://github.com/openai/whisper) | speech | Open source | local | intermediate | 2026-08-04 |
 | [whisper.cpp](https://github.com/ggml-org/whisper.cpp) | speech | Open source | local | intermediate | 2026-08-04 |
+| [Chroma](https://github.com/chroma-core/chroma) | vector-database | Open source | hybrid | beginner | 2026-08-04 |
+| [Faiss](https://github.com/facebookresearch/faiss) | vector-database | Open source | local | advanced | 2026-08-04 |
+| [Milvus](https://github.com/milvus-io/milvus) | vector-database | Open source | hybrid | advanced | 2026-08-04 |
+| [Qdrant](https://github.com/qdrant/qdrant) | vector-database | Open source | hybrid | intermediate | 2026-08-04 |
+| [Weaviate](https://github.com/weaviate/weaviate) | vector-database | Open source | hybrid | advanced | 2026-08-04 |
 
 ## Trust model
 
@@ -103,6 +142,8 @@ Then visit <http://localhost:8000/site/>.
 Found a new free resource or a changed limit? Open the matching issue form. For pull requests, edit one file in `data/resources/`, run the checks, and include an official source.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+See the public [roadmap](ROADMAP.md), [machine-readable data guide](DATA.md), and [catalog health](STATS.md) to understand where the project is going and where help matters most.
 
 ## Scope
 

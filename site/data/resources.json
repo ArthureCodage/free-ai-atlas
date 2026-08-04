@@ -1,10 +1,206 @@
 {
   "meta": {
-    "resource_count": 20,
-    "category_count": 11,
-    "latest_verification": "2026-08-04"
+    "resource_count": 56,
+    "category_count": 18,
+    "latest_verification": "2026-08-04",
+    "open_source_count": 43,
+    "local_count": 17,
+    "no_account_count": 46,
+    "high_confidence_count": 56
   },
   "resources": [
+    {
+      "id": "crewai",
+      "name": "CrewAI",
+      "description": "An open-source Python framework for orchestrating collaborative, role-based AI agents and production workflows with tools, tasks, memory, and guardrails.",
+      "description_fr": "Un framework Python open source pour orchestrer des agents IA collaboratifs par rôles et des flux de production avec outils, tâches, mémoire et garde-fous.",
+      "best_for": "Role-based multi-agent automation",
+      "best_for_fr": "L’automatisation multi-agent fondée sur des rôles",
+      "category": "agents",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/crewAIInc/crewAI",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "The framework is free; chosen models, search tools, storage, and hosted services may have separate quotas, costs, and data policies.",
+      "limits_fr": "Le framework est gratuit; les modèles, outils de recherche, stockages et services hébergés peuvent avoir des quotas, coûts et politiques distincts.",
+      "caveats": [
+        "Multi-agent systems can multiply inference cost and failure modes.",
+        "Evaluate tool permissions and outputs before deployment."
+      ],
+      "caveats_fr": [
+        "Les systèmes multi-agents peuvent multiplier les coûts et modes d’échec.",
+        "Évaluez les permissions des outils et les sorties avant le déploiement."
+      ],
+      "tags": [
+        "agents",
+        "multi-agent",
+        "automation",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/crewAIInc/crewAI",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "langchain",
+      "name": "LangChain",
+      "description": "An open-source framework for building agent and language-model applications with tools, retrieval, structured outputs, integrations, and reusable components.",
+      "description_fr": "Un framework open source pour créer des applications de modèles et d’agents avec outils, recherche, sorties structurées, intégrations et composants réutilisables.",
+      "best_for": "Composable Python agent and LLM applications",
+      "best_for_fr": "Les applications Python d’agents et de LLM composables",
+      "category": "agents",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/langchain-ai/langchain",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "The framework is free; connected models, data stores, tracing services, and deployment infrastructure may have separate costs and terms.",
+      "limits_fr": "Le framework est gratuit; les modèles, bases, services de traçage et infrastructures connectés peuvent avoir leurs propres coûts et conditions.",
+      "caveats": [
+        "Complex applications still need evaluation and observability.",
+        "Integration licenses and provider terms vary."
+      ],
+      "caveats_fr": [
+        "Les applications complexes exigent toujours évaluation et observabilité.",
+        "Les licences d’intégration et conditions des fournisseurs varient."
+      ],
+      "tags": [
+        "agents",
+        "llm",
+        "python",
+        "rag"
+      ],
+      "source": {
+        "url": "https://github.com/langchain-ai/langchain",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "description": "An open-source orchestration framework for resilient, stateful agents with durable execution, human review, persistence, and graph-based control flow.",
+      "description_fr": "Un framework d’orchestration open source pour agents résilients et avec état, offrant exécution durable, révision humaine, persistance et contrôle par graphe.",
+      "best_for": "Long-running and stateful agent workflows",
+      "best_for_fr": "Les flux d’agents persistants et de longue durée",
+      "category": "agents",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "advanced",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/langchain-ai/langgraph",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "The framework is free; model inference, storage, hosted deployment, and observability can introduce separate limits or costs.",
+      "limits_fr": "Le framework est gratuit; l’inférence, le stockage, le déploiement hébergé et l’observabilité peuvent ajouter des limites ou coûts distincts.",
+      "caveats": [
+        "Durable agents require careful state and retry design.",
+        "Provider terms still apply to every connected model."
+      ],
+      "caveats_fr": [
+        "Les agents durables exigent une conception prudente de l’état et des reprises.",
+        "Les conditions des fournisseurs s’appliquent à chaque modèle connecté."
+      ],
+      "tags": [
+        "agents",
+        "orchestration",
+        "stateful",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/langchain-ai/langgraph",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "llamaindex",
+      "name": "LlamaIndex",
+      "description": "An open-source data framework for document agents and retrieval applications with connectors, indexing, querying, workflows, and model integrations.",
+      "description_fr": "Un framework de données open source pour agents documentaires et applications de recherche, avec connecteurs, indexation, requêtes, flux et intégrations de modèles.",
+      "best_for": "Connecting private data to LLM applications",
+      "best_for_fr": "Connecter des données privées à des applications LLM",
+      "category": "agents",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/run-llama/llama_index",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "The framework is free; OCR, embedding, storage, and model services may require separate infrastructure or paid APIs.",
+      "limits_fr": "Le framework est gratuit; l’OCR, les embeddings, le stockage et les modèles peuvent demander une infrastructure ou des API payantes distinctes.",
+      "caveats": [
+        "Retrieval quality depends on data preparation and evaluation.",
+        "Sensitive data handling depends on configured services."
+      ],
+      "caveats_fr": [
+        "La qualité de recherche dépend de la préparation et de l’évaluation des données.",
+        "Le traitement des données sensibles dépend des services configurés."
+      ],
+      "tags": [
+        "agents",
+        "rag",
+        "documents",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/run-llama/llama_index",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
     {
       "id": "gemini-api",
       "name": "Gemini Developer API",
@@ -192,6 +388,148 @@
       "confidence": "high"
     },
     {
+      "id": "gradio",
+      "name": "Gradio",
+      "description": "An open-source Python library for rapidly building interactive web interfaces and demos around machine-learning models, functions, and APIs.",
+      "description_fr": "Une bibliothèque Python open source pour créer rapidement des interfaces web et démonstrations interactives autour de modèles, fonctions et API.",
+      "best_for": "Turning a Python model into a usable web demo",
+      "best_for_fr": "Transformer un modèle Python en démonstration web utilisable",
+      "category": "app-builder",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "beginner",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/gradio-app/gradio",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "Local use is limited by your hardware; public sharing and hosting depend on the selected infrastructure and its terms.",
+      "limits_fr": "L’usage local est limité par votre matériel; le partage public et l’hébergement dépendent de l’infrastructure choisie et de ses conditions.",
+      "caveats": [
+        "Public demos need authentication and abuse controls for sensitive capabilities."
+      ],
+      "caveats_fr": [
+        "Les démonstrations publiques exigent authentification et protections contre les abus pour les capacités sensibles."
+      ],
+      "tags": [
+        "python",
+        "ui",
+        "demo",
+        "web"
+      ],
+      "source": {
+        "url": "https://github.com/gradio-app/gradio",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "langflow",
+      "name": "Langflow",
+      "description": "An open-source visual builder for AI agents and workflows with reusable components, model integrations, APIs, and deployment-oriented flows.",
+      "description_fr": "Un constructeur visuel open source d’agents et de flux IA avec composants réutilisables, intégrations de modèles, API et flux orientés déploiement.",
+      "best_for": "Visually prototyping agent workflows",
+      "best_for_fr": "Prototyper visuellement des flux d’agents",
+      "category": "app-builder",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/langflow-ai/langflow",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "Self-hosting is free; connected model providers, vector stores, and deployment infrastructure can add costs and quotas.",
+      "limits_fr": "L’auto-hébergement est gratuit; les fournisseurs de modèles, bases vectorielles et infrastructures peuvent ajouter coûts et quotas.",
+      "caveats": [
+        "Visual flows still require testing and version control.",
+        "Credentials stored in flows must be protected."
+      ],
+      "caveats_fr": [
+        "Les flux visuels exigent toujours tests et contrôle de version.",
+        "Les identifiants enregistrés dans les flux doivent être protégés."
+      ],
+      "tags": [
+        "visual",
+        "agents",
+        "workflow",
+        "low-code"
+      ],
+      "source": {
+        "url": "https://github.com/langflow-ai/langflow",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "streamlit",
+      "name": "Streamlit",
+      "description": "An open-source Python framework for building interactive data and AI applications with widgets, charts, caching, multipage layouts, and deployable web interfaces.",
+      "description_fr": "Un framework Python open source pour créer des applications de données et d’IA interactives avec widgets, graphiques, cache, pages multiples et interfaces web.",
+      "best_for": "Building polished Python AI apps quickly",
+      "best_for_fr": "Créer rapidement des applications IA Python soignées",
+      "category": "app-builder",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "beginner",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/streamlit/streamlit",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "The framework is free; compute, storage, model APIs, and hosting limits depend on where the application is deployed.",
+      "limits_fr": "Le framework est gratuit; le calcul, le stockage, les API de modèles et les limites d’hébergement dépendent du déploiement.",
+      "caveats": [
+        "Production apps still need authentication, secrets management, and scaling design."
+      ],
+      "caveats_fr": [
+        "Les applications de production exigent authentification, gestion des secrets et conception de la mise à l’échelle."
+      ],
+      "tags": [
+        "python",
+        "ui",
+        "data-app",
+        "web"
+      ],
+      "source": {
+        "url": "https://github.com/streamlit/streamlit",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "chatgpt",
       "name": "ChatGPT",
       "description": "A general-purpose hosted assistant with web search and limited access to files, data analysis, images, voice, and research features on the free plan.",
@@ -368,6 +706,193 @@
       "confidence": "high"
     },
     {
+      "id": "aider",
+      "name": "Aider",
+      "description": "An open-source terminal pair programmer that edits an existing Git repository, maps the codebase, runs tests, and can work with local or hosted language models.",
+      "description_fr": "Un programmeur pair open source dans le terminal qui modifie un dépôt Git existant, cartographie le code, lance les tests et accepte des modèles locaux ou hébergés.",
+      "best_for": "Developers who want AI coding directly in Git",
+      "best_for_fr": "Les développeurs qui veulent coder avec l’IA directement dans Git",
+      "category": "coding",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/Aider-AI/aider",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "The software is free; model access, API charges, context limits, privacy, and output rights depend on the selected provider or local model.",
+      "limits_fr": "Le logiciel est gratuit; l’accès au modèle, les frais API, le contexte, la confidentialité et les droits dépendent du fournisseur ou du modèle local.",
+      "caveats": [
+        "Review generated diffs and commands before accepting them.",
+        "Model licenses and provider terms remain separate."
+      ],
+      "caveats_fr": [
+        "Révisez les différences et commandes générées avant de les accepter.",
+        "Les licences des modèles et conditions des fournisseurs restent distinctes."
+      ],
+      "tags": [
+        "coding",
+        "cli",
+        "git",
+        "agent"
+      ],
+      "source": {
+        "url": "https://github.com/Aider-AI/aider",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "description": "An open-source coding agent available as an IDE extension, CLI, SDK, and multi-agent workflow with reviewable file edits and command execution.",
+      "description_fr": "Un agent de programmation open source offert comme extension IDE, CLI, SDK et flux multi-agent, avec modifications de fichiers et commandes révisables.",
+      "best_for": "Human-in-the-loop coding from an IDE or terminal",
+      "best_for_fr": "La programmation supervisée depuis un IDE ou un terminal",
+      "category": "coding",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/cline/cline",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "The agent software is free; hosted model usage, quotas, data handling, and output terms come from the chosen provider.",
+      "limits_fr": "Le logiciel agent est gratuit; l’usage des modèles hébergés, les quotas, le traitement des données et les droits viennent du fournisseur choisi.",
+      "caveats": [
+        "Command execution and file writes can affect the whole workspace.",
+        "Local models may need substantial RAM or VRAM."
+      ],
+      "caveats_fr": [
+        "Les commandes et écritures peuvent affecter tout l’espace de travail.",
+        "Les modèles locaux peuvent demander beaucoup de RAM ou de VRAM."
+      ],
+      "tags": [
+        "coding",
+        "ide",
+        "cli",
+        "agent"
+      ],
+      "source": {
+        "url": "https://github.com/cline/cline",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "description": "An open-source coding agent and CLI for source-controlled AI checks, repository-aware assistance, and model-flexible developer workflows.",
+      "description_fr": "Un agent de programmation et CLI open source pour des contrôles IA versionnés, une assistance consciente du dépôt et des flux compatibles avec plusieurs modèles.",
+      "best_for": "Source-controlled AI checks and coding workflows",
+      "best_for_fr": "Les contrôles IA versionnés et les flux de programmation",
+      "category": "coding",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/continuedev/continue",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "The client and CLI are free; inference cost, quotas, telemetry, and privacy depend on the configured model provider or local endpoint.",
+      "limits_fr": "Le client et la CLI sont gratuits; le coût d’inférence, les quotas, la télémétrie et la confidentialité dépendent du fournisseur ou du point local.",
+      "caveats": [
+        "Hosted models may require separate accounts or payment.",
+        "Inspect every automated code change."
+      ],
+      "caveats_fr": [
+        "Les modèles hébergés peuvent exiger un compte ou un paiement distinct.",
+        "Inspectez chaque modification de code automatisée."
+      ],
+      "tags": [
+        "coding",
+        "cli",
+        "ide",
+        "checks"
+      ],
+      "source": {
+        "url": "https://github.com/continuedev/continue",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "description": "An open-source platform for software-development agents that can modify code, run commands, browse, and work inside isolated development environments.",
+      "description_fr": "Une plateforme open source d’agents de développement pouvant modifier le code, exécuter des commandes, naviguer et travailler dans des environnements isolés.",
+      "best_for": "Running autonomous software tasks in a sandbox",
+      "best_for_fr": "Exécuter des tâches logicielles autonomes dans un bac à sable",
+      "category": "coding",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "advanced",
+      "platforms": [
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/OpenHands/OpenHands",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "Core code is MIT; the enterprise directory has separate terms, and model or compute costs depend on deployment choices.",
+      "limits_fr": "Le cœur est sous MIT; le dossier entreprise a des conditions distinctes et les coûts de modèles ou de calcul dépendent du déploiement.",
+      "caveats": [
+        "Use isolation and least-privilege credentials.",
+        "The enterprise directory is not covered by the core MIT license."
+      ],
+      "caveats_fr": [
+        "Utilisez l’isolation et des identifiants au moindre privilège.",
+        "Le dossier entreprise n’est pas couvert par la licence MIT du cœur."
+      ],
+      "tags": [
+        "coding",
+        "agent",
+        "sandbox",
+        "docker"
+      ],
+      "source": {
+        "url": "https://github.com/OpenHands/OpenHands",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "google-colab",
       "name": "Google Colab",
       "description": "A hosted Jupyter notebook environment requiring no setup, with free-of-charge access to compute that can include GPUs and TPUs when available.",
@@ -454,6 +979,244 @@
       "confidence": "high"
     },
     {
+      "id": "hugging-face-datasets",
+      "name": "Hugging Face Datasets",
+      "description": "An open-source library and hub integration for discovering, loading, streaming, processing, and sharing datasets used across machine-learning workflows.",
+      "description_fr": "Une bibliothèque open source et intégration de hub pour découvrir, charger, diffuser, traiter et partager des jeux de données utilisés en apprentissage automatique.",
+      "best_for": "Loading and processing reproducible ML datasets",
+      "best_for_fr": "Charger et traiter des jeux de données ML reproductibles",
+      "category": "dataset",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/huggingface/datasets",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "The library is free; every dataset has separate licensing, privacy, consent, access, storage, and usage constraints.",
+      "limits_fr": "La bibliothèque est gratuite; chaque jeu possède ses propres contraintes de licence, confidentialité, consentement, accès, stockage et usage.",
+      "caveats": [
+        "A library license does not grant rights to dataset contents.",
+        "Inspect dataset cards, provenance, consent, and personal-data risks."
+      ],
+      "caveats_fr": [
+        "La licence de la bibliothèque n’accorde aucun droit sur le contenu des données.",
+        "Inspectez fiches, provenance, consentement et risques de données personnelles."
+      ],
+      "tags": [
+        "dataset",
+        "data",
+        "streaming",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/huggingface/datasets",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "deepeval",
+      "name": "DeepEval",
+      "description": "An open-source Python framework for evaluating LLM applications, agents, and RAG systems with test cases, metrics, synthetic datasets, and CI integration.",
+      "description_fr": "Un framework Python open source pour évaluer applications LLM, agents et RAG avec cas de test, métriques, jeux synthétiques et intégration CI.",
+      "best_for": "Pytest-style evaluation of LLM applications",
+      "best_for_fr": "L’évaluation de type Pytest pour les applications LLM",
+      "category": "evaluation",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/confident-ai/deepeval",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "The local framework is free; judge models consume inference, and the optional hosted platform has separate accounts and terms.",
+      "limits_fr": "Le framework local est gratuit; les modèles juges consomment de l’inférence et la plateforme hébergée facultative a ses propres comptes et conditions.",
+      "caveats": [
+        "LLM-as-judge metrics can be biased and nondeterministic.",
+        "Cloud logging should be reviewed before using sensitive test data."
+      ],
+      "caveats_fr": [
+        "Les métriques avec LLM juge peuvent être biaisées et non déterministes.",
+        "La journalisation cloud doit être examinée avant d’utiliser des données sensibles."
+      ],
+      "tags": [
+        "evaluation",
+        "testing",
+        "rag",
+        "agents"
+      ],
+      "source": {
+        "url": "https://github.com/confident-ai/deepeval",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "mlflow",
+      "name": "MLflow",
+      "description": "An open-source AI engineering platform for experiment tracking, model management, evaluation, tracing, prompt workflows, and production lifecycle management.",
+      "description_fr": "Une plateforme open source d’ingénierie IA pour le suivi d’expériences, la gestion de modèles, l’évaluation, le traçage, les prompts et le cycle de production.",
+      "best_for": "Tracking and managing the AI development lifecycle",
+      "best_for_fr": "Suivre et gérer le cycle de développement IA",
+      "category": "evaluation",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "advanced",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/mlflow/mlflow",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "Self-hosting is free but requires databases, artifact storage, authentication, backups, and operational maintenance at scale.",
+      "limits_fr": "L’auto-hébergement est gratuit mais exige bases de données, stockage d’artefacts, authentification, sauvegardes et maintenance à l’échelle.",
+      "caveats": [
+        "A local default server is not a complete production security setup.",
+        "Connected model and storage services have separate terms."
+      ],
+      "caveats_fr": [
+        "Un serveur local par défaut n’est pas une configuration de sécurité de production.",
+        "Les modèles et stockages connectés ont des conditions distinctes."
+      ],
+      "tags": [
+        "mlops",
+        "evaluation",
+        "tracking",
+        "models"
+      ],
+      "source": {
+        "url": "https://github.com/mlflow/mlflow",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "promptfoo",
+      "name": "Promptfoo",
+      "description": "An open-source CLI and framework for testing prompts, agents, and RAG systems with assertions, model comparisons, red teaming, reports, and CI integration.",
+      "description_fr": "Une CLI et un framework open source pour tester prompts, agents et RAG avec assertions, comparaison de modèles, red teaming, rapports et intégration CI.",
+      "best_for": "Repeatable prompt tests and AI red teaming",
+      "best_for_fr": "Les tests répétables de prompts et le red teaming IA",
+      "category": "evaluation",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/promptfoo/promptfoo",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "The test runner is free; evaluations can consume paid model tokens, and hosted reporting or providers have separate terms.",
+      "limits_fr": "Le moteur de test est gratuit; les évaluations peuvent consommer des jetons payants et les rapports hébergés ou fournisseurs ont des conditions distinctes.",
+      "caveats": [
+        "Automated scores do not replace domain-expert review.",
+        "Red-team payloads and outputs can contain sensitive content."
+      ],
+      "caveats_fr": [
+        "Les scores automatisés ne remplacent pas la révision experte du domaine.",
+        "Les charges de red team et sorties peuvent contenir du contenu sensible."
+      ],
+      "tags": [
+        "evaluation",
+        "testing",
+        "security",
+        "ci"
+      ],
+      "source": {
+        "url": "https://github.com/promptfoo/promptfoo",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "ragas",
+      "name": "Ragas",
+      "description": "An open-source evaluation framework for RAG and LLM applications with reusable metrics, datasets, experiments, and integrations for systematic quality measurement.",
+      "description_fr": "Un framework open source d’évaluation pour RAG et applications LLM avec métriques réutilisables, jeux de données, expériences et intégrations de mesure systématique.",
+      "best_for": "Measuring retrieval and answer quality in RAG",
+      "best_for_fr": "Mesurer la qualité de recherche et de réponse d’un RAG",
+      "category": "evaluation",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/vibrantlabsai/ragas",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "The framework is free; embeddings and judge models may require local compute or paid provider calls.",
+      "limits_fr": "Le framework est gratuit; les embeddings et modèles juges peuvent demander du calcul local ou des appels payants.",
+      "caveats": [
+        "Metrics need representative datasets and human calibration.",
+        "Provider-based evaluators may receive prompts, contexts, and answers."
+      ],
+      "caveats_fr": [
+        "Les métriques exigent des jeux représentatifs et une calibration humaine.",
+        "Les évaluateurs hébergés peuvent recevoir prompts, contextes et réponses."
+      ],
+      "tags": [
+        "evaluation",
+        "rag",
+        "metrics",
+        "testing"
+      ],
+      "source": {
+        "url": "https://github.com/vibrantlabsai/ragas",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "comfyui",
       "name": "ComfyUI",
       "description": "A node-based interface, API, and backend for diffusion image workflows, offering detailed control over generation pipelines and reusable graphs.",
@@ -493,6 +1256,193 @@
       ],
       "source": {
         "url": "https://github.com/comfy-org/ComfyUI",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "invokeai",
+      "name": "InvokeAI",
+      "description": "An open-source creative engine and WebUI for local Stable Diffusion workflows with canvas editing, node graphs, model management, generation, and professional asset organization.",
+      "description_fr": "Un moteur créatif et WebUI open source pour Stable Diffusion local avec canevas, graphes de nœuds, gestion de modèles, génération et organisation d’éléments.",
+      "best_for": "Organized local image generation and editing",
+      "best_for_fr": "La génération et l’édition d’images locales bien organisées",
+      "category": "image-generation",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/invoke-ai/InvokeAI",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "Generation is limited by VRAM, RAM, storage, model compatibility, and the separate license of every checkpoint or adapter.",
+      "limits_fr": "La génération est limitée par la VRAM, la RAM, le stockage, la compatibilité et la licence distincte de chaque checkpoint ou adaptateur.",
+      "caveats": [
+        "Model and LoRA licenses determine permitted outputs and commercial use.",
+        "Large workflows may exceed consumer GPU memory."
+      ],
+      "caveats_fr": [
+        "Les licences des modèles et LoRA déterminent les usages et droits commerciaux.",
+        "Les grands flux peuvent dépasser la mémoire des GPU grand public."
+      ],
+      "tags": [
+        "image",
+        "diffusion",
+        "webui",
+        "local"
+      ],
+      "source": {
+        "url": "https://github.com/invoke-ai/InvokeAI",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "stable-diffusion-webui-forge",
+      "name": "Stable Diffusion WebUI Forge",
+      "description": "An open-source Stable Diffusion WebUI focused on resource management, performance, compatibility, extensions, and advanced local image-generation workflows.",
+      "description_fr": "Une WebUI Stable Diffusion open source axée sur la gestion des ressources, la performance, la compatibilité, les extensions et les flux locaux avancés.",
+      "best_for": "Advanced local Stable Diffusion workflows",
+      "best_for_fr": "Les flux Stable Diffusion locaux avancés",
+      "category": "image-generation",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "homepage": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "local",
+      "license": "AGPL-3.0",
+      "limits": "Hardware, extensions, models, VRAM, storage, and every checkpoint license determine practical limits and permitted use.",
+      "limits_fr": "Le matériel, les extensions, modèles, la VRAM, le stockage et chaque licence de checkpoint déterminent les limites et usages permis.",
+      "caveats": [
+        "Extension code can execute locally and should be reviewed.",
+        "Repository activity, model compatibility, and model licenses can change independently."
+      ],
+      "caveats_fr": [
+        "Le code des extensions s’exécute localement et doit être révisé.",
+        "L’activité du dépôt, la compatibilité et les licences des modèles évoluent séparément."
+      ],
+      "tags": [
+        "image",
+        "diffusion",
+        "webui",
+        "gpu"
+      ],
+      "source": {
+        "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "watch",
+      "confidence": "high"
+    },
+    {
+      "id": "bentoml",
+      "name": "BentoML",
+      "description": "An open-source framework for packaging and serving AI applications as inference APIs, jobs, model pipelines, and containerized services.",
+      "description_fr": "Un framework open source pour empaqueter et servir des applications IA comme API d’inférence, tâches, pipelines de modèles et services conteneurisés.",
+      "best_for": "Turning Python AI code into production services",
+      "best_for_fr": "Transformer du code IA Python en services de production",
+      "category": "inference-server",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "advanced",
+      "platforms": [
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/bentoml/BentoML",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "The framework is free; compute, accelerators, registries, orchestration, storage, and hosted deployment have separate infrastructure costs.",
+      "limits_fr": "Le framework est gratuit; calcul, accélérateurs, registres, orchestration, stockage et déploiement hébergé ont des coûts d’infrastructure distincts.",
+      "caveats": [
+        "Production serving requires security, scaling, monitoring, and rollback design.",
+        "Model licenses remain separate."
+      ],
+      "caveats_fr": [
+        "Le service en production exige sécurité, mise à l’échelle, surveillance et retour arrière.",
+        "Les licences des modèles restent distinctes."
+      ],
+      "tags": [
+        "serving",
+        "api",
+        "deployment",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/bentoml/BentoML",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "onnx-runtime",
+      "name": "ONNX Runtime",
+      "description": "An open-source cross-platform engine for optimized machine-learning inference and training across CPU, GPU, mobile, browser, and specialized execution providers.",
+      "description_fr": "Un moteur open source multiplateforme pour l’inférence et l’entraînement optimisés sur CPU, GPU, mobile, navigateur et fournisseurs d’exécution spécialisés.",
+      "best_for": "Portable and optimized model inference",
+      "best_for_fr": "L’inférence de modèles portable et optimisée",
+      "category": "inference-server",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/microsoft/onnxruntime",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Compatibility and speed depend on model export quality, supported operators, execution providers, drivers, and target hardware.",
+      "limits_fr": "La compatibilité et la vitesse dépendent de l’export du modèle, des opérateurs, fournisseurs d’exécution, pilotes et matériel cible.",
+      "caveats": [
+        "Model conversion may change accuracy or fail on unsupported operators.",
+        "Third-party model licenses still apply."
+      ],
+      "caveats_fr": [
+        "La conversion peut modifier la précision ou échouer sur des opérateurs non pris en charge.",
+        "Les licences des modèles tiers s’appliquent toujours."
+      ],
+      "tags": [
+        "inference",
+        "onnx",
+        "optimization",
+        "cross-platform"
+      ],
+      "source": {
+        "url": "https://github.com/microsoft/onnxruntime",
         "type": "official-repository",
         "official": true
       },
@@ -593,6 +1543,54 @@
       "confidence": "high"
     },
     {
+      "id": "hugging-face-agents-course",
+      "name": "Hugging Face Agents Course",
+      "description": "A free open-source course covering agent concepts, tool use, frameworks, use cases, evaluation, and hands-on exercises in the Hugging Face ecosystem.",
+      "description_fr": "Un cours gratuit et open source couvrant concepts d’agents, outils, frameworks, cas d’usage, évaluation et exercices pratiques dans l’écosystème Hugging Face.",
+      "best_for": "Learning how modern tool-using agents work",
+      "best_for_fr": "Comprendre le fonctionnement des agents modernes avec outils",
+      "category": "learning",
+      "free_type": "open-source",
+      "access": "cloud",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/huggingface/agents-course",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "Course content is free; exercises may use hosted notebooks, external models, accounts, or compute with separate limits.",
+      "limits_fr": "Le cours est gratuit; les exercices peuvent utiliser notebooks hébergés, modèles externes, comptes ou calcul avec limites distinctes.",
+      "caveats": [
+        "Framework APIs evolve quickly.",
+        "Use local or free-tier models where a hosted service would charge."
+      ],
+      "caveats_fr": [
+        "Les API de frameworks évoluent rapidement.",
+        "Utilisez des modèles locaux ou gratuits lorsqu’un service hébergé serait payant."
+      ],
+      "tags": [
+        "course",
+        "agents",
+        "tools",
+        "evaluation"
+      ],
+      "source": {
+        "url": "https://github.com/huggingface/agents-course",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "hugging-face-llm-course",
       "name": "Hugging Face LLM Course",
       "description": "A free, ad-free course covering transformers, datasets, tokenizers, model sharing, fine-tuning, demos, dataset curation, and reasoning models.",
@@ -629,6 +1627,102 @@
       "source": {
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
         "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "microsoft-ai-for-beginners",
+      "name": "Microsoft AI for Beginners",
+      "description": "A free open-source curriculum organized into twelve weeks and twenty-four lessons covering classical AI concepts, neural networks, computer vision, NLP, ethics, and hands-on labs.",
+      "description_fr": "Un programme gratuit et open source de douze semaines et vingt-quatre leçons couvrant IA classique, réseaux neuronaux, vision, NLP, éthique et laboratoires pratiques.",
+      "best_for": "A structured introduction to broad AI foundations",
+      "best_for_fr": "Une introduction structurée aux fondations générales de l’IA",
+      "category": "learning",
+      "free_type": "open-source",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/microsoft/AI-For-Beginners",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Course material is free; some labs require local setup, packages, compute, or optional external services.",
+      "limits_fr": "Le cours est gratuit; certains laboratoires exigent une installation locale, des paquets, du calcul ou des services externes facultatifs.",
+      "caveats": [
+        "Software versions can change after a lesson is published.",
+        "Learning outcomes require completing the exercises."
+      ],
+      "caveats_fr": [
+        "Les versions logicielles peuvent évoluer après publication d’une leçon.",
+        "Les résultats d’apprentissage exigent de faire les exercices."
+      ],
+      "tags": [
+        "course",
+        "beginner",
+        "foundations",
+        "curriculum"
+      ],
+      "source": {
+        "url": "https://github.com/microsoft/AI-For-Beginners",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "microsoft-generative-ai-for-beginners",
+      "name": "Microsoft Generative AI for Beginners",
+      "description": "A free open-source curriculum with twenty-one lessons on building generative-AI applications, prompt engineering, retrieval, agents, security, responsible AI, and practical code samples.",
+      "description_fr": "Un programme gratuit et open source de vingt et une leçons sur applications génératives, prompts, recherche, agents, sécurité, IA responsable et exemples pratiques.",
+      "best_for": "Learning to build generative-AI applications step by step",
+      "best_for_fr": "Apprendre à créer des applications génératives étape par étape",
+      "category": "learning",
+      "free_type": "open-source",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/microsoft/generative-ai-for-beginners",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "Curriculum content is free; completing provider-specific samples may require API access, accounts, or local model alternatives.",
+      "limits_fr": "Le contenu est gratuit; certains exemples liés à un fournisseur peuvent exiger une API, un compte ou une alternative locale.",
+      "caveats": [
+        "Use free or local model substitutions when a sample targets a paid API.",
+        "Provider-specific instructions can change."
+      ],
+      "caveats_fr": [
+        "Utilisez des modèles gratuits ou locaux lorsqu’un exemple cible une API payante.",
+        "Les instructions propres aux fournisseurs peuvent changer."
+      ],
+      "tags": [
+        "course",
+        "generative-ai",
+        "beginner",
+        "curriculum"
+      ],
+      "source": {
+        "url": "https://github.com/microsoft/generative-ai-for-beginners",
+        "type": "official-repository",
         "official": true
       },
       "last_verified": "2026-08-04",
@@ -679,6 +1773,53 @@
       "confidence": "high"
     },
     {
+      "id": "gpt4all",
+      "name": "GPT4All",
+      "description": "An open-source desktop and developer ecosystem for running compatible language models locally, including chat, document use, model downloads, and local APIs.",
+      "description_fr": "Un écosystème open source de bureau et de développement pour exécuter des modèles compatibles localement, avec chat, documents, téléchargements et API locales.",
+      "best_for": "A desktop-first local LLM experience",
+      "best_for_fr": "Une expérience LLM locale centrée sur le bureau",
+      "category": "local-runtime",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/nomic-ai/gpt4all",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Speed, context, and model size depend on CPU, RAM, storage, and the license attached to each downloaded model.",
+      "limits_fr": "La vitesse, le contexte et la taille dépendent du CPU, de la RAM, du stockage et de la licence de chaque modèle téléchargé.",
+      "caveats": [
+        "The application license does not replace model licenses.",
+        "Repository activity and supported models should be checked before standardizing a workflow."
+      ],
+      "caveats_fr": [
+        "La licence de l’application ne remplace pas celles des modèles.",
+        "Vérifiez l’activité du dépôt et les modèles pris en charge avant de standardiser un flux."
+      ],
+      "tags": [
+        "local",
+        "desktop",
+        "llm",
+        "documents"
+      ],
+      "source": {
+        "url": "https://github.com/nomic-ai/gpt4all",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "watch",
+      "confidence": "high"
+    },
+    {
       "id": "llama-cpp",
       "name": "llama.cpp",
       "description": "A dependency-light C and C++ inference engine for GGUF language models with CPU, GPU, hybrid offload, quantization, and an OpenAI-compatible server.",
@@ -716,6 +1857,52 @@
       ],
       "source": {
         "url": "https://github.com/ggml-org/llama.cpp",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "localai",
+      "name": "LocalAI",
+      "description": "An open-source local AI engine exposing OpenAI-compatible APIs for language, vision, speech, image, embeddings, and other model workloads without mandatory cloud inference.",
+      "description_fr": "Un moteur IA local open source offrant des API compatibles OpenAI pour langage, vision, parole, image, embeddings et autres charges sans inférence cloud obligatoire.",
+      "best_for": "A broad self-hosted OpenAI-compatible AI API",
+      "best_for_fr": "Une vaste API IA auto-hébergée compatible OpenAI",
+      "category": "local-runtime",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/mudler/LocalAI",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Inference is limited by hardware, backend compatibility, model size, storage, and each model's separate license.",
+      "limits_fr": "L’inférence est limitée par le matériel, les backends, la taille des modèles, le stockage et la licence distincte de chaque modèle.",
+      "caveats": [
+        "Model quality and compatibility vary by backend.",
+        "Secure the API before exposing it beyond localhost."
+      ],
+      "caveats_fr": [
+        "La qualité et la compatibilité varient selon le backend.",
+        "Sécurisez l’API avant de l’exposer au-delà de localhost."
+      ],
+      "tags": [
+        "local",
+        "api",
+        "openai-compatible",
+        "multimodal"
+      ],
+      "source": {
+        "url": "https://github.com/mudler/LocalAI",
         "type": "official-repository",
         "official": true
       },
@@ -762,6 +1949,195 @@
       ],
       "source": {
         "url": "https://github.com/ollama/ollama",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "diffusers",
+      "name": "Hugging Face Diffusers",
+      "description": "An open-source PyTorch library of diffusion pipelines and training tools for image, video, and audio generation, editing, fine-tuning, and optimization.",
+      "description_fr": "Une bibliothèque PyTorch open source de pipelines de diffusion et d’outils d’entraînement pour génération, édition, ajustement et optimisation d’images, vidéos et audio.",
+      "best_for": "Programmable diffusion-model workflows",
+      "best_for_fr": "Les flux programmables de modèles de diffusion",
+      "category": "ml-framework",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/huggingface/diffusers",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "The library is free; model licenses, VRAM, storage, generation time, and output rights vary substantially by pipeline and checkpoint.",
+      "limits_fr": "La bibliothèque est gratuite; licences des modèles, VRAM, stockage, durée et droits sur les sorties varient selon le pipeline et le checkpoint.",
+      "caveats": [
+        "Always inspect the model card and license.",
+        "Video and high-resolution generation can require substantial VRAM."
+      ],
+      "caveats_fr": [
+        "Inspectez toujours la fiche et la licence du modèle.",
+        "La vidéo et la haute résolution peuvent exiger beaucoup de VRAM."
+      ],
+      "tags": [
+        "diffusion",
+        "image",
+        "video",
+        "training"
+      ],
+      "source": {
+        "url": "https://github.com/huggingface/diffusers",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "transformers",
+      "name": "Hugging Face Transformers",
+      "description": "An open-source framework providing model definitions, pretrained-model tooling, training utilities, pipelines, and inference support across text, vision, audio, and multimodal AI.",
+      "description_fr": "Un framework open source offrant définitions de modèles, outils de modèles préentraînés, entraînement, pipelines et inférence pour texte, vision, audio et multimodal.",
+      "best_for": "Using and training a broad range of pretrained models",
+      "best_for_fr": "Utiliser et entraîner une vaste gamme de modèles préentraînés",
+      "category": "ml-framework",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/huggingface/transformers",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "The library is free; each downloaded model has its own license, hardware requirements, context limits, and potential usage restrictions.",
+      "limits_fr": "La bibliothèque est gratuite; chaque modèle possède sa licence, ses besoins matériels, ses limites de contexte et ses restrictions éventuelles.",
+      "caveats": [
+        "The framework license does not grant rights to every model.",
+        "Large models may require accelerators and substantial storage."
+      ],
+      "caveats_fr": [
+        "La licence du framework n’accorde pas les droits de chaque modèle.",
+        "Les grands modèles peuvent exiger accélérateurs et beaucoup de stockage."
+      ],
+      "tags": [
+        "models",
+        "training",
+        "inference",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/huggingface/transformers",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "jax",
+      "name": "JAX",
+      "description": "An open-source numerical-computing library that adds automatic differentiation, vectorization, compilation, and accelerator execution to NumPy-style Python programs.",
+      "description_fr": "Une bibliothèque open source de calcul numérique ajoutant différentiation automatique, vectorisation, compilation et accélérateurs aux programmes Python de style NumPy.",
+      "best_for": "High-performance ML research and numerical computing",
+      "best_for_fr": "La recherche ML haute performance et le calcul numérique",
+      "category": "ml-framework",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/jax-ml/jax",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "Performance and supported features depend on the operating system, accelerator backend, drivers, memory, and compiled workload.",
+      "limits_fr": "Les performances et fonctions dépendent du système, du backend accélérateur, des pilotes, de la mémoire et de la charge compilée.",
+      "caveats": [
+        "Accelerator installation varies by platform.",
+        "JAX is a numerical foundation rather than a complete end-user AI application."
+      ],
+      "caveats_fr": [
+        "L’installation des accélérateurs varie selon la plateforme.",
+        "JAX est une fondation numérique, pas une application IA complète."
+      ],
+      "tags": [
+        "training",
+        "research",
+        "gpu",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/jax-ml/jax",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "tensorflow",
+      "name": "TensorFlow",
+      "description": "An open-source machine-learning framework for building, training, exporting, and deploying models across servers, accelerators, edge systems, and multiple languages.",
+      "description_fr": "Un framework d’apprentissage automatique open source pour créer, entraîner, exporter et déployer des modèles sur serveurs, accélérateurs, périphérie et plusieurs langages.",
+      "best_for": "End-to-end machine-learning systems and deployment",
+      "best_for_fr": "Les systèmes ML complets et leur déploiement",
+      "category": "ml-framework",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/tensorflow/tensorflow",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "Training and inference are limited by compatible hardware, memory, storage, build support, and the licenses of datasets or pretrained models.",
+      "limits_fr": "L’entraînement et l’inférence sont limités par le matériel compatible, la mémoire, le stockage, les builds et les licences des données ou modèles.",
+      "caveats": [
+        "GPU setup and version compatibility can be complex.",
+        "Dataset and model licenses remain separate."
+      ],
+      "caveats_fr": [
+        "La configuration GPU et la compatibilité des versions peuvent être complexes.",
+        "Les licences des données et modèles restent distinctes."
+      ],
+      "tags": [
+        "training",
+        "inference",
+        "ml",
+        "framework"
+      ],
+      "source": {
+        "url": "https://github.com/tensorflow/tensorflow",
         "type": "official-repository",
         "official": true
       },
@@ -862,6 +2238,100 @@
       "confidence": "high"
     },
     {
+      "id": "faster-whisper",
+      "name": "Faster Whisper",
+      "description": "An open-source Whisper implementation using CTranslate2 for faster and more memory-efficient local transcription with CPU and GPU execution.",
+      "description_fr": "Une implémentation open source de Whisper utilisant CTranslate2 pour une transcription locale plus rapide et économe en mémoire sur CPU et GPU.",
+      "best_for": "Efficient high-volume local transcription",
+      "best_for_fr": "La transcription locale efficace à grand volume",
+      "category": "speech",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/SYSTRAN/faster-whisper",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Performance depends on model size, quantization, hardware, drivers, audio quality, and batch settings.",
+      "limits_fr": "Les performances dépendent de la taille du modèle, de la quantification, du matériel, des pilotes, de l’audio et des lots.",
+      "caveats": [
+        "Accuracy still inherits Whisper model limitations.",
+        "Generated transcripts require factual and spelling review."
+      ],
+      "caveats_fr": [
+        "La précision conserve les limites des modèles Whisper.",
+        "Les transcriptions doivent être révisées pour les faits et l’orthographe."
+      ],
+      "tags": [
+        "speech",
+        "transcription",
+        "ctranslate2",
+        "local"
+      ],
+      "source": {
+        "url": "https://github.com/SYSTRAN/faster-whisper",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "openai-whisper",
+      "name": "OpenAI Whisper",
+      "description": "An open-source speech-recognition model and reference implementation for multilingual transcription, translation to English, and local audio processing.",
+      "description_fr": "Un modèle de reconnaissance vocale et une implémentation open source pour transcription multilingue, traduction vers l’anglais et traitement audio local.",
+      "best_for": "Accurate local multilingual transcription",
+      "best_for_fr": "La transcription locale multilingue précise",
+      "category": "speech",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/openai/whisper",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Speed and accuracy depend on model size, language, audio quality, CPU or GPU memory, and preprocessing.",
+      "limits_fr": "La vitesse et la précision dépendent de la taille du modèle, de la langue, de l’audio, du CPU ou GPU et du prétraitement.",
+      "caveats": [
+        "Transcripts can contain hallucinated words and require review.",
+        "Speaker diarization is not provided by the base project."
+      ],
+      "caveats_fr": [
+        "Les transcriptions peuvent halluciner des mots et doivent être révisées.",
+        "La diarisation des locuteurs n’est pas fournie par le projet de base."
+      ],
+      "tags": [
+        "speech",
+        "transcription",
+        "multilingual",
+        "local"
+      ],
+      "source": {
+        "url": "https://github.com/openai/whisper",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "whisper-cpp",
       "name": "whisper.cpp",
       "description": "A C and C++ implementation of Whisper for local speech recognition and transcription across desktop, mobile, WebAssembly, and server environments.",
@@ -900,6 +2370,239 @@
       ],
       "source": {
         "url": "https://github.com/ggml-org/whisper.cpp",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "chroma",
+      "name": "Chroma",
+      "description": "An open-source search and retrieval database for AI applications with vector storage, metadata filtering, local development, and client-server deployment.",
+      "description_fr": "Une base open source de recherche pour applications IA avec stockage vectoriel, filtres de métadonnées, développement local et déploiement client-serveur.",
+      "best_for": "Simple local retrieval prototypes",
+      "best_for_fr": "Les prototypes locaux simples de recherche augmentée",
+      "category": "vector-database",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/chroma-core/chroma",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "Local use depends on storage and memory; embedding models, production scaling, backups, and managed services are separate concerns.",
+      "limits_fr": "L’usage local dépend du stockage et de la mémoire; embeddings, mise à l’échelle, sauvegardes et services gérés sont des éléments distincts.",
+      "caveats": [
+        "Prototype convenience does not replace production capacity planning.",
+        "Embedding and generation services may process data externally."
+      ],
+      "caveats_fr": [
+        "La simplicité de prototypage ne remplace pas la planification de capacité.",
+        "Les services d’embeddings et de génération peuvent traiter les données à l’extérieur."
+      ],
+      "tags": [
+        "vector",
+        "database",
+        "rag",
+        "python"
+      ],
+      "source": {
+        "url": "https://github.com/chroma-core/chroma",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "faiss",
+      "name": "Faiss",
+      "description": "An open-source library for efficient similarity search and clustering of dense vectors, with multiple indexes and CPU or GPU implementations.",
+      "description_fr": "Une bibliothèque open source pour la recherche efficace par similarité et le regroupement de vecteurs denses, avec plusieurs index et versions CPU ou GPU.",
+      "best_for": "In-process vector search and research experiments",
+      "best_for_fr": "La recherche vectorielle intégrée et les expériences de recherche",
+      "category": "vector-database",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/facebookresearch/faiss",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Faiss is a library rather than a full database; persistence, metadata, access control, replication, and serving must be built separately.",
+      "limits_fr": "Faiss est une bibliothèque plutôt qu’une base complète; persistance, métadonnées, accès, réplication et service doivent être construits séparément.",
+      "caveats": [
+        "Index accuracy, memory, and speed require explicit tuning.",
+        "GPU support depends on compatible CUDA hardware."
+      ],
+      "caveats_fr": [
+        "Précision, mémoire et vitesse des index exigent un réglage explicite.",
+        "Le GPU dépend de matériel CUDA compatible."
+      ],
+      "tags": [
+        "vector",
+        "search",
+        "library",
+        "gpu"
+      ],
+      "source": {
+        "url": "https://github.com/facebookresearch/faiss",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "milvus",
+      "name": "Milvus",
+      "description": "An open-source cloud-native vector database designed for large-scale approximate-nearest-neighbor search, distributed storage, indexing, and high-throughput retrieval.",
+      "description_fr": "Une base vectorielle cloud native open source conçue pour la recherche de voisins à grande échelle, le stockage distribué, l’indexation et un débit élevé.",
+      "best_for": "Large-scale distributed vector workloads",
+      "best_for_fr": "Les charges vectorielles distribuées à grande échelle",
+      "category": "vector-database",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "advanced",
+      "platforms": [
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/milvus-io/milvus",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "Distributed deployments require substantial infrastructure, monitoring, backups, and operational expertise; managed services are separate.",
+      "limits_fr": "Les déploiements distribués exigent une infrastructure importante, surveillance, sauvegardes et expertise; les services gérés sont distincts.",
+      "caveats": [
+        "It is heavier than embedded vector stores.",
+        "Benchmark with representative data and filters before choosing an index."
+      ],
+      "caveats_fr": [
+        "Il est plus lourd que les stockages vectoriels intégrés.",
+        "Testez avec des données et filtres représentatifs avant de choisir un index."
+      ],
+      "tags": [
+        "vector",
+        "database",
+        "distributed",
+        "search"
+      ],
+      "source": {
+        "url": "https://github.com/milvus-io/milvus",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "qdrant",
+      "name": "Qdrant",
+      "description": "An open-source vector database and similarity-search engine with filtering, payload storage, distributed deployment, APIs, and official client libraries.",
+      "description_fr": "Une base vectorielle et un moteur de recherche par similarité open source avec filtres, données associées, déploiement distribué, API et clients officiels.",
+      "best_for": "Production-ready semantic search and RAG storage",
+      "best_for_fr": "Le stockage RAG et la recherche sémantique prêts pour la production",
+      "category": "vector-database",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/qdrant/qdrant",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "Apache-2.0",
+      "limits": "Self-hosting is limited by CPU, RAM, storage, replication needs, and operational expertise; managed cloud terms are separate.",
+      "limits_fr": "L’auto-hébergement est limité par le CPU, la RAM, le stockage, la réplication et l’expertise; les conditions du cloud géré sont distinctes.",
+      "caveats": [
+        "Embedding generation is not included.",
+        "Backups, access control, and monitoring remain your responsibility when self-hosted."
+      ],
+      "caveats_fr": [
+        "La génération d’embeddings n’est pas incluse.",
+        "Les sauvegardes, accès et la surveillance restent votre responsabilité en auto-hébergement."
+      ],
+      "tags": [
+        "vector",
+        "database",
+        "rag",
+        "search"
+      ],
+      "source": {
+        "url": "https://github.com/qdrant/qdrant",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "weaviate",
+      "name": "Weaviate",
+      "description": "An open-source vector database combining vector search, structured filtering, object storage, multi-tenancy, replication, and cloud-native deployment.",
+      "description_fr": "Une base vectorielle open source combinant recherche vectorielle, filtres structurés, stockage d’objets, multi-location, réplication et déploiement cloud natif.",
+      "best_for": "Structured and scalable vector search",
+      "best_for_fr": "La recherche vectorielle structurée et évolutive",
+      "category": "vector-database",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "advanced",
+      "platforms": [
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/weaviate/weaviate",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "BSD-3-Clause",
+      "limits": "Self-hosted scale depends on memory, storage, replicas, and operations; modules and managed cloud services may have separate terms.",
+      "limits_fr": "L’échelle auto-hébergée dépend de la mémoire, du stockage, des réplicas et des opérations; modules et cloud géré peuvent avoir des conditions distinctes.",
+      "caveats": [
+        "Plan schema, tenancy, backups, and upgrades before production.",
+        "External vectorization modules may send data to providers."
+      ],
+      "caveats_fr": [
+        "Planifiez schéma, location, sauvegardes et mises à niveau avant la production.",
+        "Les modules externes de vectorisation peuvent envoyer les données à des fournisseurs."
+      ],
+      "tags": [
+        "vector",
+        "database",
+        "rag",
+        "distributed"
+      ],
+      "source": {
+        "url": "https://github.com/weaviate/weaviate",
         "type": "official-repository",
         "official": true
       },
