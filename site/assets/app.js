@@ -15,7 +15,7 @@ const translations = {
     categoryLabel: "Category", freeLabel: "Free access", accessLabel: "Access", levelLabel: "Level", platformLabel: "Platform", sortLabel: "Sort",
     sortName: "Name", sortNewest: "Newest verification", sortBeginner: "Beginner first", reset: "Reset filters",
     emptyTitle: "No matching resources", emptyCopy: "Try fewer filters or a broader search.",
-    footerCopy: "Useful at $0. Honest about the catch.", contribute: "Contribute", contributors: "Contributors", method: "Verification method", fullCatalog: "Full catalog", shareFilters: "Share filters",
+    footerCopy: "Useful at $0. Honest about the catch.", contribute: "Contribute", contributors: "Contributors", method: "Verification method", fullCatalog: "Full catalog", shareFilters: "Share filters", exportManifest: "Export stack",
     hardwareKicker: "Hardware", hardwareTitle: "What is your setup?", hardwareBasic: "8GB RAM, no GPU", hardwareMid: "16GB RAM, 4GB+ VRAM", hardwareHigh: "32GB+ RAM, 8GB+ VRAM", hardwarePro: "64GB+ RAM, 24GB+ VRAM", hardwareGuide: "Full hardware guide",
     bestFor: "Best for", source: "Official source", verified: "Verified", details: "Details", compare: "Compare", close: "Close", clear: "Clear",
     compareTitle: "Compare resources", compareKicker: "Decision table", compareHeading: "Compare before you commit.",
@@ -39,7 +39,7 @@ const translations = {
     categoryLabel: "Catégorie", freeLabel: "Gratuité", accessLabel: "Accès", levelLabel: "Niveau", platformLabel: "Plateforme", sortLabel: "Trier",
     sortName: "Nom", sortNewest: "Vérification récente", sortBeginner: "Débutant d’abord", reset: "Réinitialiser",
     emptyTitle: "Aucune ressource correspondante", emptyCopy: "Essaie moins de filtres ou une recherche plus large.",
-    footerCopy: "Utile à 0 $. Honnête sur les limites.", contribute: "Contribuer", contributors: "Contributeurs", method: "Méthode de vérification", fullCatalog: "Catalogue complet", shareFilters: "Partager les filtres",
+    footerCopy: "Utile à 0 $. Honnête sur les limites.", contribute: "Contribuer", contributors: "Contributeurs", method: "Méthode de vérification", fullCatalog: "Catalogue complet", shareFilters: "Partager les filtres", exportManifest: "Exporter la stack",
     hardwareKicker: "Matériel", hardwareTitle: "Quel est ton setup ?", hardwareBasic: "8 RAM, pas de GPU", hardwareMid: "16 RAM, 4+ VRAM", hardwareHigh: "32+ RAM, 8+ VRAM", hardwarePro: "64+ RAM, 24+ VRAM", hardwareGuide: "Guide matériel complet",
     bestFor: "Idéal pour", source: "Source officielle", verified: "Vérifié", details: "Détails", compare: "Comparer", close: "Fermer", clear: "Effacer",
     compareTitle: "Comparer les ressources", compareKicker: "Tableau de décision", compareHeading: "Compare avant de choisir.",
@@ -360,6 +360,49 @@ function showComparison() {
   elements.compareDialog.showModal();
 }
 
+function exportStackManifest() {
+  const items = selectedResources();
+  if (items.length === 0) return;
+  const manifest = {
+    name: "My AI Stack",
+    description: "A collection of free AI tools and resources",
+    created: new Date().toISOString().split("T")[0],
+    source: "Free AI Atlas",
+    url: "https://arthurecodage.github.io/free-ai-atlas/",
+    resources: items.map(function (item) {
+      return {
+        id: item.id,
+        name: item.name,
+        category: item.category,
+        free_type: item.free_type,
+        access: item.access,
+        difficulty: item.difficulty,
+        homepage: item.homepage,
+        license: item.license,
+        privacy: item.privacy,
+        commercial_use: item.commercial_use,
+        source_url: item.source.url
+      };
+    })
+  };
+  const blob = new Blob([JSON.stringify(manifest, null, 2)], {type: "application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "ai-stack-manifest.json";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  const t = translations[state.language];
+  const button = document.querySelector("#export-manifest");
+  if (button) {
+    const originalText = button.textContent;
+    button.textContent = state.language === "fr" ? "Exporté !" : "Exported!";
+    setTimeout(function () { button.textContent = originalText; }, 2000);
+  }
+}
+
 async function init() {
   configureRepositoryLinks();
   Object.assign(elements, {
@@ -412,6 +455,7 @@ async function init() {
     });
     elements.openCompare.addEventListener("click", showComparison);
     document.querySelector("#share-filters").addEventListener("click", copyShareableURL);
+    document.querySelector("#export-manifest").addEventListener("click", exportStackManifest);
     document.querySelectorAll("[data-hardware]").forEach(function (button) {
       button.addEventListener("click", function () { showHardwareRecommendation(button.dataset.hardware); });
     });

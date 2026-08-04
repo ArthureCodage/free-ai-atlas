@@ -212,3 +212,20 @@ footer { border-top: 1px solid var(--line); background: #080b17; }
 .hardware-quick-pick > .button {
   font-size: .85rem;
 }
+
+.compare-actions {
+  display: flex;
+  gap: 8px;
+}
+.compare-actions .button {
+  min-height: 36px;
+  padding: 8px 14px;
+  font-size: .85rem;
+}
+#export-manifest {
+  background: rgba(99,223,191,.08);
+  border-color: rgba(99,223,191,.2);
+}
+#export-manifest:hover {
+  background: rgba(99,223,191,.15);
+}
