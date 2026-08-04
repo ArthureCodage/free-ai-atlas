@@ -2,21 +2,37 @@
 
 Every claim below points to an official source. Limits can change; check the verification date.
 
-## CrewAI
+## AutoGen
 
-An open-source Python framework for orchestrating collaborative, role-based AI agents and production workflows with tools, tasks, memory, and guardrails.
+A framework for building multi-agent conversations with support for complex workflows and tool integration.
 
-- **Best for:** Role-based multi-agent automation
+- **Best for:** Building multi-agent AI systems
 - **Free access:** Open source
-- **Limits:** The framework is free; chosen models, search tools, storage, and hosted services may have separate quotas, costs, and data policies.
+- **Limits:** Requires API keys for external LLM providers.
 - **License:** MIT
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/crewAIInc/crewAI)
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/microsoft/autogen)
 
 **Caveats**
 
-- Multi-agent systems can multiply inference cost and failure modes.
-- Evaluate tool permissions and outputs before deployment.
+- Complex setup for multi-agent conversations.
+- Requires understanding of agent patterns.
+
+## CrewAI
+
+A framework for building multi-agent AI systems with role-based agents that collaborate to solve complex tasks.
+
+- **Best for:** Building role-based multi-agent systems
+- **Free access:** Open source
+- **Limits:** The framework is free; CrewAI Enterprise has separate pricing.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/joaomdmoura/crewAI)
+
+**Caveats**
+
+- Requires API keys for external LLM providers.
+- Enterprise features have separate pricing.
 
 ## LangChain
 
@@ -36,35 +52,19 @@ An open-source framework for building agent and language-model applications with
 
 ## LangGraph
 
-An open-source orchestration framework for resilient, stateful agents with durable execution, human review, persistence, and graph-based control flow.
+A library for building stateful, multi-actor applications with LLMs, built on top of LangChain for agent workflows.
 
-- **Best for:** Long-running and stateful agent workflows
+- **Best for:** Building stateful agent workflows
 - **Free access:** Open source
-- **Limits:** The framework is free; model inference, storage, hosted deployment, and observability can introduce separate limits or costs.
+- **Limits:** The library is free; LangGraph Cloud has separate pricing.
 - **License:** MIT
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/langchain-ai/langgraph)
 
 **Caveats**
 
-- Durable agents require careful state and retry design.
-- Provider terms still apply to every connected model.
-
-## LlamaIndex
-
-An open-source data framework for document agents and retrieval applications with connectors, indexing, querying, workflows, and model integrations.
-
-- **Best for:** Connecting private data to LLM applications
-- **Free access:** Open source
-- **Limits:** The framework is free; OCR, embedding, storage, and model services may require separate infrastructure or paid APIs.
-- **License:** MIT
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/run-llama/llama_index)
-
-**Caveats**
-
-- Retrieval quality depends on data preparation and evaluation.
-- Sensitive data handling depends on configured services.
+- Requires understanding of LangChain.
+- Cloud services have separate pricing.
 
 ## Gemini Developer API
 
@@ -129,49 +129,67 @@ An OpenAI-compatible hosted API and chat interface that routes requests to a rot
 
 ## Gradio
 
-An open-source Python library for rapidly building interactive web interfaces and demos around machine-learning models, functions, and APIs.
+An open-source Python library for building machine learning demos and web interfaces with just a few lines of code.
 
-- **Best for:** Turning a Python model into a usable web demo
+- **Best for:** Quick ML model demos and interfaces
 - **Free access:** Open source
-- **Limits:** Local use is limited by your hardware; public sharing and hosting depend on the selected infrastructure and its terms.
+- **Limits:** The library is free; Gradio Spaces has free tier limitations.
 - **License:** Apache-2.0
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/gradio-app/gradio)
 
 **Caveats**
 
-- Public demos need authentication and abuse controls for sensitive capabilities.
+- Complex interfaces may have performance limitations.
+- Gradio Spaces free tier has resource limits.
 
 ## Langflow
 
-An open-source visual builder for AI agents and workflows with reusable components, model integrations, APIs, and deployment-oriented flows.
+A visual framework for building multi-agent and RAG applications with a drag-and-drop interface and support for multiple LLM providers.
 
-- **Best for:** Visually prototyping agent workflows
+- **Best for:** Building AI apps with visual workflow builder
 - **Free access:** Open source
-- **Limits:** Self-hosting is free; connected model providers, vector stores, and deployment infrastructure can add costs and quotas.
+- **Limits:** The framework is free; Langflow Cloud has separate pricing.
 - **License:** MIT
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/langflow-ai/langflow)
 
 **Caveats**
 
-- Visual flows still require testing and version control.
-- Credentials stored in flows must be protected.
+- Complex applications may require coding.
+- Cloud services have separate pricing.
 
 ## Streamlit
 
-An open-source Python framework for building interactive data and AI applications with widgets, charts, caching, multipage layouts, and deployable web interfaces.
+An open-source app framework for machine learning and data science teams to create interactive web apps in pure Python.
 
-- **Best for:** Building polished Python AI apps quickly
+- **Best for:** Building interactive ML demo apps
 - **Free access:** Open source
-- **Limits:** The framework is free; compute, storage, model APIs, and hosting limits depend on where the application is deployed.
+- **Limits:** The framework is free; deployment to Streamlit Cloud has free tier limitations.
 - **License:** Apache-2.0
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/streamlit/streamlit)
 
 **Caveats**
 
-- Production apps still need authentication, secrets management, and scaling design.
+- Complex apps may have performance limitations.
+- Streamlit Cloud free tier has resource limits.
+
+## AnythingLLM
+
+An open-source desktop application for running AI chatbots locally with support for multiple LLM providers and document chat.
+
+- **Best for:** Local AI chatbot with document support
+- **Free access:** Open source
+- **Limits:** Performance depends on hardware and selected LLM provider.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/Mintplex-Labs/anything-llm)
+
+**Caveats**
+
+- Some features require API keys for external providers.
+- Model quality varies by provider.
 
 ## ChatGPT
 
@@ -218,6 +236,22 @@ Google's hosted assistant provides standard access without an AI subscription, i
 
 - Feature and model availability varies by country, account type, and age.
 
+## Open WebUI
+
+A feature-rich, user-friendly web interface for interacting with local LLMs with support for multiple providers and chat history.
+
+- **Best for:** User-friendly local LLM interface
+- **Free access:** Open source
+- **Limits:** The interface is free; requires connection to LLM providers.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/open-webui/open-webui)
+
+**Caveats**
+
+- Requires API keys for external LLM providers.
+- Some features are in beta.
+
 ## Perplexity
 
 An answer engine whose Standard free plan offers practically unlimited basic searches, search history, limited file uploads, and very limited Pro searches.
@@ -235,67 +269,67 @@ An answer engine whose Standard free plan offers practically unlimited basic sea
 
 ## Aider
 
-An open-source terminal pair programmer that edits an existing Git repository, maps the codebase, runs tests, and can work with local or hosted language models.
+An AI pair programming assistant that works in your terminal with support for multiple LLM providers and git integration.
 
-- **Best for:** Developers who want AI coding directly in Git
+- **Best for:** AI pair programming in the terminal
 - **Free access:** Open source
-- **Limits:** The software is free; model access, API charges, context limits, privacy, and output rights depend on the selected provider or local model.
+- **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** Apache-2.0
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/Aider-AI/aider)
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/paul-gauthier/aider)
 
 **Caveats**
 
-- Review generated diffs and commands before accepting them.
-- Model licenses and provider terms remain separate.
+- Requires API keys for external LLM providers.
+- Git integration requires proper setup.
 
 ## Cline
 
-An open-source coding agent available as an IDE extension, CLI, SDK, and multi-agent workflow with reviewable file edits and command execution.
+An AI coding assistant that runs in your terminal with support for multiple LLM providers and autonomous coding capabilities.
 
-- **Best for:** Human-in-the-loop coding from an IDE or terminal
+- **Best for:** Terminal-based AI coding assistant
 - **Free access:** Open source
-- **Limits:** The agent software is free; hosted model usage, quotas, data handling, and output terms come from the chosen provider.
-- **License:** Apache-2.0
-- **Privacy:** configurable
+- **Limits:** Performance depends on hardware and selected LLM provider.
+- **License:** MIT
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/cline/cline)
 
 **Caveats**
 
-- Command execution and file writes can affect the whole workspace.
-- Local models may need substantial RAM or VRAM.
+- Requires API keys for external LLM providers.
+- Autonomous coding requires careful monitoring.
 
 ## Continue
 
-An open-source coding agent and CLI for source-controlled AI checks, repository-aware assistance, and model-flexible developer workflows.
+An open-source AI code assistant that integrates with VS Code and JetBrains IDEs with support for multiple LLM providers.
 
-- **Best for:** Source-controlled AI checks and coding workflows
+- **Best for:** IDE-integrated AI coding assistant
 - **Free access:** Open source
-- **Limits:** The client and CLI are free; inference cost, quotas, telemetry, and privacy depend on the configured model provider or local endpoint.
+- **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** Apache-2.0
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/continuedev/continue)
 
 **Caveats**
 
-- Hosted models may require separate accounts or payment.
-- Inspect every automated code change.
+- Requires API keys for external LLM providers.
+- Some features are in beta.
 
 ## OpenHands
 
-An open-source platform for software-development agents that can modify code, run commands, browse, and work inside isolated development environments.
+An open-source AI-powered software development agent that can write code, fix bugs, and contribute to projects autonomously.
 
-- **Best for:** Running autonomous software tasks in a sandbox
+- **Best for:** Autonomous AI software development agent
 - **Free access:** Open source
-- **Limits:** Core code is MIT; the enterprise directory has separate terms, and model or compute costs depend on deployment choices.
+- **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** MIT
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/OpenHands/OpenHands)
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/All-Hands-AI/OpenHands)
 
 **Caveats**
 
-- Use isolation and least-privilege credentials.
-- The enterprise directory is not covered by the core MIT license.
+- Requires API keys for external LLM providers.
+- Autonomous coding requires careful monitoring.
 
 ## Google Colab
 
@@ -329,163 +363,147 @@ A hosted notebook environment with free accelerator access for machine-learning 
 
 ## Hugging Face Datasets
 
-An open-source library and hub integration for discovering, loading, streaming, processing, and sharing datasets used across machine-learning workflows.
+A comprehensive library for accessing, processing, and sharing datasets for machine learning with support for text, image, audio, and multimodal data.
 
-- **Best for:** Loading and processing reproducible ML datasets
+- **Best for:** Loading and processing ML datasets
 - **Free access:** Open source
-- **Limits:** The library is free; every dataset has separate licensing, privacy, consent, access, storage, and usage constraints.
+- **Limits:** Dataset size is limited by your local storage and memory. Large datasets may require streaming.
 - **License:** Apache-2.0
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/datasets)
 
 **Caveats**
 
-- A library license does not grant rights to dataset contents.
-- Inspect dataset cards, provenance, consent, and personal-data risks.
+- Some datasets have separate licenses or restrictions.
+- Large datasets may require significant RAM for processing.
 
 ## DeepEval
 
-An open-source Python framework for evaluating LLM applications, agents, and RAG systems with test cases, metrics, synthetic datasets, and CI integration.
+An open-source evaluation framework for LLM applications with support for metrics, benchmarks, and automated testing.
 
-- **Best for:** Pytest-style evaluation of LLM applications
+- **Best for:** Evaluating LLM application quality
 - **Free access:** Open source
-- **Limits:** The local framework is free; judge models consume inference, and the optional hosted platform has separate accounts and terms.
+- **Limits:** The framework is free; managed services have separate pricing.
 - **License:** Apache-2.0
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/confident-ai/deepeval)
 
 **Caveats**
 
-- LLM-as-judge metrics can be biased and nondeterministic.
-- Cloud logging should be reviewed before using sensitive test data.
-
-## MLflow
-
-An open-source AI engineering platform for experiment tracking, model management, evaluation, tracing, prompt workflows, and production lifecycle management.
-
-- **Best for:** Tracking and managing the AI development lifecycle
-- **Free access:** Open source
-- **Limits:** Self-hosting is free but requires databases, artifact storage, authentication, backups, and operational maintenance at scale.
-- **License:** Apache-2.0
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/mlflow/mlflow)
-
-**Caveats**
-
-- A local default server is not a complete production security setup.
-- Connected model and storage services have separate terms.
+- Requires API keys for external LLM providers.
+- Managed services have separate pricing.
 
 ## Promptfoo
 
-An open-source CLI and framework for testing prompts, agents, and RAG systems with assertions, model comparisons, red teaming, reports, and CI integration.
+An open-source tool for testing and evaluating LLM prompts with support for red-teaming, regression testing, and structured evaluation.
 
-- **Best for:** Repeatable prompt tests and AI red teaming
+- **Best for:** Testing and evaluating LLM prompts
 - **Free access:** Open source
-- **Limits:** The test runner is free; evaluations can consume paid model tokens, and hosted reporting or providers have separate terms.
+- **Limits:** The tool is free; enterprise features have separate pricing.
 - **License:** MIT
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/promptfoo/promptfoo)
 
 **Caveats**
 
-- Automated scores do not replace domain-expert review.
-- Red-team payloads and outputs can contain sensitive content.
+- Requires API keys for external LLM providers.
+- Enterprise features have separate pricing.
 
 ## Ragas
 
-An open-source evaluation framework for RAG and LLM applications with reusable metrics, datasets, experiments, and integrations for systematic quality measurement.
+An open-source evaluation framework for Retrieval Augmented Generation (RAG) applications with support for faithfulness, answer relevancy, and context metrics.
 
-- **Best for:** Measuring retrieval and answer quality in RAG
+- **Best for:** Evaluating RAG application quality
 - **Free access:** Open source
-- **Limits:** The framework is free; embeddings and judge models may require local compute or paid provider calls.
+- **Limits:** The framework is free; managed services have separate pricing.
 - **License:** Apache-2.0
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/vibrantlabsai/ragas)
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/explodinggradients/ragas)
 
 **Caveats**
 
-- Metrics need representative datasets and human calibration.
-- Provider-based evaluators may receive prompts, contexts, and answers.
+- Requires API keys for external LLM providers.
+- Managed services have separate pricing.
 
 ## ComfyUI
 
-A node-based interface, API, and backend for diffusion image workflows, offering detailed control over generation pipelines and reusable graphs.
+A powerful and modular node-based UI for Stable Diffusion with support for complex workflows and custom nodes.
 
-- **Best for:** Powerful local image-generation workflows
+- **Best for:** Advanced image generation workflows
 - **Free access:** Open source
-- **Limits:** Speed, resolution, and supported workflows depend heavily on GPU VRAM, system RAM, and the selected models.
+- **Limits:** Performance depends on GPU and model selection.
 - **License:** GPL-3.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/comfy-org/ComfyUI)
+- **Verified:** 2026-08-04 — [official source](https://github.com/comfyanonymous/ComfyUI)
 
 **Caveats**
 
-- Custom nodes execute code on your machine; install only trusted extensions.
-- Generated-output rights depend on model licenses and applicable law.
+- Steep learning curve for node-based workflows.
+- Requires GPU with sufficient VRAM.
+
+## Diffusers
+
+A state-of-the-art library for diffusion model inference and training with support for Stable Diffusion, DALL-E, and other generative models.
+
+- **Best for:** Running and training diffusion models for image generation
+- **Free access:** Open source
+- **Limits:** Performance depends on GPU; model licenses vary.
+- **License:** Apache-2.0
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/diffusers)
+
+**Caveats**
+
+- Requires GPU for practical use.
+- Model licenses vary by model.
 
 ## InvokeAI
 
-An open-source creative engine and WebUI for local Stable Diffusion workflows with canvas editing, node graphs, model management, generation, and professional asset organization.
+A professional-grade creative engine for Stable Diffusion models with a focus on creative professionals and artists.
 
-- **Best for:** Organized local image generation and editing
+- **Best for:** Professional image generation and editing
 - **Free access:** Open source
-- **Limits:** Generation is limited by VRAM, RAM, storage, model compatibility, and the separate license of every checkpoint or adapter.
-- **License:** Apache-2.0
+- **Limits:** Performance depends on GPU and model selection.
+- **License:** AGPL-3.0
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/invoke-ai/InvokeAI)
 
 **Caveats**
 
-- Model and LoRA licenses determine permitted outputs and commercial use.
-- Large workflows may exceed consumer GPU memory.
+- Requires GPU with sufficient VRAM.
+- Model licenses vary.
 
 ## Stable Diffusion WebUI Forge
 
-An open-source Stable Diffusion WebUI focused on resource management, performance, compatibility, extensions, and advanced local image-generation workflows.
+A modified version of Automatic1111's Stable Diffusion WebUI with performance improvements and new features for image generation.
 
-- **Best for:** Advanced local Stable Diffusion workflows
+- **Best for:** Advanced image generation with Stable Diffusion
 - **Free access:** Open source
-- **Limits:** Hardware, extensions, models, VRAM, storage, and every checkpoint license determine practical limits and permitted use.
+- **Limits:** Performance depends on GPU and model selection.
 - **License:** AGPL-3.0
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/lllyasviel/stable-diffusion-webui-forge)
 
 **Caveats**
 
-- Extension code can execute locally and should be reviewed.
-- Repository activity, model compatibility, and model licenses can change independently.
-
-## BentoML
-
-An open-source framework for packaging and serving AI applications as inference APIs, jobs, model pipelines, and containerized services.
-
-- **Best for:** Turning Python AI code into production services
-- **Free access:** Open source
-- **Limits:** The framework is free; compute, accelerators, registries, orchestration, storage, and hosted deployment have separate infrastructure costs.
-- **License:** Apache-2.0
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/bentoml/BentoML)
-
-**Caveats**
-
-- Production serving requires security, scaling, monitoring, and rollback design.
-- Model licenses remain separate.
+- Requires GPU with sufficient VRAM.
+- Model licenses vary.
 
 ## ONNX Runtime
 
-An open-source cross-platform engine for optimized machine-learning inference and training across CPU, GPU, mobile, browser, and specialized execution providers.
+A cross-platform, high-performance ML inferencing and training accelerator compatible with multiple frameworks and hardware.
 
-- **Best for:** Portable and optimized model inference
+- **Best for:** Optimized ML model inference across platforms
 - **Free access:** Open source
-- **Limits:** Compatibility and speed depend on model export quality, supported operators, execution providers, drivers, and target hardware.
+- **Limits:** Performance depends on hardware and model optimization.
 - **License:** MIT
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/microsoft/onnxruntime)
 
 **Caveats**
 
-- Model conversion may change accuracy or fail on unsupported operators.
-- Third-party model licenses still apply.
+- Requires model conversion to ONNX format.
+- Hardware acceleration requires specific providers.
 
 ## vLLM
 
@@ -501,22 +519,6 @@ A high-throughput, memory-efficient inference and serving engine for language mo
 **Caveats**
 
 - The engine license and the served model license are separate.
-
-## Open WebUI
-
-A self-hosted chat and AI platform that can work offline with Ollama and OpenAI-compatible providers, including user management and RAG features.
-
-- **Best for:** A polished shared interface for local models
-- **Free access:** Open source
-- **Limits:** Self-hosted use is hardware-limited; cloud providers connected to it may charge separately or process submitted data.
-- **License:** Open WebUI License
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/open-webui/open-webui/blob/main/LICENSE)
-
-**Caveats**
-
-- Current releases include a branding-protection clause; read the full license before rebranding or redistribution.
-- Installing third-party tools or functions expands the security boundary.
 
 ## Hugging Face Agents Course
 
@@ -598,11 +600,11 @@ A free, example-first deep-learning course for people with coding experience, co
 
 ## GPT4All
 
-An open-source desktop and developer ecosystem for running compatible language models locally, including chat, document use, model downloads, and local APIs.
+A free and open-source chatbot that runs locally on your computer with no data leaving your device.
 
-- **Best for:** A desktop-first local LLM experience
+- **Best for:** Private chatbot on your computer
 - **Free access:** Open source
-- **Limits:** Speed, context, and model size depend on CPU, RAM, storage, and the license attached to each downloaded model.
+- **Limits:** Speed, context, and model size depend on CPU, RAM, storage, and model licenses.
 - **License:** MIT
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/nomic-ai/gpt4all)
@@ -610,30 +612,31 @@ An open-source desktop and developer ecosystem for running compatible language m
 **Caveats**
 
 - The application license does not replace model licenses.
-- Repository activity and supported models should be checked before standardizing a workflow.
+- Repository activity should be checked.
 
 ## llama.cpp
 
-A dependency-light C and C++ inference engine for GGUF language models with CPU, GPU, hybrid offload, quantization, and an OpenAI-compatible server.
+A C++ library for running Meta's LLaMA and other large language models efficiently on CPU and GPU with quantization support.
 
-- **Best for:** Maximum control and broad hardware support
+- **Best for:** Efficient local LLM inference on CPU/GPU
 - **Free access:** Open source
-- **Limits:** Performance and maximum model size depend on CPU features, RAM, GPU backend, VRAM, and quantization.
+- **Limits:** Performance depends on hardware, quantization, and model size.
 - **License:** MIT
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/ggml-org/llama.cpp)
 
 **Caveats**
 
-- Model files have independent licenses and may impose additional restrictions.
+- Requires compilation or pre-built binaries.
+- Model files have independent licenses.
 
 ## LocalAI
 
-An open-source local AI engine exposing OpenAI-compatible APIs for language, vision, speech, image, embeddings, and other model workloads without mandatory cloud inference.
+A free and open-source OpenAI-compatible API for running LLMs, image generation, and audio models locally or on-prem with consumer-grade hardware.
 
-- **Best for:** A broad self-hosted OpenAI-compatible AI API
+- **Best for:** OpenAI-compatible local API server
 - **Free access:** Open source
-- **Limits:** Inference is limited by hardware, backend compatibility, model size, storage, and each model's separate license.
+- **Limits:** Inference is limited by hardware, backend compatibility, model size, storage, and licenses.
 - **License:** MIT
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/mudler/LocalAI)
@@ -645,82 +648,99 @@ An open-source local AI engine exposing OpenAI-compatible APIs for language, vis
 
 ## Ollama
 
-A local model runner and API for downloading and using open models on Windows, macOS, Linux, and Docker with a compact command-line workflow.
+A lightweight framework for running large language models locally with a simple API and model management.
 
-- **Best for:** The easiest path to a local LLM API
+- **Best for:** Running LLMs locally with ease
 - **Free access:** Open source
-- **Limits:** Inference is limited by your RAM, VRAM, storage, electricity, and the license of each downloaded model.
+- **Limits:** Performance depends on your hardware; larger models require more RAM and VRAM.
 - **License:** MIT
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/ollama/ollama)
 
 **Caveats**
 
-- The Ollama software license does not replace the separate license attached to each model.
+- Model quality varies by size and quantization.
+- Some models have separate licenses.
 
-## Hugging Face Diffusers
+## BentoML
 
-An open-source PyTorch library of diffusion pipelines and training tools for image, video, and audio generation, editing, fine-tuning, and optimization.
+An open-source framework for building, shipping, and scaling production-ready AI applications with support for any ML framework.
 
-- **Best for:** Programmable diffusion-model workflows
+- **Best for:** Building and deploying production ML services
 - **Free access:** Open source
-- **Limits:** The library is free; model licenses, VRAM, storage, generation time, and output rights vary substantially by pipeline and checkpoint.
+- **Limits:** The framework is free; BentoCloud has separate pricing.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/diffusers)
+- **Verified:** 2026-08-04 — [official source](https://github.com/bentoml/BentoML)
 
 **Caveats**
 
-- Always inspect the model card and license.
-- Video and high-resolution generation can require substantial VRAM.
-
-## Hugging Face Transformers
-
-An open-source framework providing model definitions, pretrained-model tooling, training utilities, pipelines, and inference support across text, vision, audio, and multimodal AI.
-
-- **Best for:** Using and training a broad range of pretrained models
-- **Free access:** Open source
-- **Limits:** The library is free; each downloaded model has its own license, hardware requirements, context limits, and potential usage restrictions.
-- **License:** Apache-2.0
-- **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/transformers)
-
-**Caveats**
-
-- The framework license does not grant rights to every model.
-- Large models may require accelerators and substantial storage.
+- Complex setup for production use.
+- Cloud services have separate pricing.
 
 ## JAX
 
-An open-source numerical-computing library that adds automatic differentiation, vectorization, compilation, and accelerator execution to NumPy-style Python programs.
+A Python library for high-performance numerical computing with automatic differentiation, GPU/TPU support, and composable transformations.
 
-- **Best for:** High-performance ML research and numerical computing
+- **Best for:** High-performance numerical computing and ML research
 - **Free access:** Open source
-- **Limits:** Performance and supported features depend on the operating system, accelerator backend, drivers, memory, and compiled workload.
+- **Limits:** Performance depends on hardware; requires GPU/TPU for optimal speed.
 - **License:** Apache-2.0
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/jax-ml/jax)
 
 **Caveats**
 
-- Accelerator installation varies by platform.
-- JAX is a numerical foundation rather than a complete end-user AI application.
+- Steep learning curve.
+- Requires GPU/TPU for optimal performance.
+
+## MLflow
+
+An open-source platform for managing the end-to-end machine learning lifecycle with experiment tracking, model deployment, and registry.
+
+- **Best for:** Managing ML experiments and model deployment
+- **Free access:** Open source
+- **Limits:** The platform is free; managed services have separate pricing.
+- **License:** Apache-2.0
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/mlflow/mlflow)
+
+**Caveats**
+
+- Complex setup for production use.
+- Managed services have separate pricing.
 
 ## TensorFlow
 
-An open-source machine-learning framework for building, training, exporting, and deploying models across servers, accelerators, edge systems, and multiple languages.
+An end-to-end open-source machine learning platform with tools, libraries, and community resources for building and deploying ML applications.
 
-- **Best for:** End-to-end machine-learning systems and deployment
+- **Best for:** Building and deploying ML applications at scale
 - **Free access:** Open source
-- **Limits:** Training and inference are limited by compatible hardware, memory, storage, build support, and the licenses of datasets or pretrained models.
+- **Limits:** The framework is free; TensorFlow Lite and TensorFlow.js have separate constraints.
 - **License:** Apache-2.0
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/tensorflow/tensorflow)
 
 **Caveats**
 
-- GPU setup and version compatibility can be complex.
-- Dataset and model licenses remain separate.
+- Large framework with complex API.
+- Some features require GPU support.
+
+## Transformers
+
+A state-of-the-art machine learning library for PyTorch, TensorFlow, and JAX with thousands of pretrained models for text, image, audio, and more.
+
+- **Best for:** Using pretrained models for NLP, vision, and audio
+- **Free access:** Open source
+- **Limits:** The library is free; model licenses vary.
+- **License:** Apache-2.0
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/transformers)
+
+**Caveats**
+
+- Large library with complex API.
+- Model licenses vary by model.
 
 ## Hugging Face Model Hub
 
@@ -737,83 +757,133 @@ A community platform for discovering, storing, downloading, and sharing model ch
 
 - Every repository can use a different license; 'available on Hugging Face' does not mean open source or commercially usable.
 
-## AnythingLLM
+## DSPy
 
-A local-first desktop and Docker application for chatting with documents, connecting local or cloud models, and building agent and RAG workflows.
+A framework for programming with foundation models that allows you to define modules and optimize prompts automatically.
 
-- **Best for:** Private document chat with minimal setup
+- **Best for:** Programming and optimizing LLM pipelines
 - **Free access:** Open source
-- **Limits:** Local use depends on hardware and chosen models; external model, embedding, or vector providers may have separate costs.
+- **Limits:** The framework is free; requires understanding of prompt optimization.
 - **License:** MIT
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/Mintplex-Labs/anything-llm)
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/stanfordnlp/dspy)
 
 **Caveats**
 
-- Privacy becomes provider-dependent when cloud model or embedding APIs are enabled.
+- Complex optimization process.
+- Requires understanding of DSPy concepts.
+
+## LlamaIndex
+
+A data framework for building LLM applications with support for data connectors, vector stores, and query engines.
+
+- **Best for:** Building RAG and LLM applications
+- **Free access:** Open source
+- **Limits:** The framework is free; managed services have separate pricing.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/run-llama/llama_index)
+
+**Caveats**
+
+- Requires API keys for external LLM providers.
+- Managed services have separate pricing.
+
+## Edge TTS
+
+A free text-to-speech service using Microsoft Edge's online TTS API with support for multiple voices and languages.
+
+- **Best for:** Free text-to-speech with natural voices
+- **Free access:** Free tier
+- **Limits:** Limited to available Microsoft Edge voices; requires internet connection.
+- **License:** GPL-3.0
+- **Privacy:** provider-processed
+- **Verified:** 2026-08-04 — [official source](https://github.com/rany2/edge-tts)
+
+**Caveats**
+
+- Requires internet connection.
+- Voices are limited to Microsoft Edge's selection.
 
 ## Faster Whisper
 
-An open-source Whisper implementation using CTranslate2 for faster and more memory-efficient local transcription with CPU and GPU execution.
+A fast implementation of OpenAI's Whisper model for speech recognition with CTranslate2 backend for optimized inference.
 
-- **Best for:** Efficient high-volume local transcription
+- **Best for:** Fast local speech recognition
 - **Free access:** Open source
-- **Limits:** Performance depends on model size, quantization, hardware, drivers, audio quality, and batch settings.
+- **Limits:** Performance depends on hardware; GPU acceleration recommended.
 - **License:** MIT
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/SYSTRAN/faster-whisper)
 
 **Caveats**
 
-- Accuracy still inherits Whisper model limitations.
-- Generated transcripts require factual and spelling review.
+- Requires GPU for optimal performance.
+- Model quality varies by size.
 
 ## OpenAI Whisper
 
-An open-source speech-recognition model and reference implementation for multilingual transcription, translation to English, and local audio processing.
+An open-source automatic speech recognition (ASR) system trained on 680,000 hours of multilingual data.
 
-- **Best for:** Accurate local multilingual transcription
+- **Best for:** Multilingual speech recognition
 - **Free access:** Open source
-- **Limits:** Speed and accuracy depend on model size, language, audio quality, CPU or GPU memory, and preprocessing.
+- **Limits:** Performance depends on hardware; larger models require more resources.
 - **License:** MIT
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/openai/whisper)
 
 **Caveats**
 
-- Transcripts can contain hallucinated words and require review.
-- Speaker diarization is not provided by the base project.
+- Requires GPU for optimal performance.
+- Larger models are slower but more accurate.
 
-## whisper.cpp
+## Pyannote Audio
 
-A C and C++ implementation of Whisper for local speech recognition and transcription across desktop, mobile, WebAssembly, and server environments.
+An open-source toolkit for speaker diarization, speech segmentation, and audio analysis with pre-trained models.
 
-- **Best for:** Offline speech-to-text and transcription
+- **Best for:** Speaker diarization and audio analysis
 - **Free access:** Open source
-- **Limits:** Transcription speed and accuracy depend on model size, language, audio quality, CPU, GPU support, and available memory.
+- **Limits:** Pre-trained models require GPU for optimal performance.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/ggml-org/whisper.cpp)
+- **Verified:** 2026-08-04 — [official source](https://github.com/pyannote/pyannote-audio)
 
 **Caveats**
 
-- You are responsible for consent and privacy when recording or transcribing people.
+- Requires GPU for optimal performance.
+- Some models require accepting terms of use.
+
+## whisper.cpp
+
+A high-performance C++ implementation of OpenAI's Whisper model for speech recognition with minimal dependencies.
+
+- **Best for:** Fast, lightweight speech recognition
+- **Free access:** Open source
+- **Limits:** Performance depends on hardware; optimized for CPU inference.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/ggerganov/whisper.cpp)
+
+**Caveats**
+
+- Requires compilation.
+- Larger models are slower but more accurate.
 
 ## Chroma
 
-An open-source search and retrieval database for AI applications with vector storage, metadata filtering, local development, and client-server deployment.
+An open-source embedding database for AI applications with support for vector search, metadata filtering, and document storage.
 
-- **Best for:** Simple local retrieval prototypes
+- **Best for:** Building RAG applications with vector search
 - **Free access:** Open source
-- **Limits:** Local use depends on storage and memory; embedding models, production scaling, backups, and managed services are separate concerns.
+- **Limits:** Performance depends on hardware; large collections may require more memory.
 - **License:** Apache-2.0
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/chroma-core/chroma)
 
 **Caveats**
 
-- Prototype convenience does not replace production capacity planning.
-- Embedding and generation services may process data externally.
+- Cloud hosted version has separate pricing.
+- Memory usage scales with collection size.
 
 ## Faiss
 
@@ -833,48 +903,48 @@ An open-source library for efficient similarity search and clustering of dense v
 
 ## Milvus
 
-An open-source cloud-native vector database designed for large-scale approximate-nearest-neighbor search, distributed storage, indexing, and high-throughput retrieval.
+An open-source vector database built for scalable similarity search and AI applications with support for trillion-level vectors.
 
-- **Best for:** Large-scale distributed vector workloads
+- **Best for:** Large-scale vector search and AI applications
 - **Free access:** Open source
-- **Limits:** Distributed deployments require substantial infrastructure, monitoring, backups, and operational expertise; managed services are separate.
+- **Limits:** Requires significant resources for large-scale deployments.
 - **License:** Apache-2.0
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/milvus-io/milvus)
 
 **Caveats**
 
-- It is heavier than embedded vector stores.
-- Benchmark with representative data and filters before choosing an index.
+- Complex deployment and configuration.
+- Cloud hosted version has separate pricing.
 
 ## Qdrant
 
-An open-source vector database and similarity-search engine with filtering, payload storage, distributed deployment, APIs, and official client libraries.
+An open-source vector similarity search engine with extended filtering support, written in Rust for high performance.
 
-- **Best for:** Production-ready semantic search and RAG storage
+- **Best for:** High-performance vector search with filtering
 - **Free access:** Open source
-- **Limits:** Self-hosting is limited by CPU, RAM, storage, replication needs, and operational expertise; managed cloud terms are separate.
+- **Limits:** Performance depends on hardware; cloud version has separate pricing.
 - **License:** Apache-2.0
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/qdrant/qdrant)
 
 **Caveats**
 
-- Embedding generation is not included.
-- Backups, access control, and monitoring remain your responsibility when self-hosted.
+- Cloud hosted version has separate pricing.
+- Requires Docker or manual compilation.
 
 ## Weaviate
 
-An open-source vector database combining vector search, structured filtering, object storage, multi-tenancy, replication, and cloud-native deployment.
+An open-source vector search engine for building AI applications with support for hybrid search, generative search, and multimodal data.
 
-- **Best for:** Structured and scalable vector search
+- **Best for:** Building AI apps with hybrid and generative search
 - **Free access:** Open source
-- **Limits:** Self-hosted scale depends on memory, storage, replicas, and operations; modules and managed cloud services may have separate terms.
+- **Limits:** Performance depends on hardware; cloud version has separate pricing.
 - **License:** BSD-3-Clause
-- **Privacy:** configurable
+- **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/weaviate/weaviate)
 
 **Caveats**
 
-- Plan schema, tenancy, backups, and upgrades before production.
-- External vectorization modules may send data to providers.
+- Cloud hosted version has separate pricing.
+- Requires Docker or Kubernetes for deployment.
