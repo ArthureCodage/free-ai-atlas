@@ -6,6 +6,15 @@ All notable project changes are documented here.
 
 - Add more verified resources and translations through reviewed contributions.
 
+## 0.3.0 — 2026-08-04
+
+- Add contributor profile and acknowledgements section.
+- Add category ownership system for volunteer curators.
+- Add evidence review queue and weekly review process.
+- Add translation workflow documentation.
+- Add monthly release notes template.
+- Improve contributor recognition and onboarding.
+
 ## 0.2.0 — 2026-08-04
 
 - Expand the evidence-backed catalog from 20 to 56 resources across 18 categories.
