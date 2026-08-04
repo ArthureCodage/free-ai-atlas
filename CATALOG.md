@@ -236,6 +236,38 @@ Google's hosted assistant provides standard access without an AI subscription, i
 
 - Feature and model availability varies by country, account type, and age.
 
+## Jan
+
+An open-source desktop application for running local AI chatbots with support for multiple LLM providers and a privacy-focused approach.
+
+- **Best for:** Private local AI chatbot
+- **Free access:** Open source
+- **Limits:** Performance depends on hardware and model selection.
+- **License:** AGPL-3.0
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/janhq/jan)
+
+**Caveats**
+
+- Limited model selection compared to cloud services.
+- Some features are in beta.
+
+## Msty
+
+A desktop application for running local AI chatbots with support for multiple LLM providers and a clean, modern interface.
+
+- **Best for:** Modern local AI chatbot interface
+- **Free access:** Free tier
+- **Limits:** Free for personal use; Pro version has additional features.
+- **License:** proprietary
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://msty.app)
+
+**Caveats**
+
+- Commercial use requires license.
+- Limited to supported platforms.
+
 ## Open WebUI
 
 A feature-rich, user-friendly web interface for interacting with local LLMs with support for multiple providers and chat history.
@@ -505,20 +537,37 @@ A cross-platform, high-performance ML inferencing and training accelerator compa
 - Requires model conversion to ONNX format.
 - Hardware acceleration requires specific providers.
 
+## Text Generation Inference (TGI)
+
+A production-ready inference solution for running LLMs with support for quantization, streaming, and continuous batching.
+
+- **Best for:** Production LLM inference
+- **Free access:** Open source
+- **Limits:** Requires GPU with sufficient VRAM for optimal performance.
+- **License:** Apache-2.0
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/text-generation-inference)
+
+**Caveats**
+
+- Complex setup for production deployments.
+- Requires GPU with sufficient VRAM.
+
 ## vLLM
 
-A high-throughput, memory-efficient inference and serving engine for language models, with an OpenAI-compatible API and production-oriented batching.
+A high-throughput and memory-efficient inference and serving engine for LLMs with continuous batching and paged attention.
 
-- **Best for:** Serving open models efficiently on GPUs
+- **Best for:** High-performance LLM serving
 - **Free access:** Open source
-- **Limits:** Practical use usually requires a compatible accelerator, sufficient VRAM, and careful model-specific configuration.
+- **Limits:** Requires GPU with sufficient VRAM for optimal performance.
 - **License:** Apache-2.0
 - **Privacy:** local
 - **Verified:** 2026-08-04 — [official source](https://github.com/vllm-project/vllm)
 
 **Caveats**
 
-- The engine license and the served model license are separate.
+- Complex setup for production deployments.
+- Requires GPU with sufficient VRAM.
 
 ## Hugging Face Agents Course
 
@@ -614,6 +663,22 @@ A free and open-source chatbot that runs locally on your computer with no data l
 - The application license does not replace model licenses.
 - Repository activity should be checked.
 
+## llama-cpp-python
+
+A Python binding for llama.cpp with support for OpenAI API compatibility and easy integration with Python projects.
+
+- **Best for:** Python integration for llama.cpp
+- **Free access:** Open source
+- **Limits:** Performance depends on hardware and model selection.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/abetlen/llama-cpp-python)
+
+**Caveats**
+
+- Requires compilation.
+- Model quality varies by size.
+
 ## llama.cpp
 
 A C++ library for running Meta's LLaMA and other large language models efficiently on CPU and GPU with quantization support.
@@ -629,6 +694,22 @@ A C++ library for running Meta's LLaMA and other large language models efficient
 
 - Requires compilation or pre-built binaries.
 - Model files have independent licenses.
+
+## LM Studio
+
+A desktop application for running local LLMs with a user-friendly interface and support for multiple model formats.
+
+- **Best for:** Easy local LLM hosting
+- **Free access:** Free tier
+- **Limits:** Free for personal use; commercial license required for business use.
+- **License:** proprietary
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://lmstudio.ai)
+
+**Caveats**
+
+- Commercial use requires license.
+- Limited model customization.
 
 ## LocalAI
 
@@ -694,6 +775,22 @@ A Python library for high-performance numerical computing with automatic differe
 - Steep learning curve.
 - Requires GPU/TPU for optimal performance.
 
+## Keras
+
+A high-level neural networks API with support for multiple backends including TensorFlow, JAX, and PyTorch.
+
+- **Best for:** Beginner-friendly deep learning
+- **Free access:** Open source
+- **Limits:** Performance depends on backend and hardware.
+- **License:** Apache-2.0
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/keras-team/keras)
+
+**Caveats**
+
+- Limited customization compared to lower-level frameworks.
+- Backend selection affects performance.
+
 ## MLflow
 
 An open-source platform for managing the end-to-end machine learning lifecycle with experiment tracking, model deployment, and registry.
@@ -709,6 +806,38 @@ An open-source platform for managing the end-to-end machine learning lifecycle w
 
 - Complex setup for production use.
 - Managed services have separate pricing.
+
+## PyTorch
+
+An open-source machine learning framework with dynamic computation graphs and strong GPU acceleration support.
+
+- **Best for:** Deep learning research and production
+- **Free access:** Open source
+- **Limits:** Performance depends on hardware; GPU acceleration recommended.
+- **License:** BSD-3-Clause
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/pytorch/pytorch)
+
+**Caveats**
+
+- Requires GPU for optimal performance.
+- Steep learning curve for beginners.
+
+## scikit-learn
+
+A machine learning library for Python with support for classification, regression, clustering, and model evaluation.
+
+- **Best for:** Classical machine learning in Python
+- **Free access:** Open source
+- **Limits:** Not optimized for deep learning; CPU-only.
+- **License:** BSD-3-Clause
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/scikit-learn/scikit-learn)
+
+**Caveats**
+
+- Not suitable for deep learning.
+- Limited GPU support.
 
 ## TensorFlow
 
@@ -742,20 +871,37 @@ A state-of-the-art machine learning library for PyTorch, TensorFlow, and JAX wit
 - Large library with complex API.
 - Model licenses vary by model.
 
-## Hugging Face Model Hub
+## Civitai
 
-A community platform for discovering, storing, downloading, and sharing model checkpoints that integrate with many machine-learning libraries.
+A platform for sharing and discovering AI art models, especially for Stable Diffusion with a community-driven approach.
 
-- **Best for:** Finding downloadable models and model cards
-- **Free access:** Freemium
-- **Limits:** Public discovery and many downloads are free; gated models, hosted inference, storage, and compute have separate rules and limits.
-- **License:** Variable or proprietary
-- **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://huggingface.co/docs/hub/en/models-the-hub)
+- **Best for:** Discovering AI art models
+- **Free access:** Free tier
+- **Limits:** Free tier has download limits; paid plans available.
+- **License:** varies
+- **Privacy:** provider-processed
+- **Verified:** 2026-08-04 — [official source](https://civitai.com)
 
 **Caveats**
 
-- Every repository can use a different license; 'available on Hugging Face' does not mean open source or commercially usable.
+- Requires account for full access.
+- Model licenses vary.
+
+## Hugging Face Hub
+
+A platform for hosting and sharing machine learning models, datasets, and spaces with a Python client library.
+
+- **Best for:** Discovering and sharing ML models
+- **Free access:** Free tier
+- **Limits:** Free tier has storage and compute limits; paid plans available.
+- **License:** Apache-2.0
+- **Privacy:** provider-processed
+- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/huggingface_hub)
+
+**Caveats**
+
+- Requires account for full access.
+- Some models have restricted licenses.
 
 ## DSPy
 
@@ -788,6 +934,54 @@ A data framework for building LLM applications with support for data connectors,
 
 - Requires API keys for external LLM providers.
 - Managed services have separate pricing.
+
+## AudioCraft
+
+A library for audio processing and generation with support for music, sound effects, and audio compression from Meta AI.
+
+- **Best for:** Music and audio generation
+- **Free access:** Open source
+- **Limits:** Requires GPU for optimal performance.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/facebookresearch/audiocraft)
+
+**Caveats**
+
+- Requires GPU for optimal performance.
+- Music generation can be slow.
+
+## Bark
+
+A transformer-based text-to-audio model capable of generating highly realistic multilingual speech with non-verbal sounds.
+
+- **Best for:** Realistic speech with non-verbal sounds
+- **Free access:** Open source
+- **Limits:** Requires GPU for optimal performance.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/suno-ai/bark)
+
+**Caveats**
+
+- Requires GPU for optimal performance.
+- Generation can be slow on CPU.
+
+## Coqui TTS
+
+An open-source text-to-speech library with support for multiple languages, voice cloning, and high-quality synthesis.
+
+- **Best for:** Custom text-to-speech with voice cloning
+- **Free access:** Open source
+- **Limits:** Performance depends on hardware; GPU recommended.
+- **License:** Apache-2.0
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/coqui-ai/TTS)
+
+**Caveats**
+
+- Requires GPU for optimal performance.
+- Voice cloning requires training data.
 
 ## Edge TTS
 
@@ -868,6 +1062,22 @@ A high-performance C++ implementation of OpenAI's Whisper model for speech recog
 
 - Requires compilation.
 - Larger models are slower but more accurate.
+
+## WhisperX
+
+An extended version of OpenAI's Whisper with word-level timestamps, speaker diarization, and improved accuracy.
+
+- **Best for:** Accurate speech recognition with timestamps
+- **Free access:** Open source
+- **Limits:** Requires GPU for optimal performance.
+- **License:** MIT
+- **Privacy:** local
+- **Verified:** 2026-08-04 — [official source](https://github.com/m-bain/whisperX)
+
+**Caveats**
+
+- Requires GPU for optimal performance.
+- Speaker diarization requires additional setup.
 
 ## Chroma
 
