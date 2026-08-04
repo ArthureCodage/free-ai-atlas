@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A verified atlas of AI tools, models, APIs, compute, and learning resources you can use for free.">
+  <meta name="theme-color" content="#0c1024">
+  <title>Free AI Atlas — Verified zero-cost AI</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to catalog</a>
+  <header class="hero">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Free AI Atlas home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Free AI Atlas</span>
+      </a>
+      <div class="nav-actions">
+        <button id="language-toggle" class="button button-quiet" type="button" aria-label="Passer au français">FR</button>
+        <a class="button button-quiet" href="../README.md" data-github-path="">GitHub</a>
+        <a class="button button-primary" href="../guides/start-here/README.md" data-github-path="guides/start-here/README.md">Start here</a>
+      </div>
+    </nav>
+
+    <section id="top" class="hero-content wrap">
+      <div class="eyebrow"><span class="pulse"></span><span data-i18n="eyebrow">Evidence before hype</span></div>
+      <h1 data-i18n="title">Build your AI stack for <em>$0</em>.</h1>
+      <p class="hero-copy" data-i18n="subtitle">A human-reviewable map of free AI tools, models, APIs, compute, and courses — with limits, privacy, licenses, and official sources.</p>
+      <div class="hero-stats" aria-label="Catalog statistics">
+        <div><strong id="resource-count">—</strong><span data-i18n="resources">verified resources</span></div>
+        <div><strong id="category-count">—</strong><span data-i18n="categories">useful categories</span></div>
+        <div><strong id="latest-verification">—</strong><span data-i18n="latest">latest verification</span></div>
+      </div>
+    </section>
+  </header>
+
+  <main id="catalog" class="wrap main-content">
+    <section class="principles" aria-labelledby="why-heading">
+      <div>
+        <p class="kicker" data-i18n="trustKicker">Trust model</p>
+        <h2 id="why-heading" data-i18n="trustTitle">Free should mean something.</h2>
+      </div>
+      <div class="principle-grid">
+        <article><span>01</span><h3 data-i18n="proofTitle">Official proof</h3><p data-i18n="proofCopy">Every claim links to provider documentation, pricing, or the official repository.</p></article>
+        <article><span>02</span><h3 data-i18n="limitsTitle">Real limits</h3><p data-i18n="limitsCopy">Accounts, cards, quotas, hardware, privacy, and licenses are visible before you commit.</p></article>
+        <article><span>03</span><h3 data-i18n="reviewTitle">Reviewed change</h3><p data-i18n="reviewCopy">Automation detects changes; material claims still require evidence review.</p></article>
+      </div>
+    </section>
+
+    <section aria-labelledby="catalog-heading">
+      <div class="section-heading">
+        <div>
+          <p class="kicker" data-i18n="exploreKicker">Explore</p>
+          <h2 id="catalog-heading" data-i18n="catalogTitle">Find the right free resource</h2>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+      </div>
+
+      <form class="filters" id="filters" role="search">
+        <label class="search-field">
+          <span class="sr-only" data-i18n="searchLabel">Search resources</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+          <input id="search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Search tools, use cases, or tags…" autocomplete="off">
+        </label>
+        <label><span data-i18n="categoryLabel">Category</span><select id="category"><option value="">All categories</option></select></label>
+        <label><span data-i18n="freeLabel">Free access</span><select id="free-type"><option value="">All types</option></select></label>
+        <label><span data-i18n="accessLabel">Access</span><select id="access"><option value="">Local and cloud</option></select></label>
+        <label><span data-i18n="levelLabel">Level</span><select id="difficulty"><option value="">Every level</option></select></label>
+        <label><span data-i18n="platformLabel">Platform</span><select id="platform"><option value="">Every platform</option></select></label>
+        <button id="reset" class="button button-reset" type="reset" data-i18n="reset">Reset filters</button>
+      </form>
+
+      <div id="cards" class="cards" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <span aria-hidden="true">⌁</span>
+        <h3 data-i18n="emptyTitle">No matching resources</h3>
+        <p data-i18n="emptyCopy">Try fewer filters or a broader search.</p>
+      </div>
+      <noscript><p class="empty-state">JavaScript is required for the filtered catalog. The complete Markdown catalog remains available in the repository.</p></noscript>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div><strong>Free AI Atlas</strong><p data-i18n="footerCopy">Useful at $0. Honest about the catch.</p></div>
+      <div class="footer-links"><a href="../CONTRIBUTING.md" data-github-path="CONTRIBUTING.md" data-i18n="contribute">Contribute</a><a href="../VERIFICATION.md" data-github-path="VERIFICATION.md" data-i18n="method">Verification method</a><a href="../CATALOG.md" data-github-path="CATALOG.md" data-i18n="fullCatalog">Full catalog</a></div>
+    </div>
+  </footer>
+</body>
+</html>

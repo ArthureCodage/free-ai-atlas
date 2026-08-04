@@ -1,0 +1,65 @@
+name: Daily source audit
+
+on:
+  schedule:
+    - cron: "17 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate catalog
+        run: python scripts/validate.py
+      - name: Audit official URLs
+        id: audit
+        continue-on-error: true
+        run: python scripts/audit_links.py --report reports/link-audit.json --summary reports/link-audit.md
+      - name: Check evidence-review age
+        id: freshness
+        continue-on-error: true
+        run: python scripts/stale_report.py --summary reports/stale-verification.md
+      - name: Upload audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-audit-${{ github.run_id }}
+          path: reports/
+          retention-days: 30
+      - name: Open or update audit issue
+        if: steps.audit.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          title="Daily source audit needs attention"
+          existing="$(gh issue list --state open --search "${title} in:title" --json number --jq '.[0].number // empty')"
+          if [[ -n "$existing" ]]; then
+            gh issue comment "$existing" --body-file reports/link-audit.md
+          else
+            gh issue create --title "$title" --body-file reports/link-audit.md
+          fi
+      - name: Open or update reverification issue
+        if: steps.freshness.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          title="Catalog entries need reverification"
+          existing="$(gh issue list --state open --search "${title} in:title" --json number --jq '.[0].number // empty')"
+          if [[ -n "$existing" ]]; then
+            gh issue comment "$existing" --body-file reports/stale-verification.md
+          else
+            gh issue create --title "$title" --body-file reports/stale-verification.md
+          fi
+      - name: Fail after reporting
+        if: steps.audit.outcome == 'failure' || steps.freshness.outcome == 'failure'
+        run: exit 1

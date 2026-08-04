@@ -1,0 +1,911 @@
+{
+  "meta": {
+    "resource_count": 20,
+    "category_count": 11,
+    "latest_verification": "2026-08-04"
+  },
+  "resources": [
+    {
+      "id": "gemini-api",
+      "name": "Gemini Developer API",
+      "description": "Google's developer API offers free input and output tokens on selected models with rate limits, plus access through Google AI Studio.",
+      "description_fr": "L’API de développement de Google offre gratuitement les jetons d’entrée et de sortie de certains modèles avec limites, ainsi que Google AI Studio.",
+      "best_for": "Building prototypes with a generous hosted API",
+      "best_for_fr": "Créer des prototypes avec une API hébergée généreuse",
+      "category": "api",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://ai.google.dev/",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "Only selected models and features have a free tier; quotas and feature availability vary by model and region.",
+      "limits_fr": "Seuls certains modèles et fonctions ont une offre gratuite; les quotas et la disponibilité varient selon le modèle et la région.",
+      "caveats": [
+        "The official pricing page states that free-tier content may be used to improve Google's products; review the current data terms."
+      ],
+      "caveats_fr": [
+        "La tarification officielle indique que le contenu de l’offre gratuite peut servir à améliorer les produits Google; consultez les conditions de données."
+      ],
+      "tags": [
+        "api",
+        "multimodal",
+        "google",
+        "ai-studio"
+      ],
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "type": "official-pricing",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "github-models",
+      "name": "GitHub Models",
+      "description": "A GitHub-hosted model catalog and playground for rate-limited prototyping, with SDK examples and access controlled by the user's GitHub plan and model tier.",
+      "description_fr": "Un catalogue et terrain d’essai de modèles hébergé par GitHub pour le prototypage limité, avec exemples SDK et accès selon le forfait et le modèle.",
+      "best_for": "Testing model APIs inside a GitHub workflow",
+      "best_for_fr": "Tester des API de modèles dans un flux GitHub",
+      "category": "api",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/marketplace/models",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "Free prototyping is rate-limited; limits vary by model, context size, request type, and Copilot plan.",
+      "limits_fr": "Le prototypage gratuit est limité; les plafonds varient selon le modèle, le contexte, la requête et le forfait Copilot.",
+      "caveats": [
+        "Model-specific licenses, acceptable-use policies, and preview conditions still apply."
+      ],
+      "caveats_fr": [
+        "Les licences des modèles, politiques d’utilisation et conditions de préversion s’appliquent toujours."
+      ],
+      "tags": [
+        "api",
+        "github",
+        "playground",
+        "prototyping"
+      ],
+      "source": {
+        "url": "https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "groq-api",
+      "name": "Groq API Free Plan",
+      "description": "A hosted inference API focused on fast responses, with model-specific free-plan request and token limits published in the official console documentation.",
+      "description_fr": "Une API d’inférence hébergée axée sur la rapidité, avec des limites gratuites de requêtes et de jetons propres à chaque modèle dans la documentation officielle.",
+      "best_for": "Fast experimentation with supported open models",
+      "best_for_fr": "Expérimenter rapidement avec les modèles ouverts pris en charge",
+      "category": "api",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://console.groq.com/",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "Limits are applied at organization level and vary by model across requests per minute/day and tokens per minute/day.",
+      "limits_fr": "Les limites s’appliquent à l’organisation et varient par modèle selon les requêtes et jetons par minute ou par jour.",
+      "caveats": [
+        "Exact limits shown in the account can differ from the public summary and may change."
+      ],
+      "caveats_fr": [
+        "Les limites exactes du compte peuvent différer du résumé public et être modifiées."
+      ],
+      "tags": [
+        "api",
+        "fast-inference",
+        "open-models",
+        "developer"
+      ],
+      "source": {
+        "url": "https://console.groq.com/docs/rate-limits",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "openrouter-free",
+      "name": "OpenRouter Free Models",
+      "description": "An OpenAI-compatible hosted API and chat interface that routes requests to a rotating collection of zero-cost models through free variants and a free-model router.",
+      "description_fr": "Une API hébergée compatible OpenAI et une interface de clavardage qui acheminent les requêtes vers une collection variable de modèles gratuits.",
+      "best_for": "Trying several hosted models through one API",
+      "best_for_fr": "Essayer plusieurs modèles hébergés avec une seule API",
+      "category": "api",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://openrouter.ai/models?pricing=free",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "The base free plan lists 25+ free models and 50 requests per day; model availability and provider capacity can change.",
+      "limits_fr": "L’offre gratuite de base annonce plus de 25 modèles et 50 requêtes par jour; les modèles et la capacité des fournisseurs peuvent changer.",
+      "caveats": [
+        "Free models are intended for experimentation and low-volume use, not reliable production workloads.",
+        "Data policies and licenses can differ by routed provider and model."
+      ],
+      "caveats_fr": [
+        "Les modèles gratuits visent l’expérimentation et les faibles volumes, pas une production fiable.",
+        "Les politiques de données et licences peuvent varier selon le fournisseur et le modèle sélectionnés."
+      ],
+      "tags": [
+        "api",
+        "free-models",
+        "openai-compatible",
+        "router"
+      ],
+      "source": {
+        "url": "https://openrouter.ai/pricing",
+        "type": "official-pricing",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "description": "A general-purpose hosted assistant with web search and limited access to files, data analysis, images, voice, and research features on the free plan.",
+      "description_fr": "Un assistant généraliste hébergé avec recherche web et accès limité aux fichiers, à l’analyse de données, aux images, à la voix et à la recherche dans l’offre gratuite.",
+      "best_for": "A first all-purpose AI assistant",
+      "best_for_fr": "Un premier assistant IA polyvalent",
+      "category": "assistant",
+      "free_type": "freemium",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "web",
+        "windows",
+        "macos"
+      ],
+      "homepage": "https://chatgpt.com/",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "The $0 plan includes limited access to advanced models and features; availability and caps can change.",
+      "limits_fr": "L’offre à 0 $ donne un accès limité aux modèles et fonctions avancés; la disponibilité et les plafonds peuvent changer.",
+      "caveats": [
+        "Do not upload sensitive data before reviewing the current data controls and terms."
+      ],
+      "caveats_fr": [
+        "Ne téléversez pas de données sensibles avant de consulter les contrôles de données et les conditions actuelles."
+      ],
+      "tags": [
+        "chat",
+        "multimodal",
+        "search",
+        "general-purpose"
+      ],
+      "source": {
+        "url": "https://openai.com/chatgpt/pricing",
+        "type": "official-pricing",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "description": "Anthropic's hosted assistant offers a free version for supported locations, with usage that is lower and more availability-dependent than paid plans.",
+      "description_fr": "L’assistant hébergé d’Anthropic offre une version gratuite dans les régions prises en charge, avec un usage plus limité et variable que les forfaits payants.",
+      "best_for": "Writing, analysis, and careful document work",
+      "best_for_fr": "La rédaction, l’analyse et le travail soigné sur des documents",
+      "category": "assistant",
+      "free_type": "freemium",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "web",
+        "windows",
+        "macos"
+      ],
+      "homepage": "https://claude.ai/",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "Free usage is session-limited and can vary with demand, conversation length, files, and model capacity.",
+      "limits_fr": "L’usage gratuit est limité par session et varie selon la demande, la longueur des conversations, les fichiers et la capacité du modèle.",
+      "caveats": [
+        "Claude API usage is separate and is not included with the consumer free plan."
+      ],
+      "caveats_fr": [
+        "L’utilisation de l’API Claude est distincte et n’est pas incluse avec l’offre grand public gratuite."
+      ],
+      "tags": [
+        "chat",
+        "writing",
+        "documents",
+        "analysis"
+      ],
+      "source": {
+        "url": "https://support.claude.com/en/articles/8325606-what-is-the-pro-plan",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "gemini-app",
+      "name": "Gemini",
+      "description": "Google's hosted assistant provides standard access without an AI subscription, including chat and selected multimodal features under compute-based limits.",
+      "description_fr": "L’assistant hébergé de Google fournit un accès standard sans abonnement IA, incluant le clavardage et certaines fonctions multimodales sous des limites basées sur le calcul.",
+      "best_for": "Google ecosystem users and multimodal exploration",
+      "best_for_fr": "Les utilisateurs de l’écosystème Google et l’exploration multimodale",
+      "category": "assistant",
+      "free_type": "freemium",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "web"
+      ],
+      "homepage": "https://gemini.google.com/",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "Standard limits are compute-based, refresh over time, and may change with testing, demand, and feature availability.",
+      "limits_fr": "Les limites standard dépendent du calcul, se renouvellent avec le temps et peuvent varier selon les essais, la demande et les fonctions disponibles.",
+      "caveats": [
+        "Feature and model availability varies by country, account type, and age."
+      ],
+      "caveats_fr": [
+        "Les fonctions et modèles disponibles varient selon le pays, le type de compte et l’âge."
+      ],
+      "tags": [
+        "chat",
+        "multimodal",
+        "google",
+        "research"
+      ],
+      "source": {
+        "url": "https://support.google.com/gemini/answer/16275805?hl=en",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "description": "An answer engine whose Standard free plan offers practically unlimited basic searches, search history, limited file uploads, and very limited Pro searches.",
+      "description_fr": "Un moteur de réponses dont l’offre Standard gratuite comprend des recherches de base pratiquement illimitées, l’historique, des fichiers limités et très peu de recherches Pro.",
+      "best_for": "Quick web research with visible sources",
+      "best_for_fr": "La recherche web rapide avec des sources visibles",
+      "category": "assistant",
+      "free_type": "freemium",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "web"
+      ],
+      "homepage": "https://www.perplexity.ai/",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "Basic searches are practically unlimited; Pro searches and file uploads are tightly limited on Standard.",
+      "limits_fr": "Les recherches de base sont pratiquement illimitées; les recherches Pro et les fichiers sont fortement limités dans l’offre Standard.",
+      "caveats": [
+        "Citations still need to be opened and checked; an attached source does not guarantee a correct answer."
+      ],
+      "caveats_fr": [
+        "Les références doivent tout de même être ouvertes et vérifiées; la présence d’une source ne garantit pas une réponse exacte."
+      ],
+      "tags": [
+        "search",
+        "research",
+        "citations",
+        "web"
+      ],
+      "source": {
+        "url": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "google-colab",
+      "name": "Google Colab",
+      "description": "A hosted Jupyter notebook environment requiring no setup, with free-of-charge access to compute that can include GPUs and TPUs when available.",
+      "description_fr": "Un environnement Jupyter hébergé sans configuration, avec accès gratuit à du calcul pouvant inclure des GPU et TPU selon la disponibilité.",
+      "best_for": "Learning and short notebook experiments without local setup",
+      "best_for_fr": "Apprendre et expérimenter dans des notebooks sans installation locale",
+      "category": "compute",
+      "free_type": "free-compute",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "web"
+      ],
+      "homepage": "https://colab.research.google.com/",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "Free resources are not guaranteed or unlimited; hardware, idle timeouts, maximum runtime, and usage caps fluctuate.",
+      "limits_fr": "Les ressources gratuites ne sont ni garanties ni illimitées; le matériel, l’inactivité, la durée maximale et les quotas fluctuent.",
+      "caveats": [
+        "The free managed runtime restricts remote-control and primarily web-UI-driven workloads, among other activities."
+      ],
+      "caveats_fr": [
+        "L’environnement gratuit limite notamment le contrôle à distance et les charges principalement pilotées par une interface web."
+      ],
+      "tags": [
+        "notebooks",
+        "gpu",
+        "tpu",
+        "jupyter"
+      ],
+      "source": {
+        "url": "https://research.google.com/colaboratory/faq.html",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "kaggle-notebooks",
+      "name": "Kaggle Notebooks",
+      "description": "A hosted notebook environment with free accelerator access for machine-learning work, integrated with Kaggle datasets, competitions, and community examples.",
+      "description_fr": "Un environnement de notebooks hébergé avec accélérateurs gratuits pour l’apprentissage automatique, intégré aux données, concours et exemples Kaggle.",
+      "best_for": "Structured GPU notebook practice and competitions",
+      "best_for_fr": "La pratique structurée sur GPU et les compétitions",
+      "category": "compute",
+      "free_type": "free-compute",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "web"
+      ],
+      "homepage": "https://www.kaggle.com/code",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "The official guide describes a weekly GPU quota around 30 hours or sometimes higher, depending on demand and resources.",
+      "limits_fr": "Le guide officiel décrit un quota GPU hebdomadaire d’environ 30 heures, parfois plus, selon la demande et les ressources.",
+      "caveats": [
+        "Accelerator type, quota, and availability can change; actively stop unused sessions."
+      ],
+      "caveats_fr": [
+        "Le type d’accélérateur, le quota et la disponibilité peuvent changer; arrêtez les sessions inutilisées."
+      ],
+      "tags": [
+        "notebooks",
+        "gpu",
+        "datasets",
+        "competitions"
+      ],
+      "source": {
+        "url": "https://www.kaggle.com/docs/efficient-gpu-usage",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "description": "A node-based interface, API, and backend for diffusion image workflows, offering detailed control over generation pipelines and reusable graphs.",
+      "description_fr": "Une interface à nœuds, une API et un moteur pour les flux de génération d’images par diffusion, avec contrôle détaillé et graphes réutilisables.",
+      "best_for": "Powerful local image-generation workflows",
+      "best_for_fr": "Des flux puissants de génération d’images locale",
+      "category": "image-generation",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/comfy-org/ComfyUI",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "GPL-3.0",
+      "limits": "Speed, resolution, and supported workflows depend heavily on GPU VRAM, system RAM, and the selected models.",
+      "limits_fr": "La vitesse, la résolution et les flux possibles dépendent fortement de la VRAM, de la RAM et des modèles sélectionnés.",
+      "caveats": [
+        "Custom nodes execute code on your machine; install only trusted extensions.",
+        "Generated-output rights depend on model licenses and applicable law."
+      ],
+      "caveats_fr": [
+        "Les nœuds personnalisés exécutent du code sur votre machine; installez uniquement des extensions fiables.",
+        "Les droits sur les résultats dépendent des licences des modèles et des lois applicables."
+      ],
+      "tags": [
+        "images",
+        "diffusion",
+        "nodes",
+        "workflows"
+      ],
+      "source": {
+        "url": "https://github.com/comfy-org/ComfyUI",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "vllm",
+      "name": "vLLM",
+      "description": "A high-throughput, memory-efficient inference and serving engine for language models, with an OpenAI-compatible API and production-oriented batching.",
+      "description_fr": "Un moteur d’inférence et de service à haut débit pour modèles de langage, avec API compatible OpenAI et traitement en lots orienté production.",
+      "best_for": "Serving open models efficiently on GPUs",
+      "best_for_fr": "Servir efficacement des modèles ouverts sur GPU",
+      "category": "inference-server",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/vllm-project/vllm",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "Apache-2.0",
+      "limits": "Practical use usually requires a compatible accelerator, sufficient VRAM, and careful model-specific configuration.",
+      "limits_fr": "L’usage pratique exige généralement un accélérateur compatible, assez de VRAM et une configuration adaptée au modèle.",
+      "caveats": [
+        "The engine license and the served model license are separate."
+      ],
+      "caveats_fr": [
+        "La licence du moteur et celle du modèle servi sont distinctes."
+      ],
+      "tags": [
+        "llm",
+        "serving",
+        "gpu",
+        "openai-compatible"
+      ],
+      "source": {
+        "url": "https://github.com/vllm-project/vllm",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "description": "A self-hosted chat and AI platform that can work offline with Ollama and OpenAI-compatible providers, including user management and RAG features.",
+      "description_fr": "Une plateforme de clavardage IA auto-hébergée pouvant fonctionner hors ligne avec Ollama et les fournisseurs compatibles OpenAI, avec utilisateurs et RAG.",
+      "best_for": "A polished shared interface for local models",
+      "best_for_fr": "Une interface soignée et partageable pour les modèles locaux",
+      "category": "interface",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "docker",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/open-webui/open-webui",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "configurable",
+      "license": "Open WebUI License",
+      "limits": "Self-hosted use is hardware-limited; cloud providers connected to it may charge separately or process submitted data.",
+      "limits_fr": "L’auto-hébergement est limité par le matériel; les fournisseurs cloud connectés peuvent facturer séparément ou traiter les données envoyées.",
+      "caveats": [
+        "Current releases include a branding-protection clause; read the full license before rebranding or redistribution.",
+        "Installing third-party tools or functions expands the security boundary."
+      ],
+      "caveats_fr": [
+        "Les versions actuelles incluent une clause de protection de la marque; lisez la licence avant toute redistribution ou modification de marque.",
+        "Les outils et fonctions tiers élargissent le périmètre de sécurité."
+      ],
+      "tags": [
+        "chat",
+        "self-hosted",
+        "ollama",
+        "rag"
+      ],
+      "source": {
+        "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "watch",
+      "confidence": "high"
+    },
+    {
+      "id": "hugging-face-llm-course",
+      "name": "Hugging Face LLM Course",
+      "description": "A free, ad-free course covering transformers, datasets, tokenizers, model sharing, fine-tuning, demos, dataset curation, and reasoning models.",
+      "description_fr": "Un cours gratuit et sans publicité sur les transformers, données, tokenizers, partage, fine-tuning, démos, curation et modèles de raisonnement.",
+      "best_for": "Developers progressing from LLM basics to fine-tuning",
+      "best_for_fr": "Les développeurs passant des bases des LLM au fine-tuning",
+      "category": "learning",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web"
+      ],
+      "homepage": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "provider-processed",
+      "license": "Apache-2.0",
+      "limits": "The course is free and self-paced; running exercises may require a local environment or a separate notebook service.",
+      "limits_fr": "Le cours est gratuit et autonome; les exercices peuvent exiger un environnement local ou un service de notebooks distinct.",
+      "caveats": [
+        "Good Python knowledge is expected, and an introductory deep-learning course is recommended first."
+      ],
+      "caveats_fr": [
+        "Une bonne connaissance de Python est attendue et un cours d’introduction au deep learning est recommandé auparavant."
+      ],
+      "tags": [
+        "course",
+        "llm",
+        "transformers",
+        "fine-tuning"
+      ],
+      "source": {
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "fastai-course",
+      "name": "Practical Deep Learning for Coders",
+      "description": "A free, example-first deep-learning course for people with coding experience, covering vision, NLP, tabular data, deployment, foundations, and diffusion.",
+      "description_fr": "Un cours gratuit et pratique de deep learning pour les personnes qui codent, couvrant vision, NLP, données tabulaires, déploiement, fondations et diffusion.",
+      "best_for": "Learning practical deep learning by building",
+      "best_for_fr": "Apprendre le deep learning pratique en construisant",
+      "category": "learning",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web"
+      ],
+      "homepage": "https://course.fast.ai/",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "depends",
+      "privacy": "provider-processed",
+      "license": null,
+      "limits": "Course material is free; hands-on work uses local or third-party notebook compute with its own limits.",
+      "limits_fr": "Le matériel du cours est gratuit; les exercices utilisent du calcul local ou des notebooks tiers avec leurs propres limites.",
+      "caveats": [
+        "The course expects coding experience, preferably Python, and basic high-school mathematics."
+      ],
+      "caveats_fr": [
+        "Le cours demande de l’expérience en programmation, idéalement Python, et les mathématiques du secondaire."
+      ],
+      "tags": [
+        "course",
+        "deep-learning",
+        "python",
+        "diffusion"
+      ],
+      "source": {
+        "url": "https://course.fast.ai/",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "description": "A dependency-light C and C++ inference engine for GGUF language models with CPU, GPU, hybrid offload, quantization, and an OpenAI-compatible server.",
+      "description_fr": "Un moteur d’inférence C et C++ léger pour modèles GGUF avec CPU, GPU, déchargement hybride, quantification et serveur compatible OpenAI.",
+      "best_for": "Maximum control and broad hardware support",
+      "best_for_fr": "Un contrôle maximal et une vaste compatibilité matérielle",
+      "category": "local-runtime",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "advanced",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://github.com/ggml-org/llama.cpp",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Performance and maximum model size depend on CPU features, RAM, GPU backend, VRAM, and quantization.",
+      "limits_fr": "Les performances et la taille maximale du modèle dépendent du CPU, de la RAM, du moteur GPU, de la VRAM et de la quantification.",
+      "caveats": [
+        "Model files have independent licenses and may impose additional restrictions."
+      ],
+      "caveats_fr": [
+        "Les fichiers de modèles ont des licences indépendantes qui peuvent imposer d’autres restrictions."
+      ],
+      "tags": [
+        "llm",
+        "gguf",
+        "quantization",
+        "server"
+      ],
+      "source": {
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "description": "A local model runner and API for downloading and using open models on Windows, macOS, Linux, and Docker with a compact command-line workflow.",
+      "description_fr": "Un moteur local et une API pour télécharger et utiliser des modèles ouverts sous Windows, macOS, Linux et Docker avec une interface en ligne de commande simple.",
+      "best_for": "The easiest path to a local LLM API",
+      "best_for_fr": "Le chemin le plus simple vers une API LLM locale",
+      "category": "local-runtime",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://ollama.com/",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Inference is limited by your RAM, VRAM, storage, electricity, and the license of each downloaded model.",
+      "limits_fr": "L’inférence est limitée par la RAM, la VRAM, le stockage, l’électricité et la licence de chaque modèle téléchargé.",
+      "caveats": [
+        "The Ollama software license does not replace the separate license attached to each model."
+      ],
+      "caveats_fr": [
+        "La licence du logiciel Ollama ne remplace pas la licence distincte de chaque modèle."
+      ],
+      "tags": [
+        "llm",
+        "local",
+        "api",
+        "gguf"
+      ],
+      "source": {
+        "url": "https://github.com/ollama/ollama",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "hugging-face-hub",
+      "name": "Hugging Face Model Hub",
+      "description": "A community platform for discovering, storing, downloading, and sharing model checkpoints that integrate with many machine-learning libraries.",
+      "description_fr": "Une plateforme communautaire pour découvrir, stocker, télécharger et partager des modèles intégrés à de nombreuses bibliothèques d’apprentissage automatique.",
+      "best_for": "Finding downloadable models and model cards",
+      "best_for_fr": "Trouver des modèles téléchargeables et leurs fiches",
+      "category": "model-hub",
+      "free_type": "freemium",
+      "access": "hybrid",
+      "difficulty": "intermediate",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://huggingface.co/models",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "configurable",
+      "license": null,
+      "limits": "Public discovery and many downloads are free; gated models, hosted inference, storage, and compute have separate rules and limits.",
+      "limits_fr": "La découverte publique et beaucoup de téléchargements sont gratuits; les modèles restreints, l’inférence, le stockage et le calcul ont des règles distinctes.",
+      "caveats": [
+        "Every repository can use a different license; 'available on Hugging Face' does not mean open source or commercially usable."
+      ],
+      "caveats_fr": [
+        "Chaque dépôt peut utiliser une licence différente; être disponible sur Hugging Face ne signifie pas être open source ni utilisable commercialement."
+      ],
+      "tags": [
+        "models",
+        "datasets",
+        "model-cards",
+        "community"
+      ],
+      "source": {
+        "url": "https://huggingface.co/docs/hub/en/models-the-hub",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "anythingllm",
+      "name": "AnythingLLM",
+      "description": "A local-first desktop and Docker application for chatting with documents, connecting local or cloud models, and building agent and RAG workflows.",
+      "description_fr": "Une application locale pour ordinateur et Docker permettant de discuter avec des documents, connecter des modèles locaux ou cloud et créer des flux RAG et agents.",
+      "best_for": "Private document chat with minimal setup",
+      "best_for_fr": "Discuter avec des documents privés avec peu de configuration",
+      "category": "rag",
+      "free_type": "open-source",
+      "access": "hybrid",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/Mintplex-Labs/anything-llm",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "configurable",
+      "license": "MIT",
+      "limits": "Local use depends on hardware and chosen models; external model, embedding, or vector providers may have separate costs.",
+      "limits_fr": "L’usage local dépend du matériel et des modèles; les fournisseurs externes de modèles, d’embeddings ou de vecteurs peuvent avoir leurs propres coûts.",
+      "caveats": [
+        "Privacy becomes provider-dependent when cloud model or embedding APIs are enabled."
+      ],
+      "caveats_fr": [
+        "La confidentialité dépend du fournisseur lorsque des API cloud de modèles ou d’embeddings sont activées."
+      ],
+      "tags": [
+        "rag",
+        "documents",
+        "agents",
+        "desktop"
+      ],
+      "source": {
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "whisper-cpp",
+      "name": "whisper.cpp",
+      "description": "A C and C++ implementation of Whisper for local speech recognition and transcription across desktop, mobile, WebAssembly, and server environments.",
+      "description_fr": "Une implémentation C et C++ de Whisper pour la reconnaissance vocale et la transcription locales sur ordinateur, mobile, WebAssembly et serveur.",
+      "best_for": "Offline speech-to-text and transcription",
+      "best_for_fr": "La transcription et la reconnaissance vocale hors ligne",
+      "category": "speech",
+      "free_type": "open-source",
+      "access": "local",
+      "difficulty": "intermediate",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "docker"
+      ],
+      "homepage": "https://github.com/ggml-org/whisper.cpp",
+      "account_required": false,
+      "card_required": false,
+      "commercial_use": "yes",
+      "privacy": "local",
+      "license": "MIT",
+      "limits": "Transcription speed and accuracy depend on model size, language, audio quality, CPU, GPU support, and available memory.",
+      "limits_fr": "La vitesse et la précision dépendent de la taille du modèle, de la langue, de l’audio, du CPU, du GPU et de la mémoire disponible.",
+      "caveats": [
+        "You are responsible for consent and privacy when recording or transcribing people."
+      ],
+      "caveats_fr": [
+        "Vous êtes responsable du consentement et de la confidentialité lors de l’enregistrement ou de la transcription de personnes."
+      ],
+      "tags": [
+        "speech-to-text",
+        "transcription",
+        "offline",
+        "whisper"
+      ],
+      "source": {
+        "url": "https://github.com/ggml-org/whisper.cpp",
+        "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    }
+  ]
+}

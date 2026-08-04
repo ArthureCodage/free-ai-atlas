@@ -1,0 +1,70 @@
+name: Propose a free AI resource
+description: Suggest a genuinely useful zero-cost tool, model, API, compute service, or course.
+title: "[Resource]: "
+labels: ["catalog", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Official evidence is required; affiliate and referral links are not accepted.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Official homepage
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: free-type
+    attributes:
+      label: Type of free access
+      options:
+        - Open-source software
+        - Ongoing hosted free tier
+        - Freemium product with a useful free plan
+        - Free hosted compute
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: What can a person accomplish without paying?
+      description: Describe a real task, not marketing language.
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Official evidence for the free offer
+      placeholder: Direct pricing, documentation, or repository license URL
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limits and catches
+      description: Include quotas, card/account requirements, hardware, privacy, and license concerns.
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure
+      options:
+        - label: I have disclosed below if I work for, own, or benefit from this resource.
+          required: true
+        - label: I did not use an affiliate or referral link.
+          required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship to the resource
+      placeholder: None, user, employee, founder, sponsor, or other relationship
+    validations:
+      required: true

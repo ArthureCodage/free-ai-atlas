@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://free-ai-atlas.example/schema/resource.schema.json",
+  "title": "Free AI Atlas resource",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "description",
+    "description_fr",
+    "best_for",
+    "best_for_fr",
+    "category",
+    "free_type",
+    "access",
+    "difficulty",
+    "platforms",
+    "homepage",
+    "account_required",
+    "card_required",
+    "commercial_use",
+    "privacy",
+    "license",
+    "limits",
+    "limits_fr",
+    "caveats",
+    "caveats_fr",
+    "tags",
+    "source",
+    "last_verified",
+    "status",
+    "confidence"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string", "minLength": 2},
+    "description": {"type": "string", "minLength": 20},
+    "description_fr": {"type": "string", "minLength": 20},
+    "best_for": {"type": "string", "minLength": 3},
+    "best_for_fr": {"type": "string", "minLength": 3},
+    "category": {
+      "type": "string",
+      "enum": ["assistant", "api", "compute", "image-generation", "inference-server", "interface", "learning", "local-runtime", "model-hub", "rag", "speech"]
+    },
+    "free_type": {"type": "string", "enum": ["free-tier", "freemium", "open-source", "free-compute"]},
+    "access": {"type": "string", "enum": ["cloud", "hybrid", "local"]},
+    "difficulty": {"type": "string", "enum": ["beginner", "intermediate", "advanced"]},
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "enum": ["web", "windows", "macos", "linux", "docker"]}
+    },
+    "homepage": {"type": "string", "format": "uri", "pattern": "^https://"},
+    "account_required": {"type": "boolean"},
+    "card_required": {"type": "boolean"},
+    "commercial_use": {"type": "string", "enum": ["yes", "no", "depends", "check-license"]},
+    "privacy": {"type": "string", "enum": ["local", "provider-processed", "configurable"]},
+    "license": {"type": ["string", "null"]},
+    "limits": {"type": "string", "minLength": 3},
+    "limits_fr": {"type": "string", "minLength": 3},
+    "caveats": {"type": "array", "items": {"type": "string", "minLength": 3}},
+    "caveats_fr": {"type": "array", "items": {"type": "string", "minLength": 3}},
+    "tags": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "type", "official"],
+      "properties": {
+        "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+        "type": {"type": "string", "enum": ["official-docs", "official-pricing", "official-repository"]},
+        "official": {"const": true}
+      }
+    },
+    "last_verified": {"type": "string", "format": "date"},
+    "status": {"type": "string", "enum": ["active", "watch", "deprecated"]},
+    "confidence": {"type": "string", "enum": ["high", "medium", "low"]}
+  }
+}

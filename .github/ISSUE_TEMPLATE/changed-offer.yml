@@ -1,0 +1,45 @@
+name: Report a changed free offer
+description: Report a changed quota, price, license, privacy rule, broken link, or discontinued resource.
+title: "[Change]: "
+labels: ["catalog", "needs-verification"]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What changed?
+      options:
+        - Free tier or price
+        - Usage limit or model availability
+        - License or commercial use
+        - Privacy or data handling
+        - Official link
+        - Product discontinued or abandoned
+        - Other material claim
+    validations:
+      required: true
+  - type: textarea
+    id: before-after
+    attributes:
+      label: Previous and current behavior
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Current official source
+      placeholder: https://official.example/pricing
+    validations:
+      required: true
+  - type: input
+    id: observed
+    attributes:
+      label: Date observed
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
