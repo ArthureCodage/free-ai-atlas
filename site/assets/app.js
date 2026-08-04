@@ -15,7 +15,7 @@ const translations = {
     categoryLabel: "Category", freeLabel: "Free access", accessLabel: "Access", levelLabel: "Level", platformLabel: "Platform", sortLabel: "Sort",
     sortName: "Name", sortNewest: "Newest verification", sortBeginner: "Beginner first", reset: "Reset filters",
     emptyTitle: "No matching resources", emptyCopy: "Try fewer filters or a broader search.",
-    footerCopy: "Useful at $0. Honest about the catch.", contribute: "Contribute", contributors: "Contributors", method: "Verification method", fullCatalog: "Full catalog",
+    footerCopy: "Useful at $0. Honest about the catch.", contribute: "Contribute", contributors: "Contributors", method: "Verification method", fullCatalog: "Full catalog", shareFilters: "Share filters",
     bestFor: "Best for", source: "Official source", verified: "Verified", details: "Details", compare: "Compare", close: "Close", clear: "Clear",
     compareTitle: "Compare resources", compareKicker: "Decision table", compareHeading: "Compare before you commit.",
     account: "Account required", card: "Payment card required", privacy: "Privacy", commercial: "Commercial use", license: "License", limitsField: "Limits", caveats: "Caveats",
@@ -38,7 +38,7 @@ const translations = {
     categoryLabel: "Catégorie", freeLabel: "Gratuité", accessLabel: "Accès", levelLabel: "Niveau", platformLabel: "Plateforme", sortLabel: "Trier",
     sortName: "Nom", sortNewest: "Vérification récente", sortBeginner: "Débutant d’abord", reset: "Réinitialiser",
     emptyTitle: "Aucune ressource correspondante", emptyCopy: "Essaie moins de filtres ou une recherche plus large.",
-    footerCopy: "Utile à 0 $. Honnête sur les limites.", contribute: "Contribuer", contributors: "Contributeurs", method: "Méthode de vérification", fullCatalog: "Catalogue complet",
+    footerCopy: "Utile à 0 $. Honnête sur les limites.", contribute: "Contribuer", contributors: "Contributeurs", method: "Méthode de vérification", fullCatalog: "Catalogue complet", shareFilters: "Partager les filtres",
     bestFor: "Idéal pour", source: "Source officielle", verified: "Vérifié", details: "Détails", compare: "Comparer", close: "Fermer", clear: "Effacer",
     compareTitle: "Comparer les ressources", compareKicker: "Tableau de décision", compareHeading: "Compare avant de choisir.",
     account: "Compte requis", card: "Carte de paiement requise", privacy: "Confidentialité", commercial: "Usage commercial", license: "Licence", limitsField: "Limites", caveats: "À savoir",
@@ -60,7 +60,80 @@ const valueLabels = {
   fr: {cloud: "Cloud", hybrid: "Hybride", local: "Local", beginner: "Débutant", intermediate: "Intermédiaire", advanced: "Avancé", configurable: "Configurable", "provider-processed": "Traité par le fournisseur", yes: "Oui", no: "Non", depends: "Ça dépend", "check-license": "Vérifier la licence"}
 };
 
-const state = {resources: [], language: localStorage.getItem("free-ai-atlas-language") || "en", preset: "", compare: new Set()};
+const state = {resources: [], language: localStorage.getItem("free-ai-atlas-language") || "en", preset: "", compare: new Set(), filters: {category: "", freeType: "", access: "", difficulty: "", platform: "", sort: "name", search: ""}};
+
+function encodeFiltersToHash() {
+  const params = new URLSearchParams();
+  if (state.filters.category) params.set("category", state.filters.category);
+  if (state.filters.freeType) params.set("freeType", state.filters.freeType);
+  if (state.filters.access) params.set("access", state.filters.access);
+  if (state.filters.difficulty) params.set("difficulty", state.filters.difficulty);
+  if (state.filters.platform) params.set("platform", state.filters.platform);
+  if (state.filters.sort && state.filters.sort !== "name") params.set("sort", state.filters.sort);
+  if (state.filters.search) params.set("q", state.filters.search);
+  if (state.preset) params.set("preset", state.preset);
+  const hash = params.toString();
+  if (hash) {
+    history.replaceState(null, "", "#" + hash);
+  } else {
+    history.replaceState(null, "", window.location.pathname + window.location.search);
+  }
+}
+
+function decodeFiltersFromHash() {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return;
+  const params = new URLSearchParams(hash);
+  if (params.has("category")) state.filters.category = params.get("category");
+  if (params.has("freeType")) state.filters.freeType = params.get("freeType");
+  if (params.has("access")) state.filters.access = params.get("access");
+  if (params.has("difficulty")) state.filters.difficulty = params.get("difficulty");
+  if (params.has("platform")) state.filters.platform = params.get("platform");
+  if (params.has("sort")) state.filters.sort = params.get("sort");
+  if (params.has("q")) state.filters.search = params.get("q");
+  if (params.has("preset")) state.preset = params.get("preset");
+}
+
+function syncFiltersToUI() {
+  if (elements.category) elements.category.value = state.filters.category;
+  if (elements.freeType) elements.freeType.value = state.filters.freeType;
+  if (elements.access) elements.access.value = state.filters.access;
+  if (elements.difficulty) elements.difficulty.value = state.filters.difficulty;
+  if (elements.platform) elements.platform.value = state.filters.platform;
+  if (elements.sort) elements.sort.value = state.filters.sort;
+  if (elements.search) elements.search.value = state.filters.search;
+  if (state.preset) {
+    document.querySelectorAll("[data-preset]").forEach(function (button) {
+      button.setAttribute("aria-pressed", String(button.dataset.preset === state.preset));
+    });
+  }
+}
+
+function syncFiltersFromUI() {
+  state.filters.category = elements.category ? elements.category.value : "";
+  state.filters.freeType = elements.freeType ? elements.freeType.value : "";
+  state.filters.access = elements.access ? elements.access.value : "";
+  state.filters.difficulty = elements.difficulty ? elements.difficulty.value : "";
+  state.filters.platform = elements.platform ? elements.platform.value : "";
+  state.filters.sort = elements.sort ? elements.sort.value : "name";
+  state.filters.search = elements.search ? elements.search.value.trim() : "";
+  encodeFiltersToHash();
+}
+
+function copyShareableURL() {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url).then(function () {
+    const t = translations[state.language];
+    const button = document.querySelector("#share-filters");
+    if (button) {
+      const originalText = button.textContent;
+      button.textContent = state.language === "fr" ? "Copié !" : "Copied!";
+      setTimeout(function () { button.textContent = originalText; }, 2000);
+    }
+  }).catch(function () {
+    prompt(state.language === "fr" ? "Copiez cette URL :" : "Copy this URL:", url);
+  });
+}
 const elements = {};
 const presetCategories = {
   builder: new Set(["api", "coding", "agents", "app-builder", "rag"]),
@@ -149,16 +222,17 @@ function matchesPreset(item) {
 }
 
 function render() {
-  const query = elements.search.value.trim().toLocaleLowerCase(state.language);
+  syncFiltersFromUI();
+  const query = state.filters.search.toLocaleLowerCase(state.language);
   const difficultyOrder = {beginner: 0, intermediate: 1, advanced: 2};
   const filtered = state.resources.filter(function (item) {
     const text = [item.name, item.description, item.description_fr, item.best_for, item.best_for_fr].concat(item.tags).join(" ").toLocaleLowerCase(state.language);
     return matchesPreset(item) && (!query || text.includes(query)) &&
-      (!elements.category.value || item.category === elements.category.value) &&
-      (!elements.freeType.value || item.free_type === elements.freeType.value) &&
-      (!elements.access.value || item.access === elements.access.value) &&
-      (!elements.difficulty.value || item.difficulty === elements.difficulty.value) &&
-      (!elements.platform.value || item.platforms.includes(elements.platform.value));
+      (!state.filters.category || item.category === state.filters.category) &&
+      (!state.filters.freeType || item.free_type === state.filters.freeType) &&
+      (!state.filters.access || item.access === state.filters.access) &&
+      (!state.filters.difficulty || item.difficulty === state.filters.difficulty) &&
+      (!state.filters.platform || item.platforms.includes(state.filters.platform));
   });
   filtered.sort(function (a, b) {
     if (elements.sort.value === "newest") return b.last_verified.localeCompare(a.last_verified) || a.name.localeCompare(b.name);
@@ -175,9 +249,11 @@ function setPreset(preset) {
   [elements.category, elements.freeType, elements.access, elements.difficulty, elements.platform].forEach(function (element) { element.value = ""; });
   elements.sort.value = "name";
   state.preset = preset;
-  if (preset === "beginner") elements.difficulty.value = "beginner";
-  if (preset === "private") elements.access.value = "local";
+  state.filters = {category: "", freeType: "", access: "", difficulty: "", platform: "", sort: "name", search: ""};
+  if (preset === "beginner") { elements.difficulty.value = "beginner"; state.filters.difficulty = "beginner"; }
+  if (preset === "private") { elements.access.value = "local"; state.filters.access = "local"; }
   document.querySelectorAll("[data-preset]").forEach(function (button) { button.setAttribute("aria-pressed", String(button.dataset.preset === preset)); });
+  encodeFiltersToHash();
   render();
   elements.cards.scrollIntoView({behavior: "smooth", block: "start"});
 }
@@ -285,9 +361,13 @@ async function init() {
     elements.filters.addEventListener("change", render);
     elements.filters.addEventListener("reset", function () {
       state.preset = "";
+      state.filters = {category: "", freeType: "", access: "", difficulty: "", platform: "", sort: "name", search: ""};
       document.querySelectorAll("[data-preset]").forEach(function (button) { button.setAttribute("aria-pressed", "false"); });
+      history.replaceState(null, "", window.location.pathname + window.location.search);
       setTimeout(render);
     });
+    decodeFiltersFromHash();
+    syncFiltersToUI();
     document.querySelectorAll("[data-preset]").forEach(function (button) { button.addEventListener("click", function () { setPreset(button.dataset.preset); }); });
     elements.cards.addEventListener("click", function (event) {
       const detailButton = event.target.closest("[data-details]");
@@ -301,6 +381,7 @@ async function init() {
       updateCompareTray();
     });
     elements.openCompare.addEventListener("click", showComparison);
+    document.querySelector("#share-filters").addEventListener("click", copyShareableURL);
     translatePage();
   } catch (error) {
     elements.empty.hidden = false;
