@@ -1,0 +1,51 @@
+name: Translate a resource or guide
+description: Help translate content to French or another language.
+title: "[Translation]: "
+labels: ["documentation", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help make Free AI Atlas accessible to more people by translating content.
+        
+        See [TRANSLATION.md](TRANSLATION.md) for guidelines.
+  - type: dropdown
+    id: language
+    attributes:
+      label: Target language
+      options:
+        - French (fr)
+        - Spanish (es)
+        - German (de)
+        - Japanese (ja)
+        - Chinese (zh)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: content-type
+    attributes:
+      label: Content type
+      options:
+        - Resource descriptions (data/resources/*.json)
+        - Documentation (README, guides)
+        - Site UI elements
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: What do you want to translate?
+      description: Describe the specific content you plan to translate.
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure
+      options:
+        - label: I am a native or fluent speaker of the target language.
+          required: true
+        - label: I have read the translation guidelines.
+          required: true

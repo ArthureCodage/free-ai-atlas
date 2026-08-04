@@ -1,0 +1,49 @@
+name: Review evidence for a resource
+description: Help verify that a resource's claims are still accurate.
+title: "[Review]: "
+labels: ["needs-verification", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help keep the catalog accurate by verifying resource claims.
+        
+        See [EVIDENCE_REVIEW.md](EVIDENCE_REVIEW.md) for the review process.
+  - type: input
+    id: resource
+    attributes:
+      label: Resource to review
+      placeholder: e.g., chatgpt, langchain, huggingface
+    validations:
+      required: true
+  - type: textarea
+    id: claims
+    attributes:
+      label: What claims did you verify?
+      description: List the specific claims you checked (free tier, limits, privacy, etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to the official source you used to verify the claims.
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Verification status
+      options:
+        - Claims are still accurate
+        - Claims have changed (please describe below)
+        - Could not verify (please explain below)
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: What changed?
+      description: If claims changed, describe what changed and provide new evidence.
+    validations:
+      required: false
