@@ -2,12 +2,12 @@
 
 This file is generated from the catalog source records.
 
-- **Resources:** 56
+- **Resources:** 60
 - **Latest verification:** 2026-08-04
-- **Open source:** 43
-- **Local-first:** 17
-- **No account required:** 46
-- **High confidence:** 56
+- **Open source:** 46
+- **Local-first:** 42
+- **No account required:** 50
+- **High confidence:** 60
 
 ## Categories
 
@@ -16,20 +16,19 @@ This file is generated from the catalog source records.
 | agents | 4 |
 | api | 4 |
 | app-builder | 3 |
-| assistant | 4 |
+| assistant | 6 |
 | coding | 4 |
 | compute | 2 |
 | dataset | 1 |
-| evaluation | 4 |
-| image-generation | 3 |
-| inference-server | 3 |
-| interface | 1 |
+| evaluation | 3 |
+| image-generation | 4 |
+| inference-server | 2 |
 | learning | 5 |
 | local-runtime | 4 |
-| ml-framework | 4 |
+| ml-framework | 5 |
 | model-hub | 1 |
-| rag | 1 |
-| speech | 3 |
+| rag | 2 |
+| speech | 5 |
 | vector-database | 5 |
 
 ## Free access
@@ -37,22 +36,22 @@ This file is generated from the catalog source records.
 | Value | Resources |
 |---|---:|
 | free-compute | 2 |
-| free-tier | 6 |
+| free-tier | 7 |
 | freemium | 5 |
-| open-source | 43 |
+| open-source | 46 |
 
 ## Access
 
 | Value | Resources |
 |---|---:|
-| cloud | 15 |
-| hybrid | 24 |
-| local | 17 |
+| cloud | 16 |
+| hybrid | 2 |
+| local | 42 |
 
 ## Difficulty
 
 | Value | Resources |
 |---|---:|
-| advanced | 14 |
-| beginner | 15 |
-| intermediate | 27 |
+| advanced | 8 |
+| beginner | 17 |
+| intermediate | 35 |
