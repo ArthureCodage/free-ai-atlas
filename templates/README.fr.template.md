@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="README.md">English</a> ·
+  <a href="https://arthurecodage.github.io/free-ai-atlas/">Explorer l’atlas en ligne</a> ·
   <a href="CATALOG.fr.md">Catalogue complet</a> ·
   <a href="guides/start-here/README.fr.md">Commencer ici</a> ·
   <a href="CONTRIBUTING.md">Contribuer</a>
@@ -41,7 +42,9 @@ Chaque fiche explique ce que « gratuit » signifie réellement, les limites, la
 | Générer des images localement | [Stack génération d’images](stacks/image-generation.md) |
 | Discuter avec des documents privés | [Stack RAG et documents](stacks/rag-and-documents.md) |
 | Apprendre depuis le début | [Parcours d’apprentissage](guides/start-here/README.fr.md) |
-| Tout comparer | [Catalogue complet](CATALOG.fr.md) ou `site/index.html` |
+| Comparer les outils côte à côte | [Ouvre l’atlas en ligne](https://arthurecodage.github.io/free-ai-atlas/) |
+| Exploiter les données du catalogue | Utilise les exports [JSON/CSV](DATA.md) |
+| Inspecter la couverture | Ouvre le [tableau de santé du catalogue](STATS.md) |
 
 ## Signification des statuts
 
@@ -80,6 +83,8 @@ Ouvre ensuite <http://localhost:8000/site/>.
 Une nouvelle ressource ou une limite modifiée? Utilise le formulaire d’issue correspondant. Pour une pull request, modifie un fichier dans `data/resources/`, exécute les vérifications et joins une source officielle.
 
 Consulte [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md) et le [Code de conduite](CODE_OF_CONDUCT.md).
+
+Consulte aussi la [feuille de route](ROADMAP.md), le guide des [données structurées](DATA.md) et la [santé du catalogue](STATS.md) pour voir les priorités et les besoins.
 
 ## Périmètre
 

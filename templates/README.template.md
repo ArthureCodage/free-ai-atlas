@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="README.fr.md">Français</a> ·
+  <a href="https://arthurecodage.github.io/free-ai-atlas/">Explore the live atlas</a> ·
   <a href="CATALOG.md">Full catalog</a> ·
   <a href="guides/start-here/README.md">Start here</a> ·
   <a href="CONTRIBUTING.md">Contribute</a>
@@ -41,7 +42,9 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | Generate images locally | [Image generation stack](stacks/image-generation.md) |
 | Chat with private documents | [RAG and documents stack](stacks/rag-and-documents.md) |
 | Learn AI from the beginning | [Learning path](guides/start-here/README.md#learn-the-foundations) |
-| Compare everything | [Full catalog](CATALOG.md) or open `site/index.html` |
+| Compare tools side by side | [Open the live atlas](https://arthurecodage.github.io/free-ai-atlas/) |
+| Build on the catalog data | Use the public [JSON/CSV exports](DATA.md) |
+| Inspect catalog coverage | Open the generated [catalog health dashboard](STATS.md) |
 
 ## What the labels mean
 
@@ -82,6 +85,8 @@ Then visit <http://localhost:8000/site/>.
 Found a new free resource or a changed limit? Open the matching issue form. For pull requests, edit one file in `data/resources/`, run the checks, and include an official source.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+See the public [roadmap](ROADMAP.md), [machine-readable data guide](DATA.md), and [catalog health](STATS.md) to understand where the project is going and where help matters most.
 
 ## Scope
 
