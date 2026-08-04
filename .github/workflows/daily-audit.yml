@@ -13,8 +13,8 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Validate catalog
@@ -29,7 +29,7 @@ jobs:
         run: python scripts/stale_report.py --summary reports/stale-verification.md
       - name: Upload audit evidence
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: source-audit-${{ github.run_id }}
           path: reports/
