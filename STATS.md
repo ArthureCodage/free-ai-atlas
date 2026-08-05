@@ -2,12 +2,12 @@
 
 This file is generated from the catalog source records.
 
-- **Resources:** 73
+- **Resources:** 75
 - **Latest verification:** 2026-08-04
 - **Open source:** 56
 - **Local-first:** 54
 - **No account required:** 61
-- **High confidence:** 73
+- **High confidence:** 75
 
 ## Categories
 
@@ -28,7 +28,7 @@ This file is generated from the catalog source records.
 | ml-framework | 8 |
 | model-hub | 2 |
 | rag | 2 |
-| speech | 9 |
+| speech | 11 |
 | vector-database | 5 |
 
 ## Free access
@@ -36,7 +36,7 @@ This file is generated from the catalog source records.
 | Value | Resources |
 |---|---:|
 | free-compute | 2 |
-| free-tier | 11 |
+| free-tier | 13 |
 | freemium | 4 |
 | open-source | 56 |
 
@@ -44,7 +44,7 @@ This file is generated from the catalog source records.
 
 | Value | Resources |
 |---|---:|
-| cloud | 18 |
+| cloud | 20 |
 | hybrid | 1 |
 | local | 54 |
 
@@ -53,5 +53,5 @@ This file is generated from the catalog source records.
 | Value | Resources |
 |---|---:|
 | advanced | 9 |
-| beginner | 24 |
+| beginner | 26 |
 | intermediate | 40 |

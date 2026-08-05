@@ -999,6 +999,22 @@ Un service gratuit de synthèse vocale utilisant l'API TTS en ligne de Microsoft
 - Nécessite une connexion Internet.
 - Les voix sont limitées à la sélection de Microsoft Edge.
 
+## ElevenLabs
+
+Un service de synthèse vocale gratuit avec une synthèse de voix très réaliste et support pour plusieurs langues.
+
+- **Idéal pour:** Synthèse vocale de haute qualité avec tier gratuit
+- **Gratuité:** Offre gratuite
+- **Limites:** Le tier gratuit est limité à 10 000 caractères par mois; des plans payants disponibles.
+- **Licence:** proprietary
+- **Confidentialité:** provider-processed
+- **Vérifié:** 2026-08-04 — [source officielle](https://elevenlabs.io)
+
+**À savoir**
+
+- Nécessite un compte pour l'accès.
+- Le tier gratuit a des limites de caractères.
+
 ## Faster Whisper
 
 Une implémentation rapide du modèle Whisper d'OpenAI pour la reconnaissance vocale avec backend CTranslate2 pour une inférence optimisée.
@@ -1030,6 +1046,22 @@ Un système open source de reconnaissance vocale automatique (ASR) entraîné su
 
 - Nécessite un GPU pour des performances optimales.
 - Les grands modèles sont plus lents mais plus précis.
+
+## PlayHT
+
+Un service de synthèse vocale gratuit avec une synthèse de voix de haute qualité et support pour plusieurs langues et le clonage de voix.
+
+- **Idéal pour:** Synthèse vocale avec clonage de voix
+- **Gratuité:** Offre gratuite
+- **Limites:** Le tier gratuit est limité à 12 500 caractères par mois; des plans payants disponibles.
+- **Licence:** proprietary
+- **Confidentialité:** provider-processed
+- **Vérifié:** 2026-08-04 — [source officielle](https://play.ht)
+
+**À savoir**
+
+- Nécessite un compte pour l'accès.
+- Le tier gratuit a des limites de caractères.
 
 ## Pyannote Audio
 

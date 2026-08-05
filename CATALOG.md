@@ -999,6 +999,22 @@ A free text-to-speech service using Microsoft Edge's online TTS API with support
 - Requires internet connection.
 - Voices are limited to Microsoft Edge's selection.
 
+## ElevenLabs
+
+A free tier text-to-speech service with highly realistic voice synthesis and support for multiple languages.
+
+- **Best for:** High-quality text-to-speech with free tier
+- **Free access:** Free tier
+- **Limits:** Free tier limited to 10,000 characters per month; paid plans available.
+- **License:** proprietary
+- **Privacy:** provider-processed
+- **Verified:** 2026-08-04 — [official source](https://elevenlabs.io)
+
+**Caveats**
+
+- Requires account for access.
+- Free tier has character limits.
+
 ## Faster Whisper
 
 A fast implementation of OpenAI's Whisper model for speech recognition with CTranslate2 backend for optimized inference.
@@ -1030,6 +1046,22 @@ An open-source automatic speech recognition (ASR) system trained on 680,000 hour
 
 - Requires GPU for optimal performance.
 - Larger models are slower but more accurate.
+
+## PlayHT
+
+A free tier text-to-speech service with high-quality voice synthesis and support for multiple languages and voice cloning.
+
+- **Best for:** Text-to-speech with voice cloning
+- **Free access:** Free tier
+- **Limits:** Free tier limited to 12,500 characters per month; paid plans available.
+- **License:** proprietary
+- **Privacy:** provider-processed
+- **Verified:** 2026-08-04 — [official source](https://play.ht)
+
+**Caveats**
+
+- Requires account for access.
+- Free tier has character limits.
 
 ## Pyannote Audio
 

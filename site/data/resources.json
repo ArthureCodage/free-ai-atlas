@@ -1,12 +1,12 @@
 {
   "meta": {
-    "resource_count": 73,
+    "resource_count": 75,
     "category_count": 17,
     "latest_verification": "2026-08-04",
     "open_source_count": 56,
     "local_count": 54,
     "no_account_count": 61,
-    "high_confidence_count": 73
+    "high_confidence_count": 75
   },
   "resources": [
     {
@@ -2946,6 +2946,53 @@
       "confidence": "high"
     },
     {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "A free tier text-to-speech service with highly realistic voice synthesis and support for multiple languages.",
+      "description_fr": "Un service de synthèse vocale gratuit avec une synthèse de voix très réaliste et support pour plusieurs langues.",
+      "best_for": "High-quality text-to-speech with free tier",
+      "best_for_fr": "Synthèse vocale de haute qualité avec tier gratuit",
+      "category": "speech",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://elevenlabs.io",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "provider-processed",
+      "license": "proprietary",
+      "limits": "Free tier limited to 10,000 characters per month; paid plans available.",
+      "limits_fr": "Le tier gratuit est limité à 10 000 caractères par mois; des plans payants disponibles.",
+      "caveats": [
+        "Requires account for access.",
+        "Free tier has character limits."
+      ],
+      "caveats_fr": [
+        "Nécessite un compte pour l'accès.",
+        "Le tier gratuit a des limites de caractères."
+      ],
+      "tags": [
+        "speech",
+        "tts",
+        "realistic",
+        "cloud"
+      ],
+      "source": {
+        "url": "https://elevenlabs.io",
+        "type": "official-docs",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
       "id": "faster-whisper",
       "name": "Faster Whisper",
       "description": "A fast implementation of OpenAI's Whisper model for speech recognition with CTranslate2 backend for optimized inference.",
@@ -3033,6 +3080,53 @@
       "source": {
         "url": "https://github.com/openai/whisper",
         "type": "official-repository",
+        "official": true
+      },
+      "last_verified": "2026-08-04",
+      "status": "active",
+      "confidence": "high"
+    },
+    {
+      "id": "playht",
+      "name": "PlayHT",
+      "description": "A free tier text-to-speech service with high-quality voice synthesis and support for multiple languages and voice cloning.",
+      "description_fr": "Un service de synthèse vocale gratuit avec une synthèse de voix de haute qualité et support pour plusieurs langues et le clonage de voix.",
+      "best_for": "Text-to-speech with voice cloning",
+      "best_for_fr": "Synthèse vocale avec clonage de voix",
+      "category": "speech",
+      "free_type": "free-tier",
+      "access": "cloud",
+      "difficulty": "beginner",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "homepage": "https://play.ht",
+      "account_required": true,
+      "card_required": false,
+      "commercial_use": "check-license",
+      "privacy": "provider-processed",
+      "license": "proprietary",
+      "limits": "Free tier limited to 12,500 characters per month; paid plans available.",
+      "limits_fr": "Le tier gratuit est limité à 12 500 caractères par mois; des plans payants disponibles.",
+      "caveats": [
+        "Requires account for access.",
+        "Free tier has character limits."
+      ],
+      "caveats_fr": [
+        "Nécessite un compte pour l'accès.",
+        "Le tier gratuit a des limites de caractères."
+      ],
+      "tags": [
+        "speech",
+        "tts",
+        "voice-cloning",
+        "cloud"
+      ],
+      "source": {
+        "url": "https://play.ht",
+        "type": "official-docs",
         "official": true
       },
       "last_verified": "2026-08-04",
