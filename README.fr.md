@@ -17,7 +17,7 @@
 <p align="center">
   <img alt="Ressources" src="https://img.shields.io/badge/ressources-75-7c5cff">
   <img alt="Catégories" src="https://img.shields.io/badge/catégories-17-19c6a3">
-  <img alt="Dernière vérification" src="https://img.shields.io/badge/dernière%20vérification-2026-08-04-f4b942">
+  <img alt="Dernière vérification" src="https://img.shields.io/badge/dernière%20vérification-2026-08-07-f4b942">
   <img alt="Licence du contenu CC0" src="https://img.shields.io/badge/données%20%26%20contenu-CC0-0b7285">
   <img alt="Licence du code MIT" src="https://img.shields.io/badge/code-MIT-0b7285">
 </p>
@@ -123,7 +123,7 @@ Chaque fiche explique ce que « gratuit » signifie réellement, les limites, la
 | [ElevenLabs](https://elevenlabs.io) | speech | Offre gratuite | cloud | beginner | 2026-08-04 |
 | [Faster Whisper](https://github.com/SYSTRAN/faster-whisper) | speech | Open source | local | intermediate | 2026-08-04 |
 | [OpenAI Whisper](https://github.com/openai/whisper) | speech | Open source | local | intermediate | 2026-08-04 |
-| [PlayHT](https://play.ht) | speech | Offre gratuite | cloud | beginner | 2026-08-04 |
+| [PlayHT](https://play.ht) | speech | Offre gratuite | cloud | beginner | 2026-08-07 |
 | [Pyannote Audio](https://github.com/pyannote/pyannote-audio) | speech | Open source | local | intermediate | 2026-08-04 |
 | [whisper.cpp](https://github.com/ggerganov/whisper.cpp) | speech | Open source | local | intermediate | 2026-08-04 |
 | [WhisperX](https://github.com/m-bain/whisperX) | speech | Open source | local | intermediate | 2026-08-04 |

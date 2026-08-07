@@ -1056,10 +1056,11 @@ A free tier text-to-speech service with high-quality voice synthesis and support
 - **Limits:** Free tier limited to 12,500 characters per month; paid plans available.
 - **License:** proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://play.ht)
+- **Verified:** 2026-08-07 — [official source](https://play.ht)
 
 **Caveats**
 
+- Service permanently shut down in December 2025.
 - Requires account for access.
 - Free tier has character limits.
 
