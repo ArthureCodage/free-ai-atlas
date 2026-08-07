@@ -1056,10 +1056,11 @@ Un service de synthèse vocale gratuit avec une synthèse de voix de haute quali
 - **Limites:** Le tier gratuit est limité à 12 500 caractères par mois; des plans payants disponibles.
 - **Licence:** proprietary
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://play.ht)
+- **Vérifié:** 2026-08-07 — [source officielle](https://play.ht)
 
 **À savoir**
 
+- Le service a été définitivement fermé en décembre 2025.
 - Nécessite un compte pour l'accès.
 - Le tier gratuit a des limites de caractères.
 

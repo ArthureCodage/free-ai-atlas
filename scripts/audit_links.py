@@ -79,6 +79,8 @@ def main() -> int:
 
     jobs: list[tuple[str, str, str]] = []
     for item in load_resources():
+        if item.get("status") == "deprecated":
+            continue
         jobs.append((item["id"], "homepage", item["homepage"]))
         if item["source"]["url"] != item["homepage"]:
             jobs.append((item["id"], "source", item["source"]["url"]))

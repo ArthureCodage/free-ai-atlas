@@ -18,11 +18,11 @@
   "license": "proprietary",
   "limits": "Free tier limited to 12,500 characters per month; paid plans available.",
   "limits_fr": "Le tier gratuit est limité à 12 500 caractères par mois; des plans payants disponibles.",
-  "caveats": ["Requires account for access.", "Free tier has character limits."],
-  "caveats_fr": ["Nécessite un compte pour l'accès.", "Le tier gratuit a des limites de caractères."],
+  "caveats": ["Service permanently shut down in December 2025.", "Requires account for access.", "Free tier has character limits."],
+  "caveats_fr": ["Le service a été définitivement fermé en décembre 2025.", "Nécessite un compte pour l'accès.", "Le tier gratuit a des limites de caractères."],
   "tags": ["speech", "tts", "voice-cloning", "cloud"],
   "source": {"url": "https://play.ht", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
-  "status": "active",
+  "last_verified": "2026-08-07",
+  "status": "deprecated",
   "confidence": "high"
 }

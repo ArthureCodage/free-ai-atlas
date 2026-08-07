@@ -3,7 +3,7 @@
 This file is generated from the catalog source records.
 
 - **Resources:** 75
-- **Latest verification:** 2026-08-04
+- **Latest verification:** 2026-08-07
 - **Open source:** 56
 - **Local-first:** 54
 - **No account required:** 61

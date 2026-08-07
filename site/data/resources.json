@@ -2,7 +2,7 @@
   "meta": {
     "resource_count": 75,
     "category_count": 17,
-    "latest_verification": "2026-08-04",
+    "latest_verification": "2026-08-07",
     "open_source_count": 56,
     "local_count": 54,
     "no_account_count": 61,
@@ -3111,10 +3111,12 @@
       "limits": "Free tier limited to 12,500 characters per month; paid plans available.",
       "limits_fr": "Le tier gratuit est limité à 12 500 caractères par mois; des plans payants disponibles.",
       "caveats": [
+        "Service permanently shut down in December 2025.",
         "Requires account for access.",
         "Free tier has character limits."
       ],
       "caveats_fr": [
+        "Le service a été définitivement fermé en décembre 2025.",
         "Nécessite un compte pour l'accès.",
         "Le tier gratuit a des limites de caractères."
       ],
@@ -3129,8 +3131,8 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-08-04",
-      "status": "active",
+      "last_verified": "2026-08-07",
+      "status": "deprecated",
       "confidence": "high"
     },
     {
