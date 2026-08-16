@@ -1,0 +1,55 @@
+{
+  "id": "zero-to-ai",
+  "name": "Zero to AI",
+  "description": "A free open-source AI and machine-learning curriculum with 950+ hands-on Jupyter notebooks covering Python, data science, deep learning, LLMs, RAG, AI agents, prompt engineering, fine-tuning, MLOps, evaluation, and advanced AI topics.",
+  "description_fr": "Un programme gratuit et open source d’apprentissage de l’IA et de l’apprentissage automatique avec plus de 950 notebooks Jupyter pratiques couvrant Python, la science des données, le deep learning, les LLM, le RAG, les agents IA, l’ingénierie des prompts, le fine-tuning, le MLOps, l’évaluation et des sujets avancés en IA.",
+  "best_for": "Learning AI and machine learning from Python fundamentals through advanced AI systems",
+  "best_for_fr": "Apprendre l’IA et l’apprentissage automatique, des bases de Python jusqu’aux systèmes d’IA avancés",
+  "category": "learning",
+  "free_type": "open-source",
+  "access": "cloud",
+  "difficulty": "beginner",
+  "platforms": [
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "homepage": "https://zero-to-ai.dev/",
+  "provider_processed": "Pavan Mudigonda",
+  "account_required": false,
+  "card_required": false,
+  "commercial_use": "yes",
+  "privacy": "unknown",
+  "license": "MIT",
+  "limits": "The curriculum is free to access without an account or credit card. Optional Google or GitHub sign-in is available to sync course progress. Every notebook can run in the browser through Pyodide, while heavier workloads such as fine-tuning and large-model inference may require additional compute or external services such as Google Colab or Kaggle.",
+  "limits_fr": "Le programme est accessible gratuitement sans compte ni carte bancaire. Une connexion facultative avec Google ou GitHub permet de synchroniser la progression du cours. Chaque notebook peut être exécuté dans le navigateur avec Pyodide, tandis que les tâches plus lourdes comme le fine-tuning et l’inférence de grands modèles peuvent nécessiter des ressources de calcul supplémentaires ou des services externes tels que Google Colab ou Kaggle.",
+  "caveats": [
+    "An account is optional for learning but can be used to sync course progress with Google or GitHub.",
+    "Some advanced notebooks require additional compute and may use external services such as Google Colab or Kaggle.",
+    "The curriculum is actively evolving and some later phases are still being developed."
+  ],
+  "caveats_fr": [
+    "Un compte est facultatif pour apprendre, mais peut être utilisé pour synchroniser la progression du cours avec Google ou GitHub.",
+    "Certains notebooks avancés nécessitent des ressources de calcul supplémentaires et peuvent utiliser des services externes comme Google Colab ou Kaggle.",
+    "Le programme évolue encore et certaines phases avancées sont toujours en cours de développement."
+  ],
+  "tags": [
+    "course",
+    "ai",
+    "machine-learning",
+    "llm",
+    "rag",
+    "ai-agents",
+    "python",
+    "open-source"
+  ],
+  "source": {
+    "url": "https://github.com/PavanMudigonda/zero-to-ai",
+    "type": "official-repository",
+    "official": true
+  },
+  "last_verified": "2026-08-16",
+  "status": "active",
+  "confidence": "high"
+}
