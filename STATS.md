@@ -2,12 +2,12 @@
 
 This file is generated from the catalog source records.
 
-- **Resources:** 75
-- **Latest verification:** 2026-08-07
-- **Open source:** 56
+- **Resources:** 76
+- **Latest verification:** 2026-08-16
+- **Open source:** 57
 - **Local-first:** 54
-- **No account required:** 61
-- **High confidence:** 75
+- **No account required:** 62
+- **High confidence:** 76
 
 ## Categories
 
@@ -23,7 +23,7 @@ This file is generated from the catalog source records.
 | evaluation | 3 |
 | image-generation | 4 |
 | inference-server | 3 |
-| learning | 5 |
+| learning | 6 |
 | local-runtime | 6 |
 | ml-framework | 8 |
 | model-hub | 2 |
@@ -38,13 +38,13 @@ This file is generated from the catalog source records.
 | free-compute | 2 |
 | free-tier | 13 |
 | freemium | 4 |
-| open-source | 56 |
+| open-source | 57 |
 
 ## Access
 
 | Value | Resources |
 |---|---:|
-| cloud | 20 |
+| cloud | 21 |
 | hybrid | 1 |
 | local | 54 |
 
@@ -53,5 +53,5 @@ This file is generated from the catalog source records.
 | Value | Resources |
 |---|---:|
 | advanced | 9 |
-| beginner | 26 |
+| beginner | 27 |
 | intermediate | 40 |

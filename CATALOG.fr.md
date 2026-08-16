@@ -647,6 +647,23 @@ Un cours gratuit et pratique de deep learning pour les personnes qui codent, cou
 
 - Le cours demande de l’expérience en programmation, idéalement Python, et les mathématiques du secondaire.
 
+## Zero to AI
+
+Un programme gratuit et open source d’apprentissage de l’IA et de l’apprentissage automatique avec plus de 950 notebooks Jupyter pratiques couvrant Python, la science des données, le deep learning, les LLM, le RAG, les agents IA, l’ingénierie des prompts, le fine-tuning, le MLOps, l’évaluation et des sujets avancés en IA.
+
+- **Idéal pour:** Apprendre l’IA et l’apprentissage automatique, des bases de Python jusqu’aux systèmes d’IA avancés
+- **Gratuité:** Open source
+- **Limites:** Le programme est accessible gratuitement sans compte ni carte bancaire. Une connexion facultative avec Google ou GitHub permet de synchroniser la progression du cours. Chaque notebook peut être exécuté dans le navigateur avec Pyodide, tandis que les tâches plus lourdes comme le fine-tuning et l’inférence de grands modèles peuvent nécessiter des ressources de calcul supplémentaires ou des services externes tels que Google Colab ou Kaggle.
+- **Licence:** MIT
+- **Confidentialité:** configurable
+- **Vérifié:** 2026-08-16 — [source officielle](https://github.com/PavanMudigonda/zero-to-ai)
+
+**À savoir**
+
+- Un compte est facultatif pour apprendre, mais peut être utilisé pour synchroniser la progression du cours avec Google ou GitHub.
+- Certains notebooks avancés nécessitent des ressources de calcul supplémentaires et peuvent utiliser des services externes comme Google Colab ou Kaggle.
+- Le programme évolue encore et certaines phases avancées sont toujours en cours de développement.
+
 ## GPT4All
 
 Un chatbot gratuit et open source qui s'exécute localement sur votre ordinateur sans que les données quittent votre appareil.

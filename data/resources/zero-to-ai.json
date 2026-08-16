@@ -16,11 +16,10 @@
     "linux"
   ],
   "homepage": "https://zero-to-ai.dev/",
-  "provider_processed": "Pavan Mudigonda",
   "account_required": false,
   "card_required": false,
   "commercial_use": "yes",
-  "privacy": "unknown",
+  "privacy": "configurable",
   "license": "MIT",
   "limits": "The curriculum is free to access without an account or credit card. Optional Google or GitHub sign-in is available to sync course progress. Every notebook can run in the browser through Pyodide, while heavier workloads such as fine-tuning and large-model inference may require additional compute or external services such as Google Colab or Kaggle.",
   "limits_fr": "Le programme est accessible gratuitement sans compte ni carte bancaire. Une connexion facultative avec Google ou GitHub permet de synchroniser la progression du cours. Chaque notebook peut être exécuté dans le navigateur avec Pyodide, tandis que les tâches plus lourdes comme le fine-tuning et l’inférence de grands modèles peuvent nécessiter des ressources de calcul supplémentaires ou des services externes tels que Google Colab ou Kaggle.",
