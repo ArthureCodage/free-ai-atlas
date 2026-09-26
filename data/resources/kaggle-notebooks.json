@@ -9,7 +9,9 @@
   "free_type": "free-compute",
   "access": "cloud",
   "difficulty": "beginner",
-  "platforms": ["web"],
+  "platforms": [
+    "web"
+  ],
   "homepage": "https://www.kaggle.com/code",
   "account_required": true,
   "card_required": false,
@@ -18,11 +20,24 @@
   "license": null,
   "limits": "The official guide describes a weekly GPU quota around 30 hours or sometimes higher, depending on demand and resources.",
   "limits_fr": "Le guide officiel décrit un quota GPU hebdomadaire d’environ 30 heures, parfois plus, selon la demande et les ressources.",
-  "caveats": ["Accelerator type, quota, and availability can change; actively stop unused sessions."],
-  "caveats_fr": ["Le type d’accélérateur, le quota et la disponibilité peuvent changer; arrêtez les sessions inutilisées."],
-  "tags": ["notebooks", "gpu", "datasets", "competitions"],
-  "source": {"url": "https://www.kaggle.com/docs/efficient-gpu-usage", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "Accelerator type, quota, and availability can change; actively stop unused sessions."
+  ],
+  "caveats_fr": [
+    "Le type d’accélérateur, le quota et la disponibilité peuvent changer; arrêtez les sessions inutilisées."
+  ],
+  "tags": [
+    "notebooks",
+    "gpu",
+    "datasets",
+    "competitions"
+  ],
+  "source": {
+    "url": "https://www.kaggle.com/docs/efficient-gpu-usage",
+    "type": "official-docs",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

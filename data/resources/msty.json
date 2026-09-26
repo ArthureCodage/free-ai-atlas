@@ -9,7 +9,10 @@
   "free_type": "free-tier",
   "access": "local",
   "difficulty": "beginner",
-  "platforms": ["windows", "macos"],
+  "platforms": [
+    "windows",
+    "macos"
+  ],
   "homepage": "https://msty.app",
   "account_required": false,
   "card_required": false,
@@ -18,11 +21,26 @@
   "license": "proprietary",
   "limits": "Free for personal use; Pro version has additional features.",
   "limits_fr": "Gratuit pour usage personnel; la version Pro a des fonctionnalités supplémentaires.",
-  "caveats": ["Commercial use requires license.", "Limited to supported platforms."],
-  "caveats_fr": ["L'usage commercial nécessite une licence.", "Limité aux plateformes supportées."],
-  "tags": ["chatbot", "local", "modern", "desktop"],
-  "source": {"url": "https://msty.app", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "Commercial use requires license.",
+    "Limited to supported platforms."
+  ],
+  "caveats_fr": [
+    "L'usage commercial nécessite une licence.",
+    "Limité aux plateformes supportées."
+  ],
+  "tags": [
+    "chatbot",
+    "local",
+    "modern",
+    "desktop"
+  ],
+  "source": {
+    "url": "https://msty.app",
+    "type": "official-docs",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

@@ -9,7 +9,12 @@
   "free_type": "free-tier",
   "access": "cloud",
   "difficulty": "intermediate",
-  "platforms": ["web", "windows", "macos", "linux"],
+  "platforms": [
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
   "homepage": "https://console.groq.com/",
   "account_required": true,
   "card_required": false,
@@ -18,11 +23,24 @@
   "license": null,
   "limits": "Limits are applied at organization level and vary by model across requests per minute/day and tokens per minute/day.",
   "limits_fr": "Les limites s’appliquent à l’organisation et varient par modèle selon les requêtes et jetons par minute ou par jour.",
-  "caveats": ["Exact limits shown in the account can differ from the public summary and may change."],
-  "caveats_fr": ["Les limites exactes du compte peuvent différer du résumé public et être modifiées."],
-  "tags": ["api", "fast-inference", "open-models", "developer"],
-  "source": {"url": "https://console.groq.com/docs/rate-limits", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "Exact limits shown in the account can differ from the public summary and may change."
+  ],
+  "caveats_fr": [
+    "Les limites exactes du compte peuvent différer du résumé public et être modifiées."
+  ],
+  "tags": [
+    "api",
+    "fast-inference",
+    "open-models",
+    "developer"
+  ],
+  "source": {
+    "url": "https://console.groq.com/docs/rate-limits",
+    "type": "official-docs",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

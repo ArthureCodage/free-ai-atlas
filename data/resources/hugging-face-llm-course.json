@@ -9,7 +9,9 @@
   "free_type": "free-tier",
   "access": "cloud",
   "difficulty": "intermediate",
-  "platforms": ["web"],
+  "platforms": [
+    "web"
+  ],
   "homepage": "https://huggingface.co/learn/llm-course/chapter1/1",
   "account_required": false,
   "card_required": false,
@@ -18,11 +20,24 @@
   "license": "Apache-2.0",
   "limits": "The course is free and self-paced; running exercises may require a local environment or a separate notebook service.",
   "limits_fr": "Le cours est gratuit et autonome; les exercices peuvent exiger un environnement local ou un service de notebooks distinct.",
-  "caveats": ["Good Python knowledge is expected, and an introductory deep-learning course is recommended first."],
-  "caveats_fr": ["Une bonne connaissance de Python est attendue et un cours d’introduction au deep learning est recommandé auparavant."],
-  "tags": ["course", "llm", "transformers", "fine-tuning"],
-  "source": {"url": "https://huggingface.co/learn/llm-course/chapter1/1", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "Good Python knowledge is expected, and an introductory deep-learning course is recommended first."
+  ],
+  "caveats_fr": [
+    "Une bonne connaissance de Python est attendue et un cours d’introduction au deep learning est recommandé auparavant."
+  ],
+  "tags": [
+    "course",
+    "llm",
+    "transformers",
+    "fine-tuning"
+  ],
+  "source": {
+    "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+    "type": "official-docs",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

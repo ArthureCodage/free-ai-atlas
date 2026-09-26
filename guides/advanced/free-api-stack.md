@@ -9,7 +9,6 @@ Free hosted APIs are excellent for prototypes, teaching, and low-volume personal
 | OpenRouter free models | One OpenAI-compatible API for rotating free models | Low daily limit and variable availability |
 | Gemini Developer API | Multimodal prototypes and AI Studio | Free-tier data terms and model-specific quotas |
 | Groq API | Fast inference for supported models | Organization and model-specific rate limits |
-| GitHub Models | Prototyping inside GitHub workflows | Plan, model, and context-dependent limits |
 
 ## Safe key handling
 

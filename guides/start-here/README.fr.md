@@ -34,9 +34,10 @@ Ordre recommandé :
 
 1. Apprends à formuler des demandes avec de petites tâches vérifiables.
 2. Suis les premières leçons de [Practical Deep Learning for Coders](https://course.fast.ai/) si tu connais Python.
-3. Étudie le [cours LLM de Hugging Face](https://huggingface.co/learn/llm-course/chapter1/1).
-4. Lance un petit modèle local avec [Ollama](../local-ai/README.md).
-5. Construis une petite application avec une API gratuite, puis remplace-la par une API locale compatible OpenAI.
+3. Découvre [Zero to AI](https://zero-to-ai.dev/) pour des notebooks Jupyter pratiques et interactifs sur le ML et les LLM.
+4. Étudie le [cours LLM de Hugging Face](https://huggingface.co/learn/llm-course/chapter1/1).
+5. Lance un petit modèle local avec [Ollama](../local-ai/README.md).
+6. Construis une petite application avec une API gratuite, puis remplace-la par une API locale compatible OpenAI.
 
 ## Ce que « gratuit » ne couvre pas
 

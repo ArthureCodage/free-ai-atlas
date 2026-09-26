@@ -7,7 +7,7 @@ This stack gives a newcomer broad capability without installing software or ente
 | General assistant | ChatGPT, Claude, or Gemini | Pick one interface and learn its strengths before collecting more tools. |
 | Web research | Perplexity | Sources are visible and easy to open. |
 | Model exploration | Hugging Face Model Hub | Learn to read model cards and licenses. |
-| Coding prototype | Gemini Developer API or GitHub Models | Both have official developer tooling and free prototyping access. |
+| Coding prototype | Gemini Developer API or Groq API | Both have official developer tooling and free prototyping access. |
 | Notebook compute | Kaggle Notebooks or Google Colab | Start without installing GPU drivers. |
 | Structured learning | Practical Deep Learning, then the Hugging Face LLM Course | Practical foundations followed by LLM-specific depth. |
 

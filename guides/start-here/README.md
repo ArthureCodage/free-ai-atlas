@@ -34,9 +34,10 @@ Recommended order:
 
 1. Learn prompting by doing small, verifiable tasks.
 2. Complete the first lessons of [Practical Deep Learning for Coders](https://course.fast.ai/) if you know basic Python.
-3. Study the [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) for transformers, datasets, fine-tuning, and sharing.
-4. Run a small local model through [Ollama](../../guides/local-ai/README.md).
-5. Build one tiny app against a free API, then switch it to a local OpenAI-compatible endpoint.
+3. Follow [Zero to AI](https://zero-to-ai.dev/) for hands-on, browser-executable Jupyter notebooks across ML and LLMs.
+4. Study the [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) for transformers, datasets, fine-tuning, and sharing.
+5. Run a small local model through [Ollama](../../guides/local-ai/README.md).
+6. Build one tiny app against a free API, then switch it to a local OpenAI-compatible endpoint.
 
 ## What “free” does not include
 

@@ -9,7 +9,9 @@
   "free_type": "free-tier",
   "access": "cloud",
   "difficulty": "intermediate",
-  "platforms": ["web"],
+  "platforms": [
+    "web"
+  ],
   "homepage": "https://course.fast.ai/",
   "account_required": false,
   "card_required": false,
@@ -18,11 +20,24 @@
   "license": null,
   "limits": "Course material is free; hands-on work uses local or third-party notebook compute with its own limits.",
   "limits_fr": "Le matériel du cours est gratuit; les exercices utilisent du calcul local ou des notebooks tiers avec leurs propres limites.",
-  "caveats": ["The course expects coding experience, preferably Python, and basic high-school mathematics."],
-  "caveats_fr": ["Le cours demande de l’expérience en programmation, idéalement Python, et les mathématiques du secondaire."],
-  "tags": ["course", "deep-learning", "python", "diffusion"],
-  "source": {"url": "https://course.fast.ai/", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "The course expects coding experience, preferably Python, and basic high-school mathematics."
+  ],
+  "caveats_fr": [
+    "Le cours demande de l’expérience en programmation, idéalement Python, et les mathématiques du secondaire."
+  ],
+  "tags": [
+    "course",
+    "deep-learning",
+    "python",
+    "diffusion"
+  ],
+  "source": {
+    "url": "https://course.fast.ai/",
+    "type": "official-docs",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

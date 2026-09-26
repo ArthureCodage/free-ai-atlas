@@ -23,6 +23,8 @@ def main() -> int:
     today = date.today()
     stale: list[tuple[dict, int, int]] = []
     for item in load_resources():
+        if item.get("status") == "deprecated":
+            continue
         age = (today - date.fromisoformat(item["last_verified"])).days
         max_age = DEFAULT_MAX_AGE[item["free_type"]]
         if age > max_age:
