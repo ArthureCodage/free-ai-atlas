@@ -15,9 +15,9 @@
 </p>
 
 <p align="center">
-  <img alt="Resources" src="https://img.shields.io/badge/resources-75-7c5cff">
+  <img alt="Resources" src="https://img.shields.io/badge/resources-76-7c5cff">
   <img alt="Categories" src="https://img.shields.io/badge/categories-17-19c6a3">
-  <img alt="Latest verification" src="https://img.shields.io/badge/latest%20verification-2026-08-07-f4b942">
+  <img alt="Latest verification" src="https://img.shields.io/badge/latest%20verification-2026-08-16-f4b942">
   <img alt="Content license CC0" src="https://img.shields.io/badge/data%20%26%20content-CC0-0b7285">
   <img alt="Code license MIT" src="https://img.shields.io/badge/code-MIT-0b7285">
 </p>
@@ -98,6 +98,7 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | [Microsoft AI for Beginners](https://github.com/microsoft/AI-For-Beginners) | learning | Open source | cloud | beginner | 2026-08-04 |
 | [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | learning | Open source | cloud | beginner | 2026-08-04 |
 | [Practical Deep Learning for Coders](https://course.fast.ai/) | learning | Free tier | cloud | intermediate | 2026-08-04 |
+| [Zero to AI](https://zero-to-ai.dev/) | learning | Open source | cloud | beginner | 2026-08-16 |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | local-runtime | Open source | local | beginner | 2026-08-04 |
 | [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | local-runtime | Open source | local | intermediate | 2026-08-04 |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | local-runtime | Open source | local | advanced | 2026-08-04 |

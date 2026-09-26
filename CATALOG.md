@@ -647,6 +647,23 @@ A free, example-first deep-learning course for people with coding experience, co
 
 - The course expects coding experience, preferably Python, and basic high-school mathematics.
 
+## Zero to AI
+
+A free open-source AI and machine-learning curriculum with 950+ hands-on Jupyter notebooks covering Python, data science, deep learning, LLMs, RAG, AI agents, prompt engineering, fine-tuning, MLOps, evaluation, and advanced AI topics.
+
+- **Best for:** Learning AI and machine learning from Python fundamentals through advanced AI systems
+- **Free access:** Open source
+- **Limits:** The curriculum is free to access without an account or credit card. Optional Google or GitHub sign-in is available to sync course progress. Every notebook can run in the browser through Pyodide, while heavier workloads such as fine-tuning and large-model inference may require additional compute or external services such as Google Colab or Kaggle.
+- **License:** MIT
+- **Privacy:** configurable
+- **Verified:** 2026-08-16 — [official source](https://github.com/PavanMudigonda/zero-to-ai)
+
+**Caveats**
+
+- An account is optional for learning but can be used to sync course progress with Google or GitHub.
+- Some advanced notebooks require additional compute and may use external services such as Google Colab or Kaggle.
+- The curriculum is actively evolving and some later phases are still being developed.
+
 ## GPT4All
 
 A free and open-source chatbot that runs locally on your computer with no data leaving your device.
