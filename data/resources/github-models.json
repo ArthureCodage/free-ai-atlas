@@ -10,19 +10,25 @@
   "access": "cloud",
   "difficulty": "intermediate",
   "platforms": ["web", "windows", "macos", "linux"],
-  "homepage": "https://github.com/marketplace/models",
+  "homepage": "https://docs.github.com/en/github-models",
   "account_required": true,
   "card_required": false,
   "commercial_use": "check-license",
   "privacy": "provider-processed",
   "license": null,
-  "limits": "Free prototyping is rate-limited; limits vary by model, context size, request type, and Copilot plan.",
-  "limits_fr": "Le prototypage gratuit est limité; les plafonds varient selon le modèle, le contexte, la requête et le forfait Copilot.",
-  "caveats": ["Model-specific licenses, acceptable-use policies, and preview conditions still apply."],
-  "caveats_fr": ["Les licences des modèles, politiques d’utilisation et conditions de préversion s’appliquent toujours."],
+  "limits": "Service retired on July 30, 2026. The playground, model catalog, and inference API are no longer available.",
+  "limits_fr": "Service arrêté le 30 juillet 2026. Le terrain d’essai, le catalogue de modèles et l’API d’inférence ne sont plus disponibles.",
+  "caveats": [
+    "Service permanently retired on July 30, 2026.",
+    "Model-specific licenses, acceptable-use policies, and preview conditions still apply."
+  ],
+  "caveats_fr": [
+    "Service définitivement arrêté le 30 juillet 2026.",
+    "Les licences des modèles, politiques d’utilisation et conditions de préversion s’appliquent toujours."
+  ],
   "tags": ["api", "github", "playground", "prototyping"],
-  "source": {"url": "https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
-  "status": "active",
+  "source": {"url": "https://docs.github.com/en/github-models", "type": "official-docs", "official": true},
+  "last_verified": "2026-09-26",
+  "status": "deprecated",
   "confidence": "high"
 }

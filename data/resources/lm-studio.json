@@ -9,7 +9,11 @@
   "free_type": "free-tier",
   "access": "local",
   "difficulty": "beginner",
-  "platforms": ["windows", "macos", "linux"],
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
   "homepage": "https://lmstudio.ai",
   "account_required": false,
   "card_required": false,
@@ -18,11 +22,26 @@
   "license": "proprietary",
   "limits": "Free for personal use; commercial license required for business use.",
   "limits_fr": "Gratuit pour usage personnel; licence commerciale requise pour usage professionnel.",
-  "caveats": ["Commercial use requires license.", "Limited model customization."],
-  "caveats_fr": ["L'usage commercial nécessite une licence.", "Personnalisation des modèles limitée."],
-  "tags": ["local", "llm", "desktop", "user-friendly"],
-  "source": {"url": "https://lmstudio.ai", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "Commercial use requires license.",
+    "Limited model customization."
+  ],
+  "caveats_fr": [
+    "L'usage commercial nécessite une licence.",
+    "Personnalisation des modèles limitée."
+  ],
+  "tags": [
+    "local",
+    "llm",
+    "desktop",
+    "user-friendly"
+  ],
+  "source": {
+    "url": "https://lmstudio.ai",
+    "type": "official-docs",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

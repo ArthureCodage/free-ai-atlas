@@ -9,7 +9,11 @@
   "free_type": "free-tier",
   "access": "cloud",
   "difficulty": "beginner",
-  "platforms": ["windows", "macos", "linux"],
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
   "homepage": "https://github.com/huggingface/huggingface_hub",
   "account_required": true,
   "card_required": false,
@@ -18,11 +22,26 @@
   "license": "Apache-2.0",
   "limits": "Free tier has storage and compute limits; paid plans available.",
   "limits_fr": "Le tier gratuit a des limites de stockage et de calcul; des plans payants disponibles.",
-  "caveats": ["Requires account for full access.", "Some models have restricted licenses."],
-  "caveats_fr": ["Nécessite un compte pour un accès complet.", "Certains modèles ont des licences restreintes."],
-  "tags": ["models", "datasets", "sharing", "community"],
-  "source": {"url": "https://github.com/huggingface/huggingface_hub", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "Requires account for full access.",
+    "Some models have restricted licenses."
+  ],
+  "caveats_fr": [
+    "Nécessite un compte pour un accès complet.",
+    "Certains modèles ont des licences restreintes."
+  ],
+  "tags": [
+    "models",
+    "datasets",
+    "sharing",
+    "community"
+  ],
+  "source": {
+    "url": "https://github.com/huggingface/huggingface_hub",
+    "type": "official-repository",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

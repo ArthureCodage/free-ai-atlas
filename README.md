@@ -17,7 +17,7 @@
 <p align="center">
   <img alt="Resources" src="https://img.shields.io/badge/resources-76-7c5cff">
   <img alt="Categories" src="https://img.shields.io/badge/categories-17-19c6a3">
-  <img alt="Latest verification" src="https://img.shields.io/badge/latest%20verification-2026-08-16-f4b942">
+  <img alt="Latest verification" src="https://img.shields.io/badge/latest%20verification-2026-09-26-f4b942">
   <img alt="Content license CC0" src="https://img.shields.io/badge/data%20%26%20content-CC0-0b7285">
   <img alt="Code license MIT" src="https://img.shields.io/badge/code-MIT-0b7285">
 </p>
@@ -61,27 +61,27 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | [CrewAI](https://github.com/joaomdmoura/crewAI) | agents | Open source | local | intermediate | 2026-08-04 |
 | [LangChain](https://github.com/langchain-ai/langchain) | agents | Open source | hybrid | intermediate | 2026-08-04 |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | agents | Open source | local | intermediate | 2026-08-04 |
-| [Gemini Developer API](https://ai.google.dev/) | api | Free tier | cloud | intermediate | 2026-08-04 |
-| [GitHub Models](https://github.com/marketplace/models) | api | Free tier | cloud | intermediate | 2026-08-04 |
-| [Groq API Free Plan](https://console.groq.com/) | api | Free tier | cloud | intermediate | 2026-08-04 |
-| [OpenRouter Free Models](https://openrouter.ai/models?pricing=free) | api | Free tier | cloud | intermediate | 2026-08-04 |
+| [Gemini Developer API](https://ai.google.dev/) | api | Free tier | cloud | intermediate | 2026-09-26 |
+| [GitHub Models](https://docs.github.com/en/github-models) | api | Free tier | cloud | intermediate | 2026-09-26 |
+| [Groq API Free Plan](https://console.groq.com/) | api | Free tier | cloud | intermediate | 2026-09-26 |
+| [OpenRouter Free Models](https://openrouter.ai/models?pricing=free) | api | Free tier | cloud | intermediate | 2026-09-26 |
 | [Gradio](https://github.com/gradio-app/gradio) | app-builder | Open source | local | beginner | 2026-08-04 |
 | [Langflow](https://github.com/langflow-ai/langflow) | app-builder | Open source | local | beginner | 2026-08-04 |
 | [Streamlit](https://github.com/streamlit/streamlit) | app-builder | Open source | local | beginner | 2026-08-04 |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | assistant | Open source | local | beginner | 2026-08-04 |
-| [ChatGPT](https://chatgpt.com/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
-| [Claude](https://claude.ai/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
-| [Gemini](https://gemini.google.com/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
+| [ChatGPT](https://chatgpt.com/) | assistant | Freemium | cloud | beginner | 2026-09-26 |
+| [Claude](https://claude.ai/) | assistant | Freemium | cloud | beginner | 2026-09-26 |
+| [Gemini](https://gemini.google.com/) | assistant | Freemium | cloud | beginner | 2026-09-26 |
 | [Jan](https://github.com/janhq/jan) | assistant | Open source | local | beginner | 2026-08-04 |
-| [Msty](https://msty.app) | assistant | Free tier | local | beginner | 2026-08-04 |
+| [Msty](https://msty.app) | assistant | Free tier | local | beginner | 2026-09-26 |
 | [Open WebUI](https://github.com/open-webui/open-webui) | assistant | Open source | local | beginner | 2026-08-04 |
-| [Perplexity](https://www.perplexity.ai/) | assistant | Freemium | cloud | beginner | 2026-08-04 |
+| [Perplexity](https://www.perplexity.ai/) | assistant | Freemium | cloud | beginner | 2026-09-26 |
 | [Aider](https://github.com/paul-gauthier/aider) | coding | Open source | local | intermediate | 2026-08-04 |
 | [Cline](https://github.com/cline/cline) | coding | Open source | local | intermediate | 2026-08-04 |
 | [Continue](https://github.com/continuedev/continue) | coding | Open source | local | beginner | 2026-08-04 |
 | [OpenHands](https://github.com/All-Hands-AI/OpenHands) | coding | Open source | local | advanced | 2026-08-04 |
-| [Google Colab](https://colab.research.google.com/) | compute | Free compute | cloud | beginner | 2026-08-04 |
-| [Kaggle Notebooks](https://www.kaggle.com/code) | compute | Free compute | cloud | beginner | 2026-08-04 |
+| [Google Colab](https://colab.research.google.com/) | compute | Free compute | cloud | beginner | 2026-09-26 |
+| [Kaggle Notebooks](https://www.kaggle.com/code) | compute | Free compute | cloud | beginner | 2026-09-26 |
 | [Hugging Face Datasets](https://github.com/huggingface/datasets) | dataset | Open source | local | intermediate | 2026-08-04 |
 | [DeepEval](https://github.com/confident-ai/deepeval) | evaluation | Open source | local | intermediate | 2026-08-04 |
 | [Promptfoo](https://github.com/promptfoo/promptfoo) | evaluation | Open source | local | intermediate | 2026-08-04 |
@@ -94,15 +94,15 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) | inference-server | Open source | local | advanced | 2026-08-04 |
 | [vLLM](https://github.com/vllm-project/vllm) | inference-server | Open source | local | advanced | 2026-08-04 |
 | [Hugging Face Agents Course](https://github.com/huggingface/agents-course) | learning | Open source | cloud | intermediate | 2026-08-04 |
-| [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | learning | Free tier | cloud | intermediate | 2026-08-04 |
+| [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | learning | Free tier | cloud | intermediate | 2026-09-26 |
 | [Microsoft AI for Beginners](https://github.com/microsoft/AI-For-Beginners) | learning | Open source | cloud | beginner | 2026-08-04 |
 | [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | learning | Open source | cloud | beginner | 2026-08-04 |
-| [Practical Deep Learning for Coders](https://course.fast.ai/) | learning | Free tier | cloud | intermediate | 2026-08-04 |
+| [Practical Deep Learning for Coders](https://course.fast.ai/) | learning | Free tier | cloud | intermediate | 2026-09-26 |
 | [Zero to AI](https://zero-to-ai.dev/) | learning | Open source | cloud | beginner | 2026-08-16 |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | local-runtime | Open source | local | beginner | 2026-08-04 |
 | [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | local-runtime | Open source | local | intermediate | 2026-08-04 |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | local-runtime | Open source | local | advanced | 2026-08-04 |
-| [LM Studio](https://lmstudio.ai) | local-runtime | Free tier | local | beginner | 2026-08-04 |
+| [LM Studio](https://lmstudio.ai) | local-runtime | Free tier | local | beginner | 2026-09-26 |
 | [LocalAI](https://github.com/mudler/LocalAI) | local-runtime | Open source | local | intermediate | 2026-08-04 |
 | [Ollama](https://github.com/ollama/ollama) | local-runtime | Open source | local | beginner | 2026-08-04 |
 | [BentoML](https://github.com/bentoml/BentoML) | ml-framework | Open source | local | intermediate | 2026-08-04 |
@@ -113,15 +113,15 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | [scikit-learn](https://github.com/scikit-learn/scikit-learn) | ml-framework | Open source | local | beginner | 2026-08-04 |
 | [TensorFlow](https://github.com/tensorflow/tensorflow) | ml-framework | Open source | local | intermediate | 2026-08-04 |
 | [Transformers](https://github.com/huggingface/transformers) | ml-framework | Open source | local | intermediate | 2026-08-04 |
-| [Civitai](https://civitai.com) | model-hub | Free tier | cloud | beginner | 2026-08-04 |
-| [Hugging Face Hub](https://github.com/huggingface/huggingface_hub) | model-hub | Free tier | cloud | beginner | 2026-08-04 |
+| [Civitai](https://civitai.com) | model-hub | Free tier | cloud | beginner | 2026-09-26 |
+| [Hugging Face Hub](https://github.com/huggingface/huggingface_hub) | model-hub | Free tier | cloud | beginner | 2026-09-26 |
 | [DSPy](https://github.com/stanfordnlp/dspy) | rag | Open source | local | advanced | 2026-08-04 |
 | [LlamaIndex](https://github.com/run-llama/llama_index) | rag | Open source | local | intermediate | 2026-08-04 |
 | [AudioCraft](https://github.com/facebookresearch/audiocraft) | speech | Open source | local | intermediate | 2026-08-04 |
 | [Bark](https://github.com/suno-ai/bark) | speech | Open source | local | intermediate | 2026-08-04 |
 | [Coqui TTS](https://github.com/coqui-ai/TTS) | speech | Open source | local | intermediate | 2026-08-04 |
-| [Edge TTS](https://github.com/rany2/edge-tts) | speech | Free tier | cloud | beginner | 2026-08-04 |
-| [ElevenLabs](https://elevenlabs.io) | speech | Free tier | cloud | beginner | 2026-08-04 |
+| [Edge TTS](https://github.com/rany2/edge-tts) | speech | Free tier | cloud | beginner | 2026-09-26 |
+| [ElevenLabs](https://elevenlabs.io) | speech | Free tier | cloud | beginner | 2026-09-26 |
 | [Faster Whisper](https://github.com/SYSTRAN/faster-whisper) | speech | Open source | local | intermediate | 2026-08-04 |
 | [OpenAI Whisper](https://github.com/openai/whisper) | speech | Open source | local | intermediate | 2026-08-04 |
 | [PlayHT](https://play.ht) | speech | Free tier | cloud | beginner | 2026-08-07 |

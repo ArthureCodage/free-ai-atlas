@@ -9,7 +9,12 @@
   "free_type": "free-tier",
   "access": "cloud",
   "difficulty": "intermediate",
-  "platforms": ["web", "windows", "macos", "linux"],
+  "platforms": [
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
   "homepage": "https://openrouter.ai/models?pricing=free",
   "account_required": true,
   "card_required": false,
@@ -18,11 +23,26 @@
   "license": null,
   "limits": "The base free plan lists 25+ free models and 50 requests per day; model availability and provider capacity can change.",
   "limits_fr": "L’offre gratuite de base annonce plus de 25 modèles et 50 requêtes par jour; les modèles et la capacité des fournisseurs peuvent changer.",
-  "caveats": ["Free models are intended for experimentation and low-volume use, not reliable production workloads.", "Data policies and licenses can differ by routed provider and model."],
-  "caveats_fr": ["Les modèles gratuits visent l’expérimentation et les faibles volumes, pas une production fiable.", "Les politiques de données et licences peuvent varier selon le fournisseur et le modèle sélectionnés."],
-  "tags": ["api", "free-models", "openai-compatible", "router"],
-  "source": {"url": "https://openrouter.ai/pricing", "type": "official-pricing", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "Free models are intended for experimentation and low-volume use, not reliable production workloads.",
+    "Data policies and licenses can differ by routed provider and model."
+  ],
+  "caveats_fr": [
+    "Les modèles gratuits visent l’expérimentation et les faibles volumes, pas une production fiable.",
+    "Les politiques de données et licences peuvent varier selon le fournisseur et le modèle sélectionnés."
+  ],
+  "tags": [
+    "api",
+    "free-models",
+    "openai-compatible",
+    "router"
+  ],
+  "source": {
+    "url": "https://openrouter.ai/pricing",
+    "type": "official-pricing",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

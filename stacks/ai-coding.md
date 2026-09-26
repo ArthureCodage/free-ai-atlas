@@ -14,7 +14,7 @@
 
 ## Advanced prototype
 
-- Use OpenRouter, Gemini API, Groq, or GitHub Models behind one provider adapter.
+- Use OpenRouter, Gemini API, or Groq behind one provider adapter.
 - Log model identity, latency, token usage, and fallback selection without logging sensitive prompts.
 - Require tests and a human diff review before merge.
 

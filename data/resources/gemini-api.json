@@ -9,7 +9,12 @@
   "free_type": "free-tier",
   "access": "cloud",
   "difficulty": "intermediate",
-  "platforms": ["web", "windows", "macos", "linux"],
+  "platforms": [
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
   "homepage": "https://ai.google.dev/",
   "account_required": true,
   "card_required": false,
@@ -18,11 +23,24 @@
   "license": null,
   "limits": "Only selected models and features have a free tier; quotas and feature availability vary by model and region.",
   "limits_fr": "Seuls certains modèles et fonctions ont une offre gratuite; les quotas et la disponibilité varient selon le modèle et la région.",
-  "caveats": ["The official pricing page states that free-tier content may be used to improve Google's products; review the current data terms."],
-  "caveats_fr": ["La tarification officielle indique que le contenu de l’offre gratuite peut servir à améliorer les produits Google; consultez les conditions de données."],
-  "tags": ["api", "multimodal", "google", "ai-studio"],
-  "source": {"url": "https://ai.google.dev/gemini-api/docs/pricing", "type": "official-pricing", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "The official pricing page states that free-tier content may be used to improve Google's products; review the current data terms."
+  ],
+  "caveats_fr": [
+    "La tarification officielle indique que le contenu de l’offre gratuite peut servir à améliorer les produits Google; consultez les conditions de données."
+  ],
+  "tags": [
+    "api",
+    "multimodal",
+    "google",
+    "ai-studio"
+  ],
+  "source": {
+    "url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "type": "official-pricing",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

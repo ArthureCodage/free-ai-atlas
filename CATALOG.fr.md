@@ -75,7 +75,7 @@ L’API de développement de Google offre gratuitement les jetons d’entrée et
 - **Limites:** Seuls certains modèles et fonctions ont une offre gratuite; les quotas et la disponibilité varient selon le modèle et la région.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://ai.google.dev/gemini-api/docs/pricing)
+- **Vérifié:** 2026-09-26 — [source officielle](https://ai.google.dev/gemini-api/docs/pricing)
 
 **À savoir**
 
@@ -87,13 +87,14 @@ Un catalogue et terrain d’essai de modèles hébergé par GitHub pour le proto
 
 - **Idéal pour:** Tester des API de modèles dans un flux GitHub
 - **Gratuité:** Offre gratuite
-- **Limites:** Le prototypage gratuit est limité; les plafonds varient selon le modèle, le contexte, la requête et le forfait Copilot.
+- **Limites:** Service arrêté le 30 juillet 2026. Le terrain d’essai, le catalogue de modèles et l’API d’inférence ne sont plus disponibles.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models)
+- **Vérifié:** 2026-09-26 — [source officielle](https://docs.github.com/en/github-models)
 
 **À savoir**
 
+- Service définitivement arrêté le 30 juillet 2026.
 - Les licences des modèles, politiques d’utilisation et conditions de préversion s’appliquent toujours.
 
 ## Groq API Free Plan
@@ -105,7 +106,7 @@ Une API d’inférence hébergée axée sur la rapidité, avec des limites gratu
 - **Limites:** Les limites s’appliquent à l’organisation et varient par modèle selon les requêtes et jetons par minute ou par jour.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://console.groq.com/docs/rate-limits)
+- **Vérifié:** 2026-09-26 — [source officielle](https://console.groq.com/docs/rate-limits)
 
 **À savoir**
 
@@ -120,7 +121,7 @@ Une API hébergée compatible OpenAI et une interface de clavardage qui achemine
 - **Limites:** L’offre gratuite de base annonce plus de 25 modèles et 50 requêtes par jour; les modèles et la capacité des fournisseurs peuvent changer.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://openrouter.ai/pricing)
+- **Vérifié:** 2026-09-26 — [source officielle](https://openrouter.ai/pricing)
 
 **À savoir**
 
@@ -200,7 +201,7 @@ Un assistant généraliste hébergé avec recherche web et accès limité aux fi
 - **Limites:** L’offre à 0 $ donne un accès limité aux modèles et fonctions avancés; la disponibilité et les plafonds peuvent changer.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://openai.com/chatgpt/pricing)
+- **Vérifié:** 2026-09-26 — [source officielle](https://openai.com/chatgpt/pricing)
 
 **À savoir**
 
@@ -215,7 +216,7 @@ L’assistant hébergé d’Anthropic offre une version gratuite dans les régio
 - **Limites:** L’usage gratuit est limité par session et varie selon la demande, la longueur des conversations, les fichiers et la capacité du modèle.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
+- **Vérifié:** 2026-09-26 — [source officielle](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
 
 **À savoir**
 
@@ -230,7 +231,7 @@ L’assistant hébergé de Google fournit un accès standard sans abonnement IA,
 - **Limites:** Les limites standard dépendent du calcul, se renouvellent avec le temps et peuvent varier selon les essais, la demande et les fonctions disponibles.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://support.google.com/gemini/answer/16275805?hl=en)
+- **Vérifié:** 2026-09-26 — [source officielle](https://support.google.com/gemini/answer/16275805?hl=en)
 
 **À savoir**
 
@@ -261,7 +262,7 @@ Une application de bureau pour exécuter des chatbots IA locaux avec support pou
 - **Limites:** Gratuit pour usage personnel; la version Pro a des fonctionnalités supplémentaires.
 - **Licence:** proprietary
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://msty.app)
+- **Vérifié:** 2026-09-26 — [source officielle](https://msty.app)
 
 **À savoir**
 
@@ -293,7 +294,7 @@ Un moteur de réponses dont l’offre Standard gratuite comprend des recherches 
 - **Limites:** Les recherches de base sont pratiquement illimitées; les recherches Pro et les fichiers sont fortement limités dans l’offre Standard.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you)
+- **Vérifié:** 2026-09-26 — [source officielle](https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you)
 
 **À savoir**
 
@@ -372,7 +373,7 @@ Un environnement Jupyter hébergé sans configuration, avec accès gratuit à du
 - **Limites:** Les ressources gratuites ne sont ni garanties ni illimitées; le matériel, l’inactivité, la durée maximale et les quotas fluctuent.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://research.google.com/colaboratory/faq.html)
+- **Vérifié:** 2026-09-26 — [source officielle](https://research.google.com/colaboratory/faq.html)
 
 **À savoir**
 
@@ -387,7 +388,7 @@ Un environnement de notebooks hébergé avec accélérateurs gratuits pour l’a
 - **Limites:** Le guide officiel décrit un quota GPU hebdomadaire d’environ 30 heures, parfois plus, selon la demande et les ressources.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://www.kaggle.com/docs/efficient-gpu-usage)
+- **Vérifié:** 2026-09-26 — [source officielle](https://www.kaggle.com/docs/efficient-gpu-usage)
 
 **À savoir**
 
@@ -594,7 +595,7 @@ Un cours gratuit et sans publicité sur les transformers, données, tokenizers, 
 - **Limites:** Le cours est gratuit et autonome; les exercices peuvent exiger un environnement local ou un service de notebooks distinct.
 - **Licence:** Apache-2.0
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://huggingface.co/learn/llm-course/chapter1/1)
+- **Vérifié:** 2026-09-26 — [source officielle](https://huggingface.co/learn/llm-course/chapter1/1)
 
 **À savoir**
 
@@ -641,7 +642,7 @@ Un cours gratuit et pratique de deep learning pour les personnes qui codent, cou
 - **Limites:** Le matériel du cours est gratuit; les exercices utilisent du calcul local ou des notebooks tiers avec leurs propres limites.
 - **Licence:** Variable ou propriétaire
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://course.fast.ai/)
+- **Vérifié:** 2026-09-26 — [source officielle](https://course.fast.ai/)
 
 **À savoir**
 
@@ -721,7 +722,7 @@ Une application de bureau pour exécuter des LLMs locaux avec une interface conv
 - **Limites:** Gratuit pour usage personnel; licence commerciale requise pour usage professionnel.
 - **Licence:** proprietary
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://lmstudio.ai)
+- **Vérifié:** 2026-09-26 — [source officielle](https://lmstudio.ai)
 
 **À savoir**
 
@@ -897,7 +898,7 @@ Une plateforme pour partager et découvrir des modèles d'art IA, en particulier
 - **Limites:** Le tier gratuit a des limites de téléchargement; des plans payants disponibles.
 - **Licence:** varies
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://civitai.com)
+- **Vérifié:** 2026-09-26 — [source officielle](https://civitai.com)
 
 **À savoir**
 
@@ -913,7 +914,7 @@ Une plateforme pour héberger et partager des modèles de machine learning, des 
 - **Limites:** Le tier gratuit a des limites de stockage et de calcul; des plans payants disponibles.
 - **Licence:** Apache-2.0
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/huggingface_hub)
+- **Vérifié:** 2026-09-26 — [source officielle](https://github.com/huggingface/huggingface_hub)
 
 **À savoir**
 
@@ -1009,7 +1010,7 @@ Un service gratuit de synthèse vocale utilisant l'API TTS en ligne de Microsoft
 - **Limites:** Limité aux voix Microsoft Edge disponibles; nécessite une connexion Internet.
 - **Licence:** GPL-3.0
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/rany2/edge-tts)
+- **Vérifié:** 2026-09-26 — [source officielle](https://github.com/rany2/edge-tts)
 
 **À savoir**
 
@@ -1025,7 +1026,7 @@ Un service de synthèse vocale gratuit avec une synthèse de voix très réalist
 - **Limites:** Le tier gratuit est limité à 10 000 caractères par mois; des plans payants disponibles.
 - **Licence:** proprietary
 - **Confidentialité:** provider-processed
-- **Vérifié:** 2026-08-04 — [source officielle](https://elevenlabs.io)
+- **Vérifié:** 2026-09-26 — [source officielle](https://elevenlabs.io)
 
 **À savoir**
 

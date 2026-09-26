@@ -9,7 +9,9 @@
   "free_type": "free-compute",
   "access": "cloud",
   "difficulty": "beginner",
-  "platforms": ["web"],
+  "platforms": [
+    "web"
+  ],
   "homepage": "https://colab.research.google.com/",
   "account_required": true,
   "card_required": false,
@@ -18,11 +20,24 @@
   "license": null,
   "limits": "Free resources are not guaranteed or unlimited; hardware, idle timeouts, maximum runtime, and usage caps fluctuate.",
   "limits_fr": "Les ressources gratuites ne sont ni garanties ni illimitées; le matériel, l’inactivité, la durée maximale et les quotas fluctuent.",
-  "caveats": ["The free managed runtime restricts remote-control and primarily web-UI-driven workloads, among other activities."],
-  "caveats_fr": ["L’environnement gratuit limite notamment le contrôle à distance et les charges principalement pilotées par une interface web."],
-  "tags": ["notebooks", "gpu", "tpu", "jupyter"],
-  "source": {"url": "https://research.google.com/colaboratory/faq.html", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "The free managed runtime restricts remote-control and primarily web-UI-driven workloads, among other activities."
+  ],
+  "caveats_fr": [
+    "L’environnement gratuit limite notamment le contrôle à distance et les charges principalement pilotées par une interface web."
+  ],
+  "tags": [
+    "notebooks",
+    "gpu",
+    "tpu",
+    "jupyter"
+  ],
+  "source": {
+    "url": "https://research.google.com/colaboratory/faq.html",
+    "type": "official-docs",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

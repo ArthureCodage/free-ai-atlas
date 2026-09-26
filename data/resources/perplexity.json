@@ -9,7 +9,9 @@
   "free_type": "freemium",
   "access": "cloud",
   "difficulty": "beginner",
-  "platforms": ["web"],
+  "platforms": [
+    "web"
+  ],
   "homepage": "https://www.perplexity.ai/",
   "account_required": true,
   "card_required": false,
@@ -18,11 +20,24 @@
   "license": null,
   "limits": "Basic searches are practically unlimited; Pro searches and file uploads are tightly limited on Standard.",
   "limits_fr": "Les recherches de base sont pratiquement illimitées; les recherches Pro et les fichiers sont fortement limités dans l’offre Standard.",
-  "caveats": ["Citations still need to be opened and checked; an attached source does not guarantee a correct answer."],
-  "caveats_fr": ["Les références doivent tout de même être ouvertes et vérifiées; la présence d’une source ne garantit pas une réponse exacte."],
-  "tags": ["search", "research", "citations", "web"],
-  "source": {"url": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you", "type": "official-docs", "official": true},
-  "last_verified": "2026-08-04",
+  "caveats": [
+    "Citations still need to be opened and checked; an attached source does not guarantee a correct answer."
+  ],
+  "caveats_fr": [
+    "Les références doivent tout de même être ouvertes et vérifiées; la présence d’une source ne garantit pas une réponse exacte."
+  ],
+  "tags": [
+    "search",
+    "research",
+    "citations",
+    "web"
+  ],
+  "source": {
+    "url": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you",
+    "type": "official-docs",
+    "official": true
+  },
+  "last_verified": "2026-09-26",
   "status": "active",
   "confidence": "high"
 }

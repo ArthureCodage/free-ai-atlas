@@ -7,7 +7,7 @@ Cette sélection donne beaucoup de capacités à une personne débutante, sans l
 | Assistant généraliste | ChatGPT, Claude ou Gemini | Choisis une interface et apprends-la avant de collectionner les outils. |
 | Recherche web | Perplexity | Les sources sont visibles et faciles à ouvrir. |
 | Découverte des modèles | Hugging Face Model Hub | Apprends à lire les fiches et les licences. |
-| Prototype de code | API Gemini ou GitHub Models | Les deux fournissent des outils officiels et un accès de prototypage gratuit. |
+| Prototype de code | API Gemini ou API Groq | Les deux fournissent des outils officiels et un accès de prototypage gratuit. |
 | Calcul en notebook | Kaggle Notebooks ou Google Colab | Commence sans installer de pilotes GPU. |
 | Apprentissage | Practical Deep Learning, puis le cours LLM de Hugging Face | Des bases pratiques avant la spécialisation LLM. |
 

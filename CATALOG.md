@@ -75,7 +75,7 @@ Google's developer API offers free input and output tokens on selected models wi
 - **Limits:** Only selected models and features have a free tier; quotas and feature availability vary by model and region.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://ai.google.dev/gemini-api/docs/pricing)
+- **Verified:** 2026-09-26 — [official source](https://ai.google.dev/gemini-api/docs/pricing)
 
 **Caveats**
 
@@ -87,13 +87,14 @@ A GitHub-hosted model catalog and playground for rate-limited prototyping, with 
 
 - **Best for:** Testing model APIs inside a GitHub workflow
 - **Free access:** Free tier
-- **Limits:** Free prototyping is rate-limited; limits vary by model, context size, request type, and Copilot plan.
+- **Limits:** Service retired on July 30, 2026. The playground, model catalog, and inference API are no longer available.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models)
+- **Verified:** 2026-09-26 — [official source](https://docs.github.com/en/github-models)
 
 **Caveats**
 
+- Service permanently retired on July 30, 2026.
 - Model-specific licenses, acceptable-use policies, and preview conditions still apply.
 
 ## Groq API Free Plan
@@ -105,7 +106,7 @@ A hosted inference API focused on fast responses, with model-specific free-plan 
 - **Limits:** Limits are applied at organization level and vary by model across requests per minute/day and tokens per minute/day.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://console.groq.com/docs/rate-limits)
+- **Verified:** 2026-09-26 — [official source](https://console.groq.com/docs/rate-limits)
 
 **Caveats**
 
@@ -120,7 +121,7 @@ An OpenAI-compatible hosted API and chat interface that routes requests to a rot
 - **Limits:** The base free plan lists 25+ free models and 50 requests per day; model availability and provider capacity can change.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://openrouter.ai/pricing)
+- **Verified:** 2026-09-26 — [official source](https://openrouter.ai/pricing)
 
 **Caveats**
 
@@ -200,7 +201,7 @@ A general-purpose hosted assistant with web search and limited access to files, 
 - **Limits:** The $0 plan includes limited access to advanced models and features; availability and caps can change.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://openai.com/chatgpt/pricing)
+- **Verified:** 2026-09-26 — [official source](https://openai.com/chatgpt/pricing)
 
 **Caveats**
 
@@ -215,7 +216,7 @@ Anthropic's hosted assistant offers a free version for supported locations, with
 - **Limits:** Free usage is session-limited and can vary with demand, conversation length, files, and model capacity.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
+- **Verified:** 2026-09-26 — [official source](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
 
 **Caveats**
 
@@ -230,7 +231,7 @@ Google's hosted assistant provides standard access without an AI subscription, i
 - **Limits:** Standard limits are compute-based, refresh over time, and may change with testing, demand, and feature availability.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://support.google.com/gemini/answer/16275805?hl=en)
+- **Verified:** 2026-09-26 — [official source](https://support.google.com/gemini/answer/16275805?hl=en)
 
 **Caveats**
 
@@ -261,7 +262,7 @@ A desktop application for running local AI chatbots with support for multiple LL
 - **Limits:** Free for personal use; Pro version has additional features.
 - **License:** proprietary
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://msty.app)
+- **Verified:** 2026-09-26 — [official source](https://msty.app)
 
 **Caveats**
 
@@ -293,7 +294,7 @@ An answer engine whose Standard free plan offers practically unlimited basic sea
 - **Limits:** Basic searches are practically unlimited; Pro searches and file uploads are tightly limited on Standard.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you)
+- **Verified:** 2026-09-26 — [official source](https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you)
 
 **Caveats**
 
@@ -372,7 +373,7 @@ A hosted Jupyter notebook environment requiring no setup, with free-of-charge ac
 - **Limits:** Free resources are not guaranteed or unlimited; hardware, idle timeouts, maximum runtime, and usage caps fluctuate.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://research.google.com/colaboratory/faq.html)
+- **Verified:** 2026-09-26 — [official source](https://research.google.com/colaboratory/faq.html)
 
 **Caveats**
 
@@ -387,7 +388,7 @@ A hosted notebook environment with free accelerator access for machine-learning 
 - **Limits:** The official guide describes a weekly GPU quota around 30 hours or sometimes higher, depending on demand and resources.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://www.kaggle.com/docs/efficient-gpu-usage)
+- **Verified:** 2026-09-26 — [official source](https://www.kaggle.com/docs/efficient-gpu-usage)
 
 **Caveats**
 
@@ -594,7 +595,7 @@ A free, ad-free course covering transformers, datasets, tokenizers, model sharin
 - **Limits:** The course is free and self-paced; running exercises may require a local environment or a separate notebook service.
 - **License:** Apache-2.0
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://huggingface.co/learn/llm-course/chapter1/1)
+- **Verified:** 2026-09-26 — [official source](https://huggingface.co/learn/llm-course/chapter1/1)
 
 **Caveats**
 
@@ -641,7 +642,7 @@ A free, example-first deep-learning course for people with coding experience, co
 - **Limits:** Course material is free; hands-on work uses local or third-party notebook compute with its own limits.
 - **License:** Variable or proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://course.fast.ai/)
+- **Verified:** 2026-09-26 — [official source](https://course.fast.ai/)
 
 **Caveats**
 
@@ -721,7 +722,7 @@ A desktop application for running local LLMs with a user-friendly interface and 
 - **Limits:** Free for personal use; commercial license required for business use.
 - **License:** proprietary
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://lmstudio.ai)
+- **Verified:** 2026-09-26 — [official source](https://lmstudio.ai)
 
 **Caveats**
 
@@ -897,7 +898,7 @@ A platform for sharing and discovering AI art models, especially for Stable Diff
 - **Limits:** Free tier has download limits; paid plans available.
 - **License:** varies
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://civitai.com)
+- **Verified:** 2026-09-26 — [official source](https://civitai.com)
 
 **Caveats**
 
@@ -913,7 +914,7 @@ A platform for hosting and sharing machine learning models, datasets, and spaces
 - **Limits:** Free tier has storage and compute limits; paid plans available.
 - **License:** Apache-2.0
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/huggingface_hub)
+- **Verified:** 2026-09-26 — [official source](https://github.com/huggingface/huggingface_hub)
 
 **Caveats**
 
@@ -1009,7 +1010,7 @@ A free text-to-speech service using Microsoft Edge's online TTS API with support
 - **Limits:** Limited to available Microsoft Edge voices; requires internet connection.
 - **License:** GPL-3.0
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://github.com/rany2/edge-tts)
+- **Verified:** 2026-09-26 — [official source](https://github.com/rany2/edge-tts)
 
 **Caveats**
 
@@ -1025,7 +1026,7 @@ A free tier text-to-speech service with highly realistic voice synthesis and sup
 - **Limits:** Free tier limited to 10,000 characters per month; paid plans available.
 - **License:** proprietary
 - **Privacy:** provider-processed
-- **Verified:** 2026-08-04 — [official source](https://elevenlabs.io)
+- **Verified:** 2026-09-26 — [official source](https://elevenlabs.io)
 
 **Caveats**
 
