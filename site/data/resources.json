@@ -2,7 +2,7 @@
   "meta": {
     "resource_count": 76,
     "category_count": 17,
-    "latest_verification": "2026-09-26",
+    "latest_verification": "2026-11-10",
     "open_source_count": 57,
     "local_count": 54,
     "no_account_count": 62,
@@ -52,7 +52,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -147,7 +147,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -194,7 +194,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -430,7 +430,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -478,7 +478,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -526,7 +526,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -573,7 +573,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -731,7 +731,7 @@
       "card_required": false,
       "commercial_use": "yes",
       "privacy": "local",
-      "license": "AGPL-3.0",
+      "license": "Apache-2.0",
       "limits": "Performance depends on hardware and model selection.",
       "limits_fr": "Les performances dépendent du matériel et de la sélection du modèle.",
       "caveats": [
@@ -753,7 +753,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -823,18 +823,20 @@
       "homepage": "https://github.com/open-webui/open-webui",
       "account_required": false,
       "card_required": false,
-      "commercial_use": "yes",
+      "commercial_use": "check-license",
       "privacy": "local",
-      "license": "MIT",
+      "license": "Open WebUI License",
       "limits": "The interface is free; requires connection to LLM providers.",
       "limits_fr": "L'interface est gratuite; nécessite une connexion aux fournisseurs LLM.",
       "caveats": [
         "Requires API keys for external LLM providers.",
-        "Some features are in beta."
+        "Some features are in beta.",
+        "Custom license (BSD-style with a branding clause): removing or altering the Open WebUI branding requires a separate enterprise license."
       ],
       "caveats_fr": [
         "Nécessite des clés API pour les fournisseurs LLM externes.",
-        "Certaines fonctionnalités sont en bêta."
+        "Certaines fonctionnalités sont en bêta.",
+        "Licence personnalisée (style BSD avec une clause de marque) : retirer ou modifier la marque Open WebUI nécessite une licence entreprise distincte."
       ],
       "tags": [
         "chat",
@@ -962,7 +964,7 @@
       "card_required": false,
       "commercial_use": "yes",
       "privacy": "local",
-      "license": "MIT",
+      "license": "Apache-2.0",
       "limits": "Performance depends on hardware and selected LLM provider.",
       "limits_fr": "Les performances dépendent du matériel et du fournisseur LLM sélectionné.",
       "caveats": [
@@ -984,7 +986,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1031,7 +1033,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1210,7 +1212,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1257,7 +1259,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1304,7 +1306,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1445,7 +1447,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1470,7 +1472,7 @@
       "card_required": false,
       "commercial_use": "check-license",
       "privacy": "local",
-      "license": "AGPL-3.0",
+      "license": "Apache-2.0",
       "limits": "Performance depends on GPU and model selection.",
       "limits_fr": "Les performances dépendent du GPU et de la sélection du modèle.",
       "caveats": [
@@ -1492,7 +1494,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1538,7 +1540,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1586,7 +1588,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1678,7 +1680,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1726,7 +1728,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1817,7 +1819,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1865,7 +1867,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2009,7 +2011,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "watch",
       "confidence": "high"
     },
@@ -2056,7 +2058,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2104,7 +2106,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2197,7 +2199,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2244,7 +2246,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2290,7 +2292,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2337,7 +2339,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2384,7 +2386,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2431,7 +2433,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2478,7 +2480,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2525,7 +2527,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2573,7 +2575,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2621,7 +2623,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2762,7 +2764,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2809,7 +2811,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2856,7 +2858,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2903,7 +2905,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -2928,7 +2930,7 @@
       "card_required": false,
       "commercial_use": "yes",
       "privacy": "local",
-      "license": "Apache-2.0",
+      "license": "MPL-2.0",
       "limits": "Performance depends on hardware; GPU recommended.",
       "limits_fr": "Les performances dépendent du matériel; GPU recommandé.",
       "caveats": [
@@ -2950,7 +2952,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3091,7 +3093,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3138,7 +3140,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3234,7 +3236,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3306,7 +3308,7 @@
       "card_required": false,
       "commercial_use": "yes",
       "privacy": "local",
-      "license": "MIT",
+      "license": "BSD-2-Clause",
       "limits": "Requires GPU for optimal performance.",
       "limits_fr": "Nécessite un GPU pour des performances optimales.",
       "caveats": [
@@ -3328,7 +3330,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3376,7 +3378,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3423,7 +3425,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3469,7 +3471,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3515,7 +3517,7 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },

@@ -15,14 +15,14 @@
   "card_required": false,
   "commercial_use": "yes",
   "privacy": "local",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "limits": "Performance depends on hardware and selected LLM provider.",
   "limits_fr": "Les performances dépendent du matériel et du fournisseur LLM sélectionné.",
   "caveats": ["Requires API keys for external LLM providers.", "Autonomous coding requires careful monitoring."],
   "caveats_fr": ["Nécessite des clés API pour les fournisseurs LLM externes.", "Le codage autonome nécessite une surveillance attentive."],
   "tags": ["coding", "terminal", "ai-assistant", "autonomous"],
   "source": {"url": "https://github.com/cline/cline", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

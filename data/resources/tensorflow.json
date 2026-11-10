@@ -22,7 +22,7 @@
   "caveats_fr": ["Grand framework avec API complexe.", "Certaines fonctionnalités nécessitent un support GPU."],
   "tags": ["ml", "deep-learning", "production", "mobile"],
   "source": {"url": "https://github.com/tensorflow/tensorflow", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

@@ -22,7 +22,7 @@
   "caveats_fr": ["Configuration complexe pour les conversations multi-agents.", "Nécessite une compréhension des motifs d'agents."],
   "tags": ["agents", "multi-agent", "conversation", "microsoft"],
   "source": {"url": "https://github.com/microsoft/autogen", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

@@ -22,7 +22,7 @@
   "caveats_fr": ["La qualité des modèles varie selon la taille et la quantification.", "Certains modèles ont des licences séparées."],
   "tags": ["llm", "local", "api", "model-management"],
   "source": {"url": "https://github.com/ollama/ollama", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

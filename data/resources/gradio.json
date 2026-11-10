@@ -22,7 +22,7 @@
   "caveats_fr": ["Les interfaces complexes peuvent avoir des limitations de performance.", "L'offre gratuite de Gradio Spaces a des limitations de ressources."],
   "tags": ["python", "web-app", "demo", "machine-learning"],
   "source": {"url": "https://github.com/gradio-app/gradio", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

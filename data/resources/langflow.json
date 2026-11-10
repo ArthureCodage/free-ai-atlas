@@ -22,7 +22,7 @@
   "caveats_fr": ["Les applications complexes peuvent nécessiter du codage.", "Les services cloud ont une tarification séparée."],
   "tags": ["no-code", "visual", "rag", "agents"],
   "source": {"url": "https://github.com/langflow-ai/langflow", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

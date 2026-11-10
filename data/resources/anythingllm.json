@@ -22,7 +22,7 @@
   "caveats_fr": ["Certaines fonctionnalités nécessitent des clés API pour les fournisseurs externes.", "La qualité des modèles varie selon le fournisseur."],
   "tags": ["chatbot", "local", "documents", "privacy"],
   "source": {"url": "https://github.com/Mintplex-Labs/anything-llm", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

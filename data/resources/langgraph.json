@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite une compréhension de LangChain.", "Les services cloud ont une tarification séparée."],
   "tags": ["agents", "stateful", "workflow", "langchain"],
   "source": {"url": "https://github.com/langchain-ai/langgraph", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

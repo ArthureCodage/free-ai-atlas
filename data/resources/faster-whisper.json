@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite un GPU pour des performances optimales.", "La qualité du modèle varie selon la taille."],
   "tags": ["speech", "recognition", "whisper", "audio"],
   "source": {"url": "https://github.com/SYSTRAN/faster-whisper", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

@@ -22,7 +22,7 @@
   "caveats_fr": ["Configuration complexe pour un usage en production.", "Les services cloud ont une tarification séparée."],
   "tags": ["ml", "deployment", "production", "serving"],
   "source": {"url": "https://github.com/bentoml/BentoML", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

@@ -22,7 +22,7 @@
   "caveats_fr": ["Courbe d'apprentissage raide.", "Nécessite GPU/TPU pour des performances optimales."],
   "tags": ["numerical", "computing", "gpu", "tpu", "research"],
   "source": {"url": "https://github.com/jax-ml/jax", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite des clés API pour les fournisseurs LLM externes.", "Les services managés ont une tarification séparée."],
   "tags": ["rag", "data", "indexing", "query"],
   "source": {"url": "https://github.com/run-llama/llama_index", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

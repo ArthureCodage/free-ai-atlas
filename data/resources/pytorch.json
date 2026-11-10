@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite un GPU pour des performances optimales.", "Courbe d'apprentissage raide pour les débutants."],
   "tags": ["deep-learning", "ml", "gpu", "research"],
   "source": {"url": "https://github.com/pytorch/pytorch", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

@@ -22,7 +22,7 @@
   "caveats_fr": ["Les API de frameworks évoluent rapidement.", "Utilisez des modèles locaux ou gratuits lorsqu’un service hébergé serait payant."],
   "tags": ["course", "agents", "tools", "evaluation"],
   "source": {"url": "https://github.com/huggingface/agents-course", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

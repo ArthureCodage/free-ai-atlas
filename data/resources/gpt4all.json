@@ -22,7 +22,7 @@
   "caveats_fr": ["La licence de l'application ne remplace pas les licences des modèles.", "L'activité du dépôt doit être vérifiée."],
   "tags": ["local", "chatbot", "privacy", "desktop"],
   "source": {"url": "https://github.com/nomic-ai/gpt4all", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "watch",
   "confidence": "high"
 }

@@ -15,14 +15,14 @@
   "card_required": false,
   "commercial_use": "yes",
   "privacy": "local",
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "limits": "Requires GPU for optimal performance.",
   "limits_fr": "Nécessite un GPU pour des performances optimales.",
   "caveats": ["Requires GPU for optimal performance.", "Speaker diarization requires additional setup."],
   "caveats_fr": ["Nécessite un GPU pour des performances optimales.", "La diarisation de locuteurs nécessite une configuration supplémentaire."],
   "tags": ["speech", "recognition", "timestamps", "diarization"],
   "source": {"url": "https://github.com/m-bain/whisperX", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

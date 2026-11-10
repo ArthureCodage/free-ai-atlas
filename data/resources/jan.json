@@ -15,14 +15,14 @@
   "card_required": false,
   "commercial_use": "yes",
   "privacy": "local",
-  "license": "AGPL-3.0",
+  "license": "Apache-2.0",
   "limits": "Performance depends on hardware and model selection.",
   "limits_fr": "Les performances dépendent du matériel et de la sélection du modèle.",
   "caveats": ["Limited model selection compared to cloud services.", "Some features are in beta."],
   "caveats_fr": ["Sélection de modèles limitée par rapport aux services cloud.", "Certaines fonctionnalités sont en bêta."],
   "tags": ["chatbot", "local", "privacy", "desktop"],
   "source": {"url": "https://github.com/janhq/jan", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }
