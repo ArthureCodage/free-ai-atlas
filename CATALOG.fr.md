@@ -27,7 +27,7 @@ Un cadre pour construire des systèmes IA multi-agents avec des agents basés su
 - **Limites:** Le cadre est gratuit; CrewAI Enterprise a une tarification séparée.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/joaomdmoura/crewAI)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/crewAIInc/crewAI)
 
 **À savoir**
 
@@ -278,7 +278,7 @@ Une interface web riche en fonctionnalités et conviviale pour interagir avec le
 - **Limites:** L'interface est gratuite; nécessite une connexion aux fournisseurs LLM.
 - **Licence:** Open WebUI License
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/open-webui/open-webui)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/open-webui/open-webui)
 
 **À savoir**
 
@@ -310,7 +310,7 @@ Un assistant de programmation en binôme IA qui fonctionne dans votre terminal a
 - **Limites:** Les performances dépendent du matériel et du fournisseur LLM sélectionné.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/paul-gauthier/aider)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/Aider-AI/aider)
 
 **À savoir**
 
@@ -358,7 +358,7 @@ Un agent de développement logiciel IA open source qui peut écrire du code, cor
 - **Limites:** Les performances dépendent du matériel et du fournisseur LLM sélectionné.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/All-Hands-AI/OpenHands)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/OpenHands/OpenHands)
 
 **À savoir**
 
@@ -452,7 +452,7 @@ Un cadre d'évaluation open source pour les applications Retrieval Augmented Gen
 - **Limites:** Le cadre est gratuit; les services managés ont une tarification séparée.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/explodinggradients/ragas)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/vibrantlabsai/ragas)
 
 **À savoir**
 
@@ -468,7 +468,7 @@ Une interface utilisateur modulaire et puissante basée sur des nœuds pour Stab
 - **Limites:** Les performances dépendent du GPU et de la sélection du modèle.
 - **Licence:** GPL-3.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/comfyanonymous/ComfyUI)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/Comfy-Org/ComfyUI)
 
 **À savoir**
 
@@ -548,10 +548,11 @@ Une solution d'inférence prête pour la production pour exécuter des LLMs avec
 - **Limites:** Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/text-generation-inference)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/huggingface/text-generation-inference)
 
 **À savoir**
 
+- Le dépôt est archivé sur GitHub et n'est plus maintenu.
 - Configuration complexe pour les déploiements en production.
 - Nécessite un GPU avec suffisamment de VRAM.
 
@@ -1108,7 +1109,7 @@ Une implémentation C++ haute performance du modèle Whisper d'OpenAI pour la re
 - **Limites:** Les performances dépendent du matériel; optimisé pour l'inférence CPU.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/ggerganov/whisper.cpp)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/ggml-org/whisper.cpp)
 
 **À savoir**
 
@@ -1202,9 +1203,9 @@ Un moteur de recherche vectorielle open source pour construire des applications 
 - **Idéal pour:** Construire des applications IA avec recherche hybride et générative
 - **Gratuité:** Open source
 - **Limites:** Les performances dépendent du matériel; la version cloud a une tarification séparée.
-- **Licence:** BSD-3-Clause
+- **Licence:** BSD-3-Clause and Weaviate License (mixed)
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/weaviate/weaviate)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/weaviate/weaviate)
 
 **À savoir**
 

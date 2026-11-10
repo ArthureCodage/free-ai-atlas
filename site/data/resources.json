@@ -6,7 +6,7 @@
     "open_source_count": 57,
     "local_count": 54,
     "no_account_count": 62,
-    "high_confidence_count": 76
+    "high_confidence_count": 73
   },
   "resources": [
     {
@@ -72,7 +72,7 @@
         "macos",
         "linux"
       ],
-      "homepage": "https://github.com/joaomdmoura/crewAI",
+      "homepage": "https://github.com/crewAIInc/crewAI",
       "account_required": false,
       "card_required": false,
       "commercial_use": "yes",
@@ -95,11 +95,11 @@
         "collaboration"
       ],
       "source": {
-        "url": "https://github.com/joaomdmoura/crewAI",
+        "url": "https://github.com/crewAIInc/crewAI",
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -849,9 +849,9 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "id": "perplexity",
@@ -912,7 +912,7 @@
         "macos",
         "linux"
       ],
-      "homepage": "https://github.com/paul-gauthier/aider",
+      "homepage": "https://github.com/Aider-AI/aider",
       "account_required": false,
       "card_required": false,
       "commercial_use": "yes",
@@ -935,11 +935,11 @@
         "git"
       ],
       "source": {
-        "url": "https://github.com/paul-gauthier/aider",
+        "url": "https://github.com/Aider-AI/aider",
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1052,7 +1052,7 @@
         "linux",
         "docker"
       ],
-      "homepage": "https://github.com/All-Hands-AI/OpenHands",
+      "homepage": "https://github.com/OpenHands/OpenHands",
       "account_required": false,
       "card_required": false,
       "commercial_use": "yes",
@@ -1075,11 +1075,11 @@
         "software-development"
       ],
       "source": {
-        "url": "https://github.com/All-Hands-AI/OpenHands",
+        "url": "https://github.com/OpenHands/OpenHands",
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1326,7 +1326,7 @@
         "macos",
         "linux"
       ],
-      "homepage": "https://github.com/explodinggradients/ragas",
+      "homepage": "https://github.com/vibrantlabsai/ragas",
       "account_required": false,
       "card_required": false,
       "commercial_use": "yes",
@@ -1349,11 +1349,11 @@
         "quality"
       ],
       "source": {
-        "url": "https://github.com/explodinggradients/ragas",
+        "url": "https://github.com/vibrantlabsai/ragas",
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1373,7 +1373,7 @@
         "macos",
         "linux"
       ],
-      "homepage": "https://github.com/comfyanonymous/ComfyUI",
+      "homepage": "https://github.com/Comfy-Org/ComfyUI",
       "account_required": false,
       "card_required": false,
       "commercial_use": "yes",
@@ -1396,11 +1396,11 @@
         "modular"
       ],
       "source": {
-        "url": "https://github.com/comfyanonymous/ComfyUI",
+        "url": "https://github.com/Comfy-Org/ComfyUI",
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -1616,10 +1616,12 @@
       "limits": "Requires GPU with sufficient VRAM for optimal performance.",
       "limits_fr": "Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.",
       "caveats": [
+        "Repository is archived on GitHub and no longer maintained.",
         "Complex setup for production deployments.",
         "Requires GPU with sufficient VRAM."
       ],
       "caveats_fr": [
+        "Le dépôt est archivé sur GitHub et n'est plus maintenu.",
         "Configuration complexe pour les déploiements en production.",
         "Nécessite un GPU avec suffisamment de VRAM."
       ],
@@ -1634,9 +1636,9 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
-      "status": "active",
-      "confidence": "high"
+      "last_verified": "2026-11-10",
+      "status": "deprecated",
+      "confidence": "medium"
     },
     {
       "id": "vllm",
@@ -3256,7 +3258,7 @@
         "macos",
         "linux"
       ],
-      "homepage": "https://github.com/ggerganov/whisper.cpp",
+      "homepage": "https://github.com/ggml-org/whisper.cpp",
       "account_required": false,
       "card_required": false,
       "commercial_use": "yes",
@@ -3279,11 +3281,11 @@
         "cpp"
       ],
       "source": {
-        "url": "https://github.com/ggerganov/whisper.cpp",
+        "url": "https://github.com/ggml-org/whisper.cpp",
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
       "confidence": "high"
     },
@@ -3541,7 +3543,7 @@
       "card_required": false,
       "commercial_use": "yes",
       "privacy": "local",
-      "license": "BSD-3-Clause",
+      "license": "BSD-3-Clause and Weaviate License (mixed)",
       "limits": "Performance depends on hardware; cloud version has separate pricing.",
       "limits_fr": "Les performances dépendent du matériel; la version cloud a une tarification séparée.",
       "caveats": [
@@ -3563,9 +3565,9 @@
         "type": "official-repository",
         "official": true
       },
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-11-10",
       "status": "active",
-      "confidence": "high"
+      "confidence": "medium"
     }
   ]
 }

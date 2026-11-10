@@ -18,11 +18,11 @@
   "license": "Apache-2.0",
   "limits": "Requires GPU with sufficient VRAM for optimal performance.",
   "limits_fr": "Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.",
-  "caveats": ["Complex setup for production deployments.", "Requires GPU with sufficient VRAM."],
-  "caveats_fr": ["Configuration complexe pour les déploiements en production.", "Nécessite un GPU avec suffisamment de VRAM."],
+  "caveats": ["Repository is archived on GitHub and no longer maintained.", "Complex setup for production deployments.", "Requires GPU with sufficient VRAM."],
+  "caveats_fr": ["Le dépôt est archivé sur GitHub et n'est plus maintenu.", "Configuration complexe pour les déploiements en production.", "Nécessite un GPU avec suffisamment de VRAM."],
   "tags": ["inference", "serving", "huggingface", "production"],
   "source": {"url": "https://github.com/huggingface/text-generation-inference", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
-  "status": "active",
-  "confidence": "high"
+  "last_verified": "2026-11-10",
+  "status": "deprecated",
+  "confidence": "medium"
 }

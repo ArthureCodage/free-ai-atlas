@@ -7,7 +7,7 @@ This file is generated from the catalog source records.
 - **Open source:** 57
 - **Local-first:** 54
 - **No account required:** 62
-- **High confidence:** 76
+- **High confidence:** 73
 
 ## Categories
 

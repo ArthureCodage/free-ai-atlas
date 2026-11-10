@@ -58,7 +58,7 @@ Chaque fiche explique ce que « gratuit » signifie réellement, les limites, la
 | Ressource | Catégorie | Gratuité | Accès | Niveau | Vérifié |
 |---|---|---|---|---|---|
 | [AutoGen](https://github.com/microsoft/autogen) | agents | Open source | local | advanced | 2026-11-10 |
-| [CrewAI](https://github.com/joaomdmoura/crewAI) | agents | Open source | local | intermediate | 2026-08-04 |
+| [CrewAI](https://github.com/crewAIInc/crewAI) | agents | Open source | local | intermediate | 2026-11-10 |
 | [LangChain](https://github.com/langchain-ai/langchain) | agents | Open source | hybrid | intermediate | 2026-11-10 |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | agents | Open source | local | intermediate | 2026-11-10 |
 | [Gemini Developer API](https://ai.google.dev/) | api | Offre gratuite | cloud | intermediate | 2026-09-26 |
@@ -74,24 +74,24 @@ Chaque fiche explique ce que « gratuit » signifie réellement, les limites, la
 | [Gemini](https://gemini.google.com/) | assistant | Freemium | cloud | beginner | 2026-09-26 |
 | [Jan](https://github.com/janhq/jan) | assistant | Open source | local | beginner | 2026-11-10 |
 | [Msty](https://msty.app) | assistant | Offre gratuite | local | beginner | 2026-09-26 |
-| [Open WebUI](https://github.com/open-webui/open-webui) | assistant | Open source | local | beginner | 2026-08-04 |
+| [Open WebUI](https://github.com/open-webui/open-webui) | assistant | Open source | local | beginner | 2026-11-10 |
 | [Perplexity](https://www.perplexity.ai/) | assistant | Freemium | cloud | beginner | 2026-09-26 |
-| [Aider](https://github.com/paul-gauthier/aider) | coding | Open source | local | intermediate | 2026-08-04 |
+| [Aider](https://github.com/Aider-AI/aider) | coding | Open source | local | intermediate | 2026-11-10 |
 | [Cline](https://github.com/cline/cline) | coding | Open source | local | intermediate | 2026-11-10 |
 | [Continue](https://github.com/continuedev/continue) | coding | Open source | local | beginner | 2026-11-10 |
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | coding | Open source | local | advanced | 2026-08-04 |
+| [OpenHands](https://github.com/OpenHands/OpenHands) | coding | Open source | local | advanced | 2026-11-10 |
 | [Google Colab](https://colab.research.google.com/) | compute | Calcul gratuit | cloud | beginner | 2026-09-26 |
 | [Kaggle Notebooks](https://www.kaggle.com/code) | compute | Calcul gratuit | cloud | beginner | 2026-09-26 |
 | [Hugging Face Datasets](https://github.com/huggingface/datasets) | dataset | Open source | local | intermediate | 2026-11-10 |
 | [DeepEval](https://github.com/confident-ai/deepeval) | evaluation | Open source | local | intermediate | 2026-11-10 |
 | [Promptfoo](https://github.com/promptfoo/promptfoo) | evaluation | Open source | local | intermediate | 2026-11-10 |
-| [Ragas](https://github.com/explodinggradients/ragas) | evaluation | Open source | local | intermediate | 2026-08-04 |
-| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | image-generation | Open source | local | intermediate | 2026-08-04 |
+| [Ragas](https://github.com/vibrantlabsai/ragas) | evaluation | Open source | local | intermediate | 2026-11-10 |
+| [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | image-generation | Open source | local | intermediate | 2026-11-10 |
 | [Diffusers](https://github.com/huggingface/diffusers) | image-generation | Open source | local | intermediate | 2026-11-10 |
 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | image-generation | Open source | local | intermediate | 2026-11-10 |
 | [Stable Diffusion WebUI Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) | image-generation | Open source | local | intermediate | 2026-11-10 |
 | [ONNX Runtime](https://github.com/microsoft/onnxruntime) | inference-server | Open source | local | intermediate | 2026-11-10 |
-| [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) | inference-server | Open source | local | advanced | 2026-08-04 |
+| [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) | inference-server | Open source | local | advanced | 2026-11-10 |
 | [vLLM](https://github.com/vllm-project/vllm) | inference-server | Open source | local | advanced | 2026-11-10 |
 | [Hugging Face Agents Course](https://github.com/huggingface/agents-course) | learning | Open source | cloud | intermediate | 2026-11-10 |
 | [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | learning | Offre gratuite | cloud | intermediate | 2026-09-26 |
@@ -126,13 +126,13 @@ Chaque fiche explique ce que « gratuit » signifie réellement, les limites, la
 | [OpenAI Whisper](https://github.com/openai/whisper) | speech | Open source | local | intermediate | 2026-11-10 |
 | [PlayHT](https://play.ht) | speech | Offre gratuite | cloud | beginner | 2026-08-07 |
 | [Pyannote Audio](https://github.com/pyannote/pyannote-audio) | speech | Open source | local | intermediate | 2026-11-10 |
-| [whisper.cpp](https://github.com/ggerganov/whisper.cpp) | speech | Open source | local | intermediate | 2026-08-04 |
+| [whisper.cpp](https://github.com/ggml-org/whisper.cpp) | speech | Open source | local | intermediate | 2026-11-10 |
 | [WhisperX](https://github.com/m-bain/whisperX) | speech | Open source | local | intermediate | 2026-11-10 |
 | [Chroma](https://github.com/chroma-core/chroma) | vector-database | Open source | local | intermediate | 2026-11-10 |
 | [Faiss](https://github.com/facebookresearch/faiss) | vector-database | Open source | local | advanced | 2026-11-10 |
 | [Milvus](https://github.com/milvus-io/milvus) | vector-database | Open source | local | advanced | 2026-11-10 |
 | [Qdrant](https://github.com/qdrant/qdrant) | vector-database | Open source | local | intermediate | 2026-11-10 |
-| [Weaviate](https://github.com/weaviate/weaviate) | vector-database | Open source | local | intermediate | 2026-08-04 |
+| [Weaviate](https://github.com/weaviate/weaviate) | vector-database | Open source | local | intermediate | 2026-11-10 |
 
 ## Modèle de confiance
 

@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite des clés API pour les fournisseurs LLM externes.", "Certaines fonctionnalités sont en bêta.", "Licence personnalisée (style BSD avec une clause de marque) : retirer ou modifier la marque Open WebUI nécessite une licence entreprise distincte."],
   "tags": ["chat", "webui", "local", "user-friendly"],
   "source": {"url": "https://github.com/open-webui/open-webui", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
-  "confidence": "high"
+  "confidence": "medium"
 }

@@ -27,7 +27,7 @@ A framework for building multi-agent AI systems with role-based agents that coll
 - **Limits:** The framework is free; CrewAI Enterprise has separate pricing.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/joaomdmoura/crewAI)
+- **Verified:** 2026-11-10 — [official source](https://github.com/crewAIInc/crewAI)
 
 **Caveats**
 
@@ -278,7 +278,7 @@ A feature-rich, user-friendly web interface for interacting with local LLMs with
 - **Limits:** The interface is free; requires connection to LLM providers.
 - **License:** Open WebUI License
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/open-webui/open-webui)
+- **Verified:** 2026-11-10 — [official source](https://github.com/open-webui/open-webui)
 
 **Caveats**
 
@@ -310,7 +310,7 @@ An AI pair programming assistant that works in your terminal with support for mu
 - **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/paul-gauthier/aider)
+- **Verified:** 2026-11-10 — [official source](https://github.com/Aider-AI/aider)
 
 **Caveats**
 
@@ -358,7 +358,7 @@ An open-source AI-powered software development agent that can write code, fix bu
 - **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/All-Hands-AI/OpenHands)
+- **Verified:** 2026-11-10 — [official source](https://github.com/OpenHands/OpenHands)
 
 **Caveats**
 
@@ -452,7 +452,7 @@ An open-source evaluation framework for Retrieval Augmented Generation (RAG) app
 - **Limits:** The framework is free; managed services have separate pricing.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/explodinggradients/ragas)
+- **Verified:** 2026-11-10 — [official source](https://github.com/vibrantlabsai/ragas)
 
 **Caveats**
 
@@ -468,7 +468,7 @@ A powerful and modular node-based UI for Stable Diffusion with support for compl
 - **Limits:** Performance depends on GPU and model selection.
 - **License:** GPL-3.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/comfyanonymous/ComfyUI)
+- **Verified:** 2026-11-10 — [official source](https://github.com/Comfy-Org/ComfyUI)
 
 **Caveats**
 
@@ -548,10 +548,11 @@ A production-ready inference solution for running LLMs with support for quantiza
 - **Limits:** Requires GPU with sufficient VRAM for optimal performance.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/text-generation-inference)
+- **Verified:** 2026-11-10 — [official source](https://github.com/huggingface/text-generation-inference)
 
 **Caveats**
 
+- Repository is archived on GitHub and no longer maintained.
 - Complex setup for production deployments.
 - Requires GPU with sufficient VRAM.
 
@@ -1108,7 +1109,7 @@ A high-performance C++ implementation of OpenAI's Whisper model for speech recog
 - **Limits:** Performance depends on hardware; optimized for CPU inference.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/ggerganov/whisper.cpp)
+- **Verified:** 2026-11-10 — [official source](https://github.com/ggml-org/whisper.cpp)
 
 **Caveats**
 
@@ -1202,9 +1203,9 @@ An open-source vector search engine for building AI applications with support fo
 - **Best for:** Building AI apps with hybrid and generative search
 - **Free access:** Open source
 - **Limits:** Performance depends on hardware; cloud version has separate pricing.
-- **License:** BSD-3-Clause
+- **License:** BSD-3-Clause and Weaviate License (mixed)
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/weaviate/weaviate)
+- **Verified:** 2026-11-10 — [official source](https://github.com/weaviate/weaviate)
 
 **Caveats**
 
