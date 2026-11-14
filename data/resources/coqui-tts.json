@@ -15,14 +15,14 @@
   "card_required": false,
   "commercial_use": "yes",
   "privacy": "local",
-  "license": "Apache-2.0",
+  "license": "MPL-2.0",
   "limits": "Performance depends on hardware; GPU recommended.",
   "limits_fr": "Les performances dépendent du matériel; GPU recommandé.",
   "caveats": ["Requires GPU for optimal performance.", "Voice cloning requires training data."],
   "caveats_fr": ["Nécessite un GPU pour des performances optimales.", "Le clonage de voix nécessite des données d'entraînement."],
   "tags": ["speech", "tts", "voice-cloning", "multilingual"],
   "source": {"url": "https://github.com/coqui-ai/TTS", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

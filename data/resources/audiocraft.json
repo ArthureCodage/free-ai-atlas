@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite un GPU pour des performances optimales.", "La génération de musique peut être lente."],
   "tags": ["music", "audio", "generation", "meta"],
   "source": {"url": "https://github.com/facebookresearch/audiocraft", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

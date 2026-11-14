@@ -22,7 +22,7 @@
   "caveats_fr": ["Déploiement et configuration complexes.", "La version hébergée dans le cloud a une tarification séparée."],
   "tags": ["vector-database", "search", "scalable", "enterprise"],
   "source": {"url": "https://github.com/milvus-io/milvus", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

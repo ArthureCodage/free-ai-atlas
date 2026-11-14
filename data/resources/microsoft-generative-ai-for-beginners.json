@@ -22,7 +22,7 @@
   "caveats_fr": ["Utilisez des modèles gratuits ou locaux lorsqu’un exemple cible une API payante.", "Les instructions propres aux fournisseurs peuvent changer."],
   "tags": ["course", "generative-ai", "beginner", "curriculum"],
   "source": {"url": "https://github.com/microsoft/generative-ai-for-beginners", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

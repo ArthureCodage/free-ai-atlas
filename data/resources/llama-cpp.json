@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite une compilation ou des binaires pré-construits.", "Les fichiers de modèles ont des licences indépendantes."],
   "tags": ["llm", "local", "cpu", "gpu", "quantization"],
   "source": {"url": "https://github.com/ggml-org/llama.cpp", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

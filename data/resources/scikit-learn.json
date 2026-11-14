@@ -22,7 +22,7 @@
   "caveats_fr": ["Non adapté au deep learning.", "Support GPU limité."],
   "tags": ["machine-learning", "python", "classical", "beginner"],
   "source": {"url": "https://github.com/scikit-learn/scikit-learn", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

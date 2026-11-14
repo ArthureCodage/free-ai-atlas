@@ -10,7 +10,7 @@
   "access": "local",
   "difficulty": "intermediate",
   "platforms": ["windows", "macos", "linux"],
-  "homepage": "https://github.com/joaomdmoura/crewAI",
+  "homepage": "https://github.com/crewAIInc/crewAI",
   "account_required": false,
   "card_required": false,
   "commercial_use": "yes",
@@ -21,8 +21,8 @@
   "caveats": ["Requires API keys for external LLM providers.", "Enterprise features have separate pricing."],
   "caveats_fr": ["Nécessite des clés API pour les fournisseurs LLM externes.", "Les fonctionnalités entreprise ont une tarification séparée."],
   "tags": ["agents", "multi-agent", "role-based", "collaboration"],
-  "source": {"url": "https://github.com/joaomdmoura/crewAI", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "source": {"url": "https://github.com/crewAIInc/crewAI", "type": "official-repository", "official": true},
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

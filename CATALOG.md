@@ -11,7 +11,7 @@ A framework for building multi-agent conversations with support for complex work
 - **Limits:** Requires API keys for external LLM providers.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/microsoft/autogen)
+- **Verified:** 2026-11-10 — [official source](https://github.com/microsoft/autogen)
 
 **Caveats**
 
@@ -27,7 +27,7 @@ A framework for building multi-agent AI systems with role-based agents that coll
 - **Limits:** The framework is free; CrewAI Enterprise has separate pricing.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/joaomdmoura/crewAI)
+- **Verified:** 2026-11-10 — [official source](https://github.com/crewAIInc/crewAI)
 
 **Caveats**
 
@@ -43,7 +43,7 @@ An open-source framework for building agent and language-model applications with
 - **Limits:** The framework is free; connected models, data stores, tracing services, and deployment infrastructure may have separate costs and terms.
 - **License:** MIT
 - **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/langchain-ai/langchain)
+- **Verified:** 2026-11-10 — [official source](https://github.com/langchain-ai/langchain)
 
 **Caveats**
 
@@ -59,7 +59,7 @@ A library for building stateful, multi-actor applications with LLMs, built on to
 - **Limits:** The library is free; LangGraph Cloud has separate pricing.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/langchain-ai/langgraph)
+- **Verified:** 2026-11-10 — [official source](https://github.com/langchain-ai/langgraph)
 
 **Caveats**
 
@@ -137,7 +137,7 @@ An open-source Python library for building machine learning demos and web interf
 - **Limits:** The library is free; Gradio Spaces has free tier limitations.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/gradio-app/gradio)
+- **Verified:** 2026-11-10 — [official source](https://github.com/gradio-app/gradio)
 
 **Caveats**
 
@@ -153,7 +153,7 @@ A visual framework for building multi-agent and RAG applications with a drag-and
 - **Limits:** The framework is free; Langflow Cloud has separate pricing.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/langflow-ai/langflow)
+- **Verified:** 2026-11-10 — [official source](https://github.com/langflow-ai/langflow)
 
 **Caveats**
 
@@ -169,7 +169,7 @@ An open-source app framework for machine learning and data science teams to crea
 - **Limits:** The framework is free; deployment to Streamlit Cloud has free tier limitations.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/streamlit/streamlit)
+- **Verified:** 2026-11-10 — [official source](https://github.com/streamlit/streamlit)
 
 **Caveats**
 
@@ -185,7 +185,7 @@ An open-source desktop application for running AI chatbots locally with support 
 - **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/Mintplex-Labs/anything-llm)
+- **Verified:** 2026-11-10 — [official source](https://github.com/Mintplex-Labs/anything-llm)
 
 **Caveats**
 
@@ -244,9 +244,9 @@ An open-source desktop application for running local AI chatbots with support fo
 - **Best for:** Private local AI chatbot
 - **Free access:** Open source
 - **Limits:** Performance depends on hardware and model selection.
-- **License:** AGPL-3.0
+- **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/janhq/jan)
+- **Verified:** 2026-11-10 — [official source](https://github.com/janhq/jan)
 
 **Caveats**
 
@@ -276,14 +276,15 @@ A feature-rich, user-friendly web interface for interacting with local LLMs with
 - **Best for:** User-friendly local LLM interface
 - **Free access:** Open source
 - **Limits:** The interface is free; requires connection to LLM providers.
-- **License:** MIT
+- **License:** Open WebUI License
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/open-webui/open-webui)
+- **Verified:** 2026-11-10 — [official source](https://github.com/open-webui/open-webui)
 
 **Caveats**
 
 - Requires API keys for external LLM providers.
 - Some features are in beta.
+- Custom license (BSD-style with a branding clause): removing or altering the Open WebUI branding requires a separate enterprise license.
 
 ## Perplexity
 
@@ -309,7 +310,7 @@ An AI pair programming assistant that works in your terminal with support for mu
 - **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/paul-gauthier/aider)
+- **Verified:** 2026-11-10 — [official source](https://github.com/Aider-AI/aider)
 
 **Caveats**
 
@@ -323,9 +324,9 @@ An AI coding assistant that runs in your terminal with support for multiple LLM 
 - **Best for:** Terminal-based AI coding assistant
 - **Free access:** Open source
 - **Limits:** Performance depends on hardware and selected LLM provider.
-- **License:** MIT
+- **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/cline/cline)
+- **Verified:** 2026-11-10 — [official source](https://github.com/cline/cline)
 
 **Caveats**
 
@@ -341,7 +342,7 @@ An open-source AI code assistant that integrates with VS Code and JetBrains IDEs
 - **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/continuedev/continue)
+- **Verified:** 2026-11-10 — [official source](https://github.com/continuedev/continue)
 
 **Caveats**
 
@@ -357,7 +358,7 @@ An open-source AI-powered software development agent that can write code, fix bu
 - **Limits:** Performance depends on hardware and selected LLM provider.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/All-Hands-AI/OpenHands)
+- **Verified:** 2026-11-10 — [official source](https://github.com/OpenHands/OpenHands)
 
 **Caveats**
 
@@ -403,7 +404,7 @@ A comprehensive library for accessing, processing, and sharing datasets for mach
 - **Limits:** Dataset size is limited by your local storage and memory. Large datasets may require streaming.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/datasets)
+- **Verified:** 2026-11-10 — [official source](https://github.com/huggingface/datasets)
 
 **Caveats**
 
@@ -419,7 +420,7 @@ An open-source evaluation framework for LLM applications with support for metric
 - **Limits:** The framework is free; managed services have separate pricing.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/confident-ai/deepeval)
+- **Verified:** 2026-11-10 — [official source](https://github.com/confident-ai/deepeval)
 
 **Caveats**
 
@@ -435,7 +436,7 @@ An open-source tool for testing and evaluating LLM prompts with support for red-
 - **Limits:** The tool is free; enterprise features have separate pricing.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/promptfoo/promptfoo)
+- **Verified:** 2026-11-10 — [official source](https://github.com/promptfoo/promptfoo)
 
 **Caveats**
 
@@ -451,7 +452,7 @@ An open-source evaluation framework for Retrieval Augmented Generation (RAG) app
 - **Limits:** The framework is free; managed services have separate pricing.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/explodinggradients/ragas)
+- **Verified:** 2026-11-10 — [official source](https://github.com/vibrantlabsai/ragas)
 
 **Caveats**
 
@@ -467,7 +468,7 @@ A powerful and modular node-based UI for Stable Diffusion with support for compl
 - **Limits:** Performance depends on GPU and model selection.
 - **License:** GPL-3.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/comfyanonymous/ComfyUI)
+- **Verified:** 2026-11-10 — [official source](https://github.com/Comfy-Org/ComfyUI)
 
 **Caveats**
 
@@ -483,7 +484,7 @@ A state-of-the-art library for diffusion model inference and training with suppo
 - **Limits:** Performance depends on GPU; model licenses vary.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/diffusers)
+- **Verified:** 2026-11-10 — [official source](https://github.com/huggingface/diffusers)
 
 **Caveats**
 
@@ -497,9 +498,9 @@ A professional-grade creative engine for Stable Diffusion models with a focus on
 - **Best for:** Professional image generation and editing
 - **Free access:** Open source
 - **Limits:** Performance depends on GPU and model selection.
-- **License:** AGPL-3.0
+- **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/invoke-ai/InvokeAI)
+- **Verified:** 2026-11-10 — [official source](https://github.com/invoke-ai/InvokeAI)
 
 **Caveats**
 
@@ -515,7 +516,7 @@ A modified version of Automatic1111's Stable Diffusion WebUI with performance im
 - **Limits:** Performance depends on GPU and model selection.
 - **License:** AGPL-3.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/lllyasviel/stable-diffusion-webui-forge)
+- **Verified:** 2026-11-10 — [official source](https://github.com/lllyasviel/stable-diffusion-webui-forge)
 
 **Caveats**
 
@@ -531,7 +532,7 @@ A cross-platform, high-performance ML inferencing and training accelerator compa
 - **Limits:** Performance depends on hardware and model optimization.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/microsoft/onnxruntime)
+- **Verified:** 2026-11-10 — [official source](https://github.com/microsoft/onnxruntime)
 
 **Caveats**
 
@@ -547,10 +548,11 @@ A production-ready inference solution for running LLMs with support for quantiza
 - **Limits:** Requires GPU with sufficient VRAM for optimal performance.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/text-generation-inference)
+- **Verified:** 2026-11-10 — [official source](https://github.com/huggingface/text-generation-inference)
 
 **Caveats**
 
+- Repository is archived on GitHub and no longer maintained.
 - Complex setup for production deployments.
 - Requires GPU with sufficient VRAM.
 
@@ -563,7 +565,7 @@ A high-throughput and memory-efficient inference and serving engine for LLMs wit
 - **Limits:** Requires GPU with sufficient VRAM for optimal performance.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/vllm-project/vllm)
+- **Verified:** 2026-11-10 — [official source](https://github.com/vllm-project/vllm)
 
 **Caveats**
 
@@ -579,7 +581,7 @@ A free open-source course covering agent concepts, tool use, frameworks, use cas
 - **Limits:** Course content is free; exercises may use hosted notebooks, external models, accounts, or compute with separate limits.
 - **License:** Apache-2.0
 - **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/agents-course)
+- **Verified:** 2026-11-10 — [official source](https://github.com/huggingface/agents-course)
 
 **Caveats**
 
@@ -610,7 +612,7 @@ A free open-source curriculum organized into twelve weeks and twenty-four lesson
 - **Limits:** Course material is free; some labs require local setup, packages, compute, or optional external services.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/microsoft/AI-For-Beginners)
+- **Verified:** 2026-11-10 — [official source](https://github.com/microsoft/AI-For-Beginners)
 
 **Caveats**
 
@@ -626,7 +628,7 @@ A free open-source curriculum with twenty-one lessons on building generative-AI 
 - **Limits:** Curriculum content is free; completing provider-specific samples may require API access, accounts, or local model alternatives.
 - **License:** MIT
 - **Privacy:** configurable
-- **Verified:** 2026-08-04 — [official source](https://github.com/microsoft/generative-ai-for-beginners)
+- **Verified:** 2026-11-10 — [official source](https://github.com/microsoft/generative-ai-for-beginners)
 
 **Caveats**
 
@@ -674,7 +676,7 @@ A free and open-source chatbot that runs locally on your computer with no data l
 - **Limits:** Speed, context, and model size depend on CPU, RAM, storage, and model licenses.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/nomic-ai/gpt4all)
+- **Verified:** 2026-11-10 — [official source](https://github.com/nomic-ai/gpt4all)
 
 **Caveats**
 
@@ -690,7 +692,7 @@ A Python binding for llama.cpp with support for OpenAI API compatibility and eas
 - **Limits:** Performance depends on hardware and model selection.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/abetlen/llama-cpp-python)
+- **Verified:** 2026-11-10 — [official source](https://github.com/abetlen/llama-cpp-python)
 
 **Caveats**
 
@@ -706,7 +708,7 @@ A C++ library for running Meta's LLaMA and other large language models efficient
 - **Limits:** Performance depends on hardware, quantization, and model size.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/ggml-org/llama.cpp)
+- **Verified:** 2026-11-10 — [official source](https://github.com/ggml-org/llama.cpp)
 
 **Caveats**
 
@@ -738,7 +740,7 @@ A free and open-source OpenAI-compatible API for running LLMs, image generation,
 - **Limits:** Inference is limited by hardware, backend compatibility, model size, storage, and licenses.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/mudler/LocalAI)
+- **Verified:** 2026-11-10 — [official source](https://github.com/mudler/LocalAI)
 
 **Caveats**
 
@@ -754,7 +756,7 @@ A lightweight framework for running large language models locally with a simple 
 - **Limits:** Performance depends on your hardware; larger models require more RAM and VRAM.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/ollama/ollama)
+- **Verified:** 2026-11-10 — [official source](https://github.com/ollama/ollama)
 
 **Caveats**
 
@@ -770,7 +772,7 @@ An open-source framework for building, shipping, and scaling production-ready AI
 - **Limits:** The framework is free; BentoCloud has separate pricing.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/bentoml/BentoML)
+- **Verified:** 2026-11-10 — [official source](https://github.com/bentoml/BentoML)
 
 **Caveats**
 
@@ -786,7 +788,7 @@ A Python library for high-performance numerical computing with automatic differe
 - **Limits:** Performance depends on hardware; requires GPU/TPU for optimal speed.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/jax-ml/jax)
+- **Verified:** 2026-11-10 — [official source](https://github.com/jax-ml/jax)
 
 **Caveats**
 
@@ -802,7 +804,7 @@ A high-level neural networks API with support for multiple backends including Te
 - **Limits:** Performance depends on backend and hardware.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/keras-team/keras)
+- **Verified:** 2026-11-10 — [official source](https://github.com/keras-team/keras)
 
 **Caveats**
 
@@ -818,7 +820,7 @@ An open-source platform for managing the end-to-end machine learning lifecycle w
 - **Limits:** The platform is free; managed services have separate pricing.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/mlflow/mlflow)
+- **Verified:** 2026-11-10 — [official source](https://github.com/mlflow/mlflow)
 
 **Caveats**
 
@@ -834,7 +836,7 @@ An open-source machine learning framework with dynamic computation graphs and st
 - **Limits:** Performance depends on hardware; GPU acceleration recommended.
 - **License:** BSD-3-Clause
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/pytorch/pytorch)
+- **Verified:** 2026-11-10 — [official source](https://github.com/pytorch/pytorch)
 
 **Caveats**
 
@@ -850,7 +852,7 @@ A machine learning library for Python with support for classification, regressio
 - **Limits:** Not optimized for deep learning; CPU-only.
 - **License:** BSD-3-Clause
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/scikit-learn/scikit-learn)
+- **Verified:** 2026-11-10 — [official source](https://github.com/scikit-learn/scikit-learn)
 
 **Caveats**
 
@@ -866,7 +868,7 @@ An end-to-end open-source machine learning platform with tools, libraries, and c
 - **Limits:** The framework is free; TensorFlow Lite and TensorFlow.js have separate constraints.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/tensorflow/tensorflow)
+- **Verified:** 2026-11-10 — [official source](https://github.com/tensorflow/tensorflow)
 
 **Caveats**
 
@@ -882,7 +884,7 @@ A state-of-the-art machine learning library for PyTorch, TensorFlow, and JAX wit
 - **Limits:** The library is free; model licenses vary.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/huggingface/transformers)
+- **Verified:** 2026-11-10 — [official source](https://github.com/huggingface/transformers)
 
 **Caveats**
 
@@ -930,7 +932,7 @@ A framework for programming with foundation models that allows you to define mod
 - **Limits:** The framework is free; requires understanding of prompt optimization.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/stanfordnlp/dspy)
+- **Verified:** 2026-11-10 — [official source](https://github.com/stanfordnlp/dspy)
 
 **Caveats**
 
@@ -946,7 +948,7 @@ A data framework for building LLM applications with support for data connectors,
 - **Limits:** The framework is free; managed services have separate pricing.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/run-llama/llama_index)
+- **Verified:** 2026-11-10 — [official source](https://github.com/run-llama/llama_index)
 
 **Caveats**
 
@@ -962,7 +964,7 @@ A library for audio processing and generation with support for music, sound effe
 - **Limits:** Requires GPU for optimal performance.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/facebookresearch/audiocraft)
+- **Verified:** 2026-11-10 — [official source](https://github.com/facebookresearch/audiocraft)
 
 **Caveats**
 
@@ -978,7 +980,7 @@ A transformer-based text-to-audio model capable of generating highly realistic m
 - **Limits:** Requires GPU for optimal performance.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/suno-ai/bark)
+- **Verified:** 2026-11-10 — [official source](https://github.com/suno-ai/bark)
 
 **Caveats**
 
@@ -992,9 +994,9 @@ An open-source text-to-speech library with support for multiple languages, voice
 - **Best for:** Custom text-to-speech with voice cloning
 - **Free access:** Open source
 - **Limits:** Performance depends on hardware; GPU recommended.
-- **License:** Apache-2.0
+- **License:** MPL-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/coqui-ai/TTS)
+- **Verified:** 2026-11-10 — [official source](https://github.com/coqui-ai/TTS)
 
 **Caveats**
 
@@ -1042,7 +1044,7 @@ A fast implementation of OpenAI's Whisper model for speech recognition with CTra
 - **Limits:** Performance depends on hardware; GPU acceleration recommended.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/SYSTRAN/faster-whisper)
+- **Verified:** 2026-11-10 — [official source](https://github.com/SYSTRAN/faster-whisper)
 
 **Caveats**
 
@@ -1058,7 +1060,7 @@ An open-source automatic speech recognition (ASR) system trained on 680,000 hour
 - **Limits:** Performance depends on hardware; larger models require more resources.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/openai/whisper)
+- **Verified:** 2026-11-10 — [official source](https://github.com/openai/whisper)
 
 **Caveats**
 
@@ -1091,7 +1093,7 @@ An open-source toolkit for speaker diarization, speech segmentation, and audio a
 - **Limits:** Pre-trained models require GPU for optimal performance.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/pyannote/pyannote-audio)
+- **Verified:** 2026-11-10 — [official source](https://github.com/pyannote/pyannote-audio)
 
 **Caveats**
 
@@ -1107,7 +1109,7 @@ A high-performance C++ implementation of OpenAI's Whisper model for speech recog
 - **Limits:** Performance depends on hardware; optimized for CPU inference.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/ggerganov/whisper.cpp)
+- **Verified:** 2026-11-10 — [official source](https://github.com/ggml-org/whisper.cpp)
 
 **Caveats**
 
@@ -1121,9 +1123,9 @@ An extended version of OpenAI's Whisper with word-level timestamps, speaker diar
 - **Best for:** Accurate speech recognition with timestamps
 - **Free access:** Open source
 - **Limits:** Requires GPU for optimal performance.
-- **License:** MIT
+- **License:** BSD-2-Clause
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/m-bain/whisperX)
+- **Verified:** 2026-11-10 — [official source](https://github.com/m-bain/whisperX)
 
 **Caveats**
 
@@ -1139,7 +1141,7 @@ An open-source embedding database for AI applications with support for vector se
 - **Limits:** Performance depends on hardware; large collections may require more memory.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/chroma-core/chroma)
+- **Verified:** 2026-11-10 — [official source](https://github.com/chroma-core/chroma)
 
 **Caveats**
 
@@ -1155,7 +1157,7 @@ An open-source library for efficient similarity search and clustering of dense v
 - **Limits:** Faiss is a library rather than a full database; persistence, metadata, access control, replication, and serving must be built separately.
 - **License:** MIT
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/facebookresearch/faiss)
+- **Verified:** 2026-11-10 — [official source](https://github.com/facebookresearch/faiss)
 
 **Caveats**
 
@@ -1171,7 +1173,7 @@ An open-source vector database built for scalable similarity search and AI appli
 - **Limits:** Requires significant resources for large-scale deployments.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/milvus-io/milvus)
+- **Verified:** 2026-11-10 — [official source](https://github.com/milvus-io/milvus)
 
 **Caveats**
 
@@ -1187,7 +1189,7 @@ An open-source vector similarity search engine with extended filtering support, 
 - **Limits:** Performance depends on hardware; cloud version has separate pricing.
 - **License:** Apache-2.0
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/qdrant/qdrant)
+- **Verified:** 2026-11-10 — [official source](https://github.com/qdrant/qdrant)
 
 **Caveats**
 
@@ -1201,9 +1203,9 @@ An open-source vector search engine for building AI applications with support fo
 - **Best for:** Building AI apps with hybrid and generative search
 - **Free access:** Open source
 - **Limits:** Performance depends on hardware; cloud version has separate pricing.
-- **License:** BSD-3-Clause
+- **License:** BSD-3-Clause and Weaviate License (mixed)
 - **Privacy:** local
-- **Verified:** 2026-08-04 — [official source](https://github.com/weaviate/weaviate)
+- **Verified:** 2026-11-10 — [official source](https://github.com/weaviate/weaviate)
 
 **Caveats**
 

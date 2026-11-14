@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite un GPU pour un usage pratique.", "Les licences des modèles varient selon le modèle."],
   "tags": ["diffusion", "image-generation", "stable-diffusion", "generative"],
   "source": {"url": "https://github.com/huggingface/diffusers", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

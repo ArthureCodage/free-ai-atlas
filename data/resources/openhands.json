@@ -10,7 +10,7 @@
   "access": "local",
   "difficulty": "advanced",
   "platforms": ["linux", "docker"],
-  "homepage": "https://github.com/All-Hands-AI/OpenHands",
+  "homepage": "https://github.com/OpenHands/OpenHands",
   "account_required": false,
   "card_required": false,
   "commercial_use": "yes",
@@ -21,8 +21,8 @@
   "caveats": ["Requires API keys for external LLM providers.", "Autonomous coding requires careful monitoring."],
   "caveats_fr": ["Nécessite des clés API pour les fournisseurs LLM externes.", "Le codage autonome nécessite une surveillance attentive."],
   "tags": ["coding", "autonomous", "agent", "software-development"],
-  "source": {"url": "https://github.com/All-Hands-AI/OpenHands", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "source": {"url": "https://github.com/OpenHands/OpenHands", "type": "official-repository", "official": true},
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

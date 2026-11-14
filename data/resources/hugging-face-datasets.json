@@ -22,7 +22,7 @@
   "caveats_fr": ["Certains jeux de données ont des licences ou restrictions séparées.", "Les grands jeux de données peuvent nécessiter beaucoup de RAM pour le traitement."],
   "tags": ["datasets", "machine-learning", "data-processing", "huggingface"],
   "source": {"url": "https://github.com/huggingface/datasets", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

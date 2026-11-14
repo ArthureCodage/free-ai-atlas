@@ -22,7 +22,7 @@
   "caveats_fr": ["Les applications complexes peuvent avoir des limitations de performance.", "L'offre gratuite de Streamlit Cloud a des limitations de ressources."],
   "tags": ["python", "web-app", "demo", "data-science"],
   "source": {"url": "https://github.com/streamlit/streamlit", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

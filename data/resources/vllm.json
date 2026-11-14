@@ -22,7 +22,7 @@
   "caveats_fr": ["Configuration complexe pour les déploiements en production.", "Nécessite un GPU avec suffisamment de VRAM."],
   "tags": ["inference", "serving", "high-throughput", "gpu"],
   "source": {"url": "https://github.com/vllm-project/vllm", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

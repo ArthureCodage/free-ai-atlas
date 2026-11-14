@@ -11,7 +11,7 @@ Un cadre pour construire des conversations multi-agents avec support pour les fl
 - **Limites:** Nécessite des clés API pour les fournisseurs LLM externes.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/microsoft/autogen)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/microsoft/autogen)
 
 **À savoir**
 
@@ -27,7 +27,7 @@ Un cadre pour construire des systèmes IA multi-agents avec des agents basés su
 - **Limites:** Le cadre est gratuit; CrewAI Enterprise a une tarification séparée.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/joaomdmoura/crewAI)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/crewAIInc/crewAI)
 
 **À savoir**
 
@@ -43,7 +43,7 @@ Un framework open source pour créer des applications de modèles et d’agents 
 - **Limites:** Le framework est gratuit; les modèles, bases, services de traçage et infrastructures connectés peuvent avoir leurs propres coûts et conditions.
 - **Licence:** MIT
 - **Confidentialité:** configurable
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/langchain-ai/langchain)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/langchain-ai/langchain)
 
 **À savoir**
 
@@ -59,7 +59,7 @@ Une bibliothèque pour construire des applications à état multi-acteurs avec d
 - **Limites:** La bibliothèque est gratuite; LangGraph Cloud a une tarification séparée.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/langchain-ai/langgraph)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/langchain-ai/langgraph)
 
 **À savoir**
 
@@ -137,7 +137,7 @@ Une bibliothèque Python open source pour créer des démos d'apprentissage auto
 - **Limites:** La bibliothèque est gratuite; Gradio Spaces a des limitations de l'offre gratuite.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/gradio-app/gradio)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/gradio-app/gradio)
 
 **À savoir**
 
@@ -153,7 +153,7 @@ Un cadre visuel pour construire des applications multi-agents et RAG avec une in
 - **Limites:** Le cadre est gratuit; Langflow Cloud a une tarification séparée.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/langflow-ai/langflow)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/langflow-ai/langflow)
 
 **À savoir**
 
@@ -169,7 +169,7 @@ Un framework open source pour les équipes de science des données et d'apprenti
 - **Limites:** Le framework est gratuit; le déploiement sur Streamlit Cloud a des limitations de l'offre gratuite.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/streamlit/streamlit)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/streamlit/streamlit)
 
 **À savoir**
 
@@ -185,7 +185,7 @@ Une application de bureau open source pour exécuter des chatbots IA localement 
 - **Limites:** Les performances dépendent du matériel et du fournisseur LLM sélectionné.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/Mintplex-Labs/anything-llm)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/Mintplex-Labs/anything-llm)
 
 **À savoir**
 
@@ -244,9 +244,9 @@ Une application de bureau open source pour exécuter des chatbots IA locaux avec
 - **Idéal pour:** Chatbot IA local privé
 - **Gratuité:** Open source
 - **Limites:** Les performances dépendent du matériel et de la sélection du modèle.
-- **Licence:** AGPL-3.0
+- **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/janhq/jan)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/janhq/jan)
 
 **À savoir**
 
@@ -276,14 +276,15 @@ Une interface web riche en fonctionnalités et conviviale pour interagir avec le
 - **Idéal pour:** Interface LLM locale conviviale
 - **Gratuité:** Open source
 - **Limites:** L'interface est gratuite; nécessite une connexion aux fournisseurs LLM.
-- **Licence:** MIT
+- **Licence:** Open WebUI License
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/open-webui/open-webui)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/open-webui/open-webui)
 
 **À savoir**
 
 - Nécessite des clés API pour les fournisseurs LLM externes.
 - Certaines fonctionnalités sont en bêta.
+- Licence personnalisée (style BSD avec une clause de marque) : retirer ou modifier la marque Open WebUI nécessite une licence entreprise distincte.
 
 ## Perplexity
 
@@ -309,7 +310,7 @@ Un assistant de programmation en binôme IA qui fonctionne dans votre terminal a
 - **Limites:** Les performances dépendent du matériel et du fournisseur LLM sélectionné.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/paul-gauthier/aider)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/Aider-AI/aider)
 
 **À savoir**
 
@@ -323,9 +324,9 @@ Un assistant de code IA qui s'exécute dans votre terminal avec support pour plu
 - **Idéal pour:** Assistant de code IA basé sur le terminal
 - **Gratuité:** Open source
 - **Limites:** Les performances dépendent du matériel et du fournisseur LLM sélectionné.
-- **Licence:** MIT
+- **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/cline/cline)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/cline/cline)
 
 **À savoir**
 
@@ -341,7 +342,7 @@ Un assistant de code IA open source qui s'intègre avec VS Code et les IDEs JetB
 - **Limites:** Les performances dépendent du matériel et du fournisseur LLM sélectionné.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/continuedev/continue)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/continuedev/continue)
 
 **À savoir**
 
@@ -357,7 +358,7 @@ Un agent de développement logiciel IA open source qui peut écrire du code, cor
 - **Limites:** Les performances dépendent du matériel et du fournisseur LLM sélectionné.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/All-Hands-AI/OpenHands)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/OpenHands/OpenHands)
 
 **À savoir**
 
@@ -403,7 +404,7 @@ Une bibliothèque complète pour accéder, traiter et partager des jeux de donn�
 - **Limites:** La taille du jeu de données est limitée par le stockage et la mémoire locale. Les grands jeux de données peuvent nécessiter un streaming.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/datasets)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/huggingface/datasets)
 
 **À savoir**
 
@@ -419,7 +420,7 @@ Un cadre d'évaluation open source pour les applications LLM avec support pour l
 - **Limites:** Le cadre est gratuit; les services managés ont une tarification séparée.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/confident-ai/deepeval)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/confident-ai/deepeval)
 
 **À savoir**
 
@@ -435,7 +436,7 @@ Un outil open source pour tester et évaluer les prompts LLM avec support pour l
 - **Limites:** L'outils est gratuit; les fonctionnalités entreprise ont une tarification séparée.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/promptfoo/promptfoo)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/promptfoo/promptfoo)
 
 **À savoir**
 
@@ -451,7 +452,7 @@ Un cadre d'évaluation open source pour les applications Retrieval Augmented Gen
 - **Limites:** Le cadre est gratuit; les services managés ont une tarification séparée.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/explodinggradients/ragas)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/vibrantlabsai/ragas)
 
 **À savoir**
 
@@ -467,7 +468,7 @@ Une interface utilisateur modulaire et puissante basée sur des nœuds pour Stab
 - **Limites:** Les performances dépendent du GPU et de la sélection du modèle.
 - **Licence:** GPL-3.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/comfyanonymous/ComfyUI)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/Comfy-Org/ComfyUI)
 
 **À savoir**
 
@@ -483,7 +484,7 @@ Une bibliothèque de pointe pour l'inférence et l'entraînement de modèles de 
 - **Limites:** Les performances dépendent du GPU; les licences des modèles varient.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/diffusers)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/huggingface/diffusers)
 
 **À savoir**
 
@@ -497,9 +498,9 @@ Un moteur créatif de niveau professionnel pour les modèles Stable Diffusion av
 - **Idéal pour:** Génération et édition d'images professionnelles
 - **Gratuité:** Open source
 - **Limites:** Les performances dépendent du GPU et de la sélection du modèle.
-- **Licence:** AGPL-3.0
+- **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/invoke-ai/InvokeAI)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/invoke-ai/InvokeAI)
 
 **À savoir**
 
@@ -515,7 +516,7 @@ Une version modifiée du Stable Diffusion WebUI d'Automatic1111 avec des amélio
 - **Limites:** Les performances dépendent du GPU et de la sélection du modèle.
 - **Licence:** AGPL-3.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/lllyasviel/stable-diffusion-webui-forge)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/lllyasviel/stable-diffusion-webui-forge)
 
 **À savoir**
 
@@ -531,7 +532,7 @@ Un accélérateur d'inférence et d'entraînement ML multiplateforme et haute pe
 - **Limites:** Les performances dépendent du matériel et de l'optimisation du modèle.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/microsoft/onnxruntime)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/microsoft/onnxruntime)
 
 **À savoir**
 
@@ -547,10 +548,11 @@ Une solution d'inférence prête pour la production pour exécuter des LLMs avec
 - **Limites:** Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/text-generation-inference)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/huggingface/text-generation-inference)
 
 **À savoir**
 
+- Le dépôt est archivé sur GitHub et n'est plus maintenu.
 - Configuration complexe pour les déploiements en production.
 - Nécessite un GPU avec suffisamment de VRAM.
 
@@ -563,7 +565,7 @@ Un moteur d'inférence et de service haute performance et économe en mémoire p
 - **Limites:** Nécessite un GPU avec suffisamment de VRAM pour des performances optimales.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/vllm-project/vllm)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/vllm-project/vllm)
 
 **À savoir**
 
@@ -579,7 +581,7 @@ Un cours gratuit et open source couvrant concepts d’agents, outils, frameworks
 - **Limites:** Le cours est gratuit; les exercices peuvent utiliser notebooks hébergés, modèles externes, comptes ou calcul avec limites distinctes.
 - **Licence:** Apache-2.0
 - **Confidentialité:** configurable
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/agents-course)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/huggingface/agents-course)
 
 **À savoir**
 
@@ -610,7 +612,7 @@ Un programme gratuit et open source de douze semaines et vingt-quatre leçons co
 - **Limites:** Le cours est gratuit; certains laboratoires exigent une installation locale, des paquets, du calcul ou des services externes facultatifs.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/microsoft/AI-For-Beginners)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/microsoft/AI-For-Beginners)
 
 **À savoir**
 
@@ -626,7 +628,7 @@ Un programme gratuit et open source de vingt et une leçons sur applications gé
 - **Limites:** Le contenu est gratuit; certains exemples liés à un fournisseur peuvent exiger une API, un compte ou une alternative locale.
 - **Licence:** MIT
 - **Confidentialité:** configurable
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/microsoft/generative-ai-for-beginners)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/microsoft/generative-ai-for-beginners)
 
 **À savoir**
 
@@ -674,7 +676,7 @@ Un chatbot gratuit et open source qui s'exécute localement sur votre ordinateur
 - **Limites:** La vitesse, le contexte et la taille du modèle dépendent du CPU, de la RAM, du stockage et des licences.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/nomic-ai/gpt4all)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/nomic-ai/gpt4all)
 
 **À savoir**
 
@@ -690,7 +692,7 @@ Un binding Python pour llama.cpp avec support pour la compatibilité API OpenAI 
 - **Limites:** Les performances dépendent du matériel et de la sélection du modèle.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/abetlen/llama-cpp-python)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/abetlen/llama-cpp-python)
 
 **À savoir**
 
@@ -706,7 +708,7 @@ Une bibliothèque C++ pour exécuter efficacement les grands modèles de langage
 - **Limites:** Les performances dépendent du matériel, de la quantification et de la taille du modèle.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/ggml-org/llama.cpp)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/ggml-org/llama.cpp)
 
 **À savoir**
 
@@ -738,7 +740,7 @@ Une API compatible OpenAI gratuite et open source pour exécuter des LLMs, la g�
 - **Limites:** L'inférence est limitée par le matériel, la compatibilité des backends, la taille des modèles, le stockage et les licences.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/mudler/LocalAI)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/mudler/LocalAI)
 
 **À savoir**
 
@@ -754,7 +756,7 @@ Un framework léger pour exécuter des grands modèles de langage localement ave
 - **Limites:** Les performances dépendent de votre matériel; les grands modèles nécessitent plus de RAM et de VRAM.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/ollama/ollama)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/ollama/ollama)
 
 **À savoir**
 
@@ -770,7 +772,7 @@ Un framework open source pour construire, déployer et scaler des applications I
 - **Limites:** Le framework est gratuit; BentoCloud a une tarification séparée.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/bentoml/BentoML)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/bentoml/BentoML)
 
 **À savoir**
 
@@ -786,7 +788,7 @@ Une bibliothèque Python pour le calcul numérique haute performance avec differ
 - **Limites:** Les performances dépendent du matériel; nécessite GPU/TPU pour une vitesse optimale.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/jax-ml/jax)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/jax-ml/jax)
 
 **À savoir**
 
@@ -802,7 +804,7 @@ Une API de réseaux neuronaux de haut niveau avec support pour plusieurs backend
 - **Limites:** Les performances dépendent du backend et du matériel.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/keras-team/keras)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/keras-team/keras)
 
 **À savoir**
 
@@ -818,7 +820,7 @@ Une plateforme open source pour gérer le cycle de vie complet de l'apprentissag
 - **Limites:** La plateforme est gratuite; les services managés ont une tarification séparée.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/mlflow/mlflow)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/mlflow/mlflow)
 
 **À savoir**
 
@@ -834,7 +836,7 @@ Un cadre de machine learning open source avec des graphes de calcul dynamiques e
 - **Limites:** Les performances dépendent du matériel; l'accélération GPU recommandée.
 - **Licence:** BSD-3-Clause
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/pytorch/pytorch)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/pytorch/pytorch)
 
 **À savoir**
 
@@ -850,7 +852,7 @@ Une bibliothèque de machine learning pour Python avec support pour la classific
 - **Limites:** Non optimisé pour le deep learning; CPU uniquement.
 - **Licence:** BSD-3-Clause
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/scikit-learn/scikit-learn)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/scikit-learn/scikit-learn)
 
 **À savoir**
 
@@ -866,7 +868,7 @@ Une plateforme open source complète d'apprentissage automatique avec outils, bi
 - **Limites:** Le framework est gratuit; TensorFlow Lite et TensorFlow.js ont des contraintes séparées.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/tensorflow/tensorflow)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/tensorflow/tensorflow)
 
 **À savoir**
 
@@ -882,7 +884,7 @@ Une bibliothèque d'apprentissage automatique de pointe pour PyTorch, TensorFlow
 - **Limites:** La bibliothèque est gratuite; les licences des modèles varient.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/huggingface/transformers)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/huggingface/transformers)
 
 **À savoir**
 
@@ -930,7 +932,7 @@ Un cadre pour programmer avec des modèles fondamentaux qui vous permet de défi
 - **Limites:** Le cadre est gratuit; nécessite une compréhension de l'optimisation des prompts.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/stanfordnlp/dspy)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/stanfordnlp/dspy)
 
 **À savoir**
 
@@ -946,7 +948,7 @@ Un cadre de données pour construire des applications LLM avec support pour les 
 - **Limites:** Le cadre est gratuit; les services managés ont une tarification séparée.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/run-llama/llama_index)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/run-llama/llama_index)
 
 **À savoir**
 
@@ -962,7 +964,7 @@ Une bibliothèque pour le traitement et la génération audio avec support pour 
 - **Limites:** Nécessite un GPU pour des performances optimales.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/facebookresearch/audiocraft)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/facebookresearch/audiocraft)
 
 **À savoir**
 
@@ -978,7 +980,7 @@ Un modèle de synthèse text-audio basé sur des transformateurs capable de gén
 - **Limites:** Nécessite un GPU pour des performances optimales.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/suno-ai/bark)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/suno-ai/bark)
 
 **À savoir**
 
@@ -992,9 +994,9 @@ Une bibliothèque open source de synthèse vocale avec support pour plusieurs la
 - **Idéal pour:** Synthèse vocale personnalisée avec clonage de voix
 - **Gratuité:** Open source
 - **Limites:** Les performances dépendent du matériel; GPU recommandé.
-- **Licence:** Apache-2.0
+- **Licence:** MPL-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/coqui-ai/TTS)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/coqui-ai/TTS)
 
 **À savoir**
 
@@ -1042,7 +1044,7 @@ Une implémentation rapide du modèle Whisper d'OpenAI pour la reconnaissance vo
 - **Limites:** Les performances dépendent du matériel; l'accélération GPU recommandée.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/SYSTRAN/faster-whisper)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/SYSTRAN/faster-whisper)
 
 **À savoir**
 
@@ -1058,7 +1060,7 @@ Un système open source de reconnaissance vocale automatique (ASR) entraîné su
 - **Limites:** Les performances dépendent du matériel; les grands modèles nécessitent plus de ressources.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/openai/whisper)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/openai/whisper)
 
 **À savoir**
 
@@ -1091,7 +1093,7 @@ Une boîte à outils open source pour la diarisation de locuteurs, la segmentati
 - **Limites:** Les modèles pré-entraînés nécessitent un GPU pour des performances optimales.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/pyannote/pyannote-audio)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/pyannote/pyannote-audio)
 
 **À savoir**
 
@@ -1107,7 +1109,7 @@ Une implémentation C++ haute performance du modèle Whisper d'OpenAI pour la re
 - **Limites:** Les performances dépendent du matériel; optimisé pour l'inférence CPU.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/ggerganov/whisper.cpp)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/ggml-org/whisper.cpp)
 
 **À savoir**
 
@@ -1121,9 +1123,9 @@ Une version étendue d'OpenAI Whisper avec des horodatages au niveau du mot, la 
 - **Idéal pour:** Reconnaissance vocale précise avec horodatages
 - **Gratuité:** Open source
 - **Limites:** Nécessite un GPU pour des performances optimales.
-- **Licence:** MIT
+- **Licence:** BSD-2-Clause
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/m-bain/whisperX)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/m-bain/whisperX)
 
 **À savoir**
 
@@ -1139,7 +1141,7 @@ Une base de données d'embeddings open source pour les applications IA avec supp
 - **Limites:** Les performances dépendent du matériel; les grandes collections peuvent nécessiter plus de mémoire.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/chroma-core/chroma)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/chroma-core/chroma)
 
 **À savoir**
 
@@ -1155,7 +1157,7 @@ Une bibliothèque open source pour la recherche efficace par similarité et le r
 - **Limites:** Faiss est une bibliothèque plutôt qu’une base complète; persistance, métadonnées, accès, réplication et service doivent être construits séparément.
 - **Licence:** MIT
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/facebookresearch/faiss)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/facebookresearch/faiss)
 
 **À savoir**
 
@@ -1171,7 +1173,7 @@ Une base de données vectorielle open source construite pour la recherche de sim
 - **Limites:** Nécessite des ressources importantes pour les déploiements à grande échelle.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/milvus-io/milvus)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/milvus-io/milvus)
 
 **À savoir**
 
@@ -1187,7 +1189,7 @@ Un moteur de recherche de similarité vectorielle open source avec support de fi
 - **Limites:** Les performances dépendent du matériel; la version cloud a une tarification séparée.
 - **Licence:** Apache-2.0
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/qdrant/qdrant)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/qdrant/qdrant)
 
 **À savoir**
 
@@ -1201,9 +1203,9 @@ Un moteur de recherche vectorielle open source pour construire des applications 
 - **Idéal pour:** Construire des applications IA avec recherche hybride et générative
 - **Gratuité:** Open source
 - **Limites:** Les performances dépendent du matériel; la version cloud a une tarification séparée.
-- **Licence:** BSD-3-Clause
+- **Licence:** BSD-3-Clause and Weaviate License (mixed)
 - **Confidentialité:** local
-- **Vérifié:** 2026-08-04 — [source officielle](https://github.com/weaviate/weaviate)
+- **Vérifié:** 2026-11-10 — [source officielle](https://github.com/weaviate/weaviate)
 
 **À savoir**
 

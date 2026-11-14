@@ -22,7 +22,7 @@
   "caveats_fr": ["Grande bibliothèque avec API complexe.", "Les licences des modèles varient selon le modèle."],
   "tags": ["ml", "nlp", "vision", "audio", "pretrained"],
   "source": {"url": "https://github.com/huggingface/transformers", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

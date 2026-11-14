@@ -22,7 +22,7 @@
   "caveats_fr": ["La qualité et la compatibilité des modèles varient selon le backend.", "Sécurisez l'API avant de l'exposer au-delà de localhost."],
   "tags": ["local", "api", "openai-compatible", "multimodal"],
   "source": {"url": "https://github.com/mudler/LocalAI", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

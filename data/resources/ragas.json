@@ -10,7 +10,7 @@
   "access": "local",
   "difficulty": "intermediate",
   "platforms": ["windows", "macos", "linux"],
-  "homepage": "https://github.com/explodinggradients/ragas",
+  "homepage": "https://github.com/vibrantlabsai/ragas",
   "account_required": false,
   "card_required": false,
   "commercial_use": "yes",
@@ -21,8 +21,8 @@
   "caveats": ["Requires API keys for external LLM providers.", "Managed services have separate pricing."],
   "caveats_fr": ["Nécessite des clés API pour les fournisseurs LLM externes.", "Les services managés ont une tarification séparée."],
   "tags": ["evaluation", "rag", "metrics", "quality"],
-  "source": {"url": "https://github.com/explodinggradients/ragas", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "source": {"url": "https://github.com/vibrantlabsai/ragas", "type": "official-repository", "official": true},
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

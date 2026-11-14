@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite une compilation.", "La qualité du modèle varie selon la taille."],
   "tags": ["llm", "local", "python", "llama"],
   "source": {"url": "https://github.com/abetlen/llama-cpp-python", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

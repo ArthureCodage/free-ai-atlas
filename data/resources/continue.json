@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite des clés API pour les fournisseurs LLM externes.", "Certaines fonctionnalités sont en bêta."],
   "tags": ["coding", "ide", "vscode", "jetbrains"],
   "source": {"url": "https://github.com/continuedev/continue", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

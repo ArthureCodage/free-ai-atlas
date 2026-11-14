@@ -22,7 +22,7 @@
   "caveats_fr": ["La version hébergée dans le cloud a une tarification séparée.", "L'utilisation de la mémoire augmente avec la taille de la collection."],
   "tags": ["vector-database", "rag", "embeddings", "search"],
   "source": {"url": "https://github.com/chroma-core/chroma", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

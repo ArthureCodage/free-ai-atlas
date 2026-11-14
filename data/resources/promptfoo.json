@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite des clés API pour les fournisseurs LLM externes.", "Les fonctionnalités entreprise ont une tarification séparée."],
   "tags": ["evaluation", "testing", "prompts", "red-teaming"],
   "source": {"url": "https://github.com/promptfoo/promptfoo", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

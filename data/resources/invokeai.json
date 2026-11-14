@@ -15,14 +15,14 @@
   "card_required": false,
   "commercial_use": "check-license",
   "privacy": "local",
-  "license": "AGPL-3.0",
+  "license": "Apache-2.0",
   "limits": "Performance depends on GPU and model selection.",
   "limits_fr": "Les performances dépendent du GPU et de la sélection du modèle.",
   "caveats": ["Requires GPU with sufficient VRAM.", "Model licenses vary."],
   "caveats_fr": ["Nécessite un GPU avec suffisamment de VRAM.", "Les licences des modèles varient."],
   "tags": ["stable-diffusion", "image-generation", "professional", "creative"],
   "source": {"url": "https://github.com/invoke-ai/InvokeAI", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

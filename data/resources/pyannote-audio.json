@@ -22,7 +22,7 @@
   "caveats_fr": ["Nécessite un GPU pour des performances optimales.", "Certains modèles nécessitent d'accepter les conditions d'utilisation."],
   "tags": ["audio", "diarization", "speaker", "segmentation"],
   "source": {"url": "https://github.com/pyannote/pyannote-audio", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
   "confidence": "high"
 }

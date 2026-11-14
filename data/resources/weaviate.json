@@ -15,14 +15,14 @@
   "card_required": false,
   "commercial_use": "yes",
   "privacy": "local",
-  "license": "BSD-3-Clause",
+  "license": "BSD-3-Clause and Weaviate License (mixed)",
   "limits": "Performance depends on hardware; cloud version has separate pricing.",
   "limits_fr": "Les performances dépendent du matériel; la version cloud a une tarification séparée.",
   "caveats": ["Cloud hosted version has separate pricing.", "Requires Docker or Kubernetes for deployment."],
   "caveats_fr": ["La version hébergée dans le cloud a une tarification séparée.", "Nécessite Docker ou Kubernetes pour le déploiement."],
   "tags": ["vector-database", "search", "hybrid", "generative"],
   "source": {"url": "https://github.com/weaviate/weaviate", "type": "official-repository", "official": true},
-  "last_verified": "2026-08-04",
+  "last_verified": "2026-11-10",
   "status": "active",
-  "confidence": "high"
+  "confidence": "medium"
 }
