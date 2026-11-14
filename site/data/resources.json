@@ -2,7 +2,7 @@
   "meta": {
     "resource_count": 76,
     "category_count": 17,
-    "latest_verification": "2026-11-10",
+    "latest_verification": "2026-11-14",
     "open_source_count": 57,
     "local_count": 54,
     "no_account_count": 62,
@@ -240,7 +240,7 @@
         "type": "official-pricing",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -334,7 +334,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -382,7 +382,7 @@
         "type": "official-pricing",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -618,7 +618,7 @@
         "type": "official-pricing",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -663,7 +663,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -706,7 +706,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -799,7 +799,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -892,7 +892,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -1122,7 +1122,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -1165,7 +1165,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -1773,7 +1773,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -1912,7 +1912,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -2672,7 +2672,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
@@ -3048,7 +3048,7 @@
         "type": "official-docs",
         "official": true
       },
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "status": "active",
       "confidence": "high"
     },
