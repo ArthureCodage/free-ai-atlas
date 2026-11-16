@@ -2,8 +2,8 @@
 
 This file is generated from the catalog source records.
 
-- **Resources:** 76
-- **Latest verification:** 2026-11-10
+- **Resources:** 77
+- **Latest verification:** 2026-11-17
 - **Open source:** 57
 - **Local-first:** 54
 - **No account required:** 62
@@ -16,7 +16,7 @@ This file is generated from the catalog source records.
 | agents | 4 |
 | api | 4 |
 | app-builder | 3 |
-| assistant | 8 |
+| assistant | 9 |
 | coding | 4 |
 | compute | 2 |
 | dataset | 1 |
@@ -37,14 +37,14 @@ This file is generated from the catalog source records.
 |---|---:|
 | free-compute | 2 |
 | free-tier | 13 |
-| freemium | 4 |
+| freemium | 5 |
 | open-source | 57 |
 
 ## Access
 
 | Value | Resources |
 |---|---:|
-| cloud | 21 |
+| cloud | 22 |
 | hybrid | 1 |
 | local | 54 |
 
@@ -53,5 +53,5 @@ This file is generated from the catalog source records.
 | Value | Resources |
 |---|---:|
 | advanced | 9 |
-| beginner | 27 |
+| beginner | 28 |
 | intermediate | 40 |

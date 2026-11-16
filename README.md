@@ -15,9 +15,9 @@
 </p>
 
 <p align="center">
-  <img alt="Resources" src="https://img.shields.io/badge/resources-76-7c5cff">
+  <img alt="Resources" src="https://img.shields.io/badge/resources-77-7c5cff">
   <img alt="Categories" src="https://img.shields.io/badge/categories-17-19c6a3">
-  <img alt="Latest verification" src="https://img.shields.io/badge/latest%20verification-2026-11-10-f4b942">
+  <img alt="Latest verification" src="https://img.shields.io/badge/latest%20verification-2026-11-17-f4b942">
   <img alt="Content license CC0" src="https://img.shields.io/badge/data%20%26%20content-CC0-0b7285">
   <img alt="Code license MIT" src="https://img.shields.io/badge/code-MIT-0b7285">
 </p>
@@ -76,6 +76,7 @@ Every entry records what “free” means, its real limits, privacy model, requi
 | [Msty](https://msty.app) | assistant | Free tier | local | beginner | 2026-09-26 |
 | [Open WebUI](https://github.com/open-webui/open-webui) | assistant | Open source | local | beginner | 2026-11-10 |
 | [Perplexity](https://www.perplexity.ai/) | assistant | Freemium | cloud | beginner | 2026-09-26 |
+| [StudyArena](https://studyarena.com) | assistant | Freemium | cloud | beginner | 2026-11-17 |
 | [Aider](https://github.com/Aider-AI/aider) | coding | Open source | local | intermediate | 2026-11-10 |
 | [Cline](https://github.com/cline/cline) | coding | Open source | local | intermediate | 2026-11-10 |
 | [Continue](https://github.com/continuedev/continue) | coding | Open source | local | beginner | 2026-11-10 |

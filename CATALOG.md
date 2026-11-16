@@ -301,6 +301,23 @@ An answer engine whose Standard free plan offers practically unlimited basic sea
 
 - Citations still need to be opened and checked; an attached source does not guarantee a correct answer.
 
+## StudyArena
+
+A hosted study assistant for comparing three blind AI answers, voting for a preferred explanation, and then revealing the models.
+
+- **Best for:** Comparing explanations for study questions
+- **Free access:** Freemium
+- **Limits:** The public $0 plan includes three-model comparisons, voting, model reveals and saved history. An account is required. Model choice and six-model comparisons require Supporter. Free features and paid plans can differ by country and platform.
+- **License:** Variable or proprietary
+- **Privacy:** provider-processed
+- **Verified:** 2026-11-17 — [official source](https://studyarena.com/pricing)
+
+**Caveats**
+
+- Prompts and attachments are sent to multiple third-party AI providers; review the privacy policy before submitting sensitive information.
+- AI answers can be inaccurate. Verify explanations and follow your school’s rules on AI assistance.
+- Users must be at least 13 or the higher local minimum; parental permission is required below the local age of majority. Output rights also depend on the selected providers’ terms.
+
 ## Aider
 
 An AI pair programming assistant that works in your terminal with support for multiple LLM providers and git integration.

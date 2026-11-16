@@ -301,6 +301,23 @@ Un moteur de réponses dont l’offre Standard gratuite comprend des recherches 
 
 - Les références doivent tout de même être ouvertes et vérifiées; la présence d’une source ne garantit pas une réponse exacte.
 
+## StudyArena
+
+Un assistant d’étude en ligne pour comparer les réponses de trois modèles d’IA sans voir leurs noms, voter pour une explication, puis révéler les modèles.
+
+- **Idéal pour:** Comparer des explications pour des questions d’étude
+- **Gratuité:** Freemium
+- **Limites:** L’offre publique à 0 $ comprend la comparaison de trois modèles, le vote, la révélation des modèles et l’historique enregistré. Un compte est nécessaire. Le choix des modèles et la comparaison de six modèles nécessitent Supporter. Les fonctions gratuites et les offres payantes peuvent varier selon le pays et la plateforme.
+- **Licence:** Variable ou propriétaire
+- **Confidentialité:** provider-processed
+- **Vérifié:** 2026-11-17 — [source officielle](https://studyarena.com/pricing)
+
+**À savoir**
+
+- Les requêtes et pièces jointes sont envoyées à plusieurs fournisseurs d’IA tiers ; consultez la politique de confidentialité avant de transmettre des informations sensibles.
+- Les réponses de l’IA peuvent être inexactes. Vérifiez les explications et respectez les règles de votre établissement concernant l’IA.
+- Il faut avoir au moins 13 ans ou l’âge minimum local supérieur ; une autorisation parentale est nécessaire avant la majorité locale. Les droits sur les réponses dépendent aussi des conditions des fournisseurs sélectionnés.
+
 ## Aider
 
 Un assistant de programmation en binôme IA qui fonctionne dans votre terminal avec support pour plusieurs fournisseurs de LLM et intégration git.
