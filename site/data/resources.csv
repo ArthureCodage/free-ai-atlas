@@ -18,6 +18,7 @@ jan,Jan,assistant,open-source,local,beginner,windows|macos|linux,False,False,yes
 msty,Msty,assistant,free-tier,local,beginner,windows|macos,False,False,check-license,local,proprietary,https://msty.app,https://msty.app,2026-09-26,active,high
 open-webui,Open WebUI,assistant,open-source,local,beginner,windows|macos|linux|docker,False,False,check-license,local,Open WebUI License,https://github.com/open-webui/open-webui,https://github.com/open-webui/open-webui,2026-11-10,active,medium
 perplexity,Perplexity,assistant,freemium,cloud,beginner,web,True,False,depends,provider-processed,,https://www.perplexity.ai/,https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you,2026-09-26,active,high
+studyarena,StudyArena,assistant,freemium,cloud,beginner,web,True,False,depends,provider-processed,,https://studyarena.com,https://studyarena.com/pricing,2026-11-17,active,medium
 aider,Aider,coding,open-source,local,intermediate,windows|macos|linux,False,False,yes,local,Apache-2.0,https://github.com/Aider-AI/aider,https://github.com/Aider-AI/aider,2026-11-10,active,high
 cline,Cline,coding,open-source,local,intermediate,windows|macos|linux,False,False,yes,local,Apache-2.0,https://github.com/cline/cline,https://github.com/cline/cline,2026-11-10,active,high
 continue,Continue,coding,open-source,local,beginner,windows|macos|linux,False,False,yes,local,Apache-2.0,https://github.com/continuedev/continue,https://github.com/continuedev/continue,2026-11-10,active,high

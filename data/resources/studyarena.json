@@ -1,0 +1,47 @@
+{
+  "id": "studyarena",
+  "name": "StudyArena",
+  "description": "A hosted study assistant for comparing three blind AI answers, voting for a preferred explanation, and then revealing the models.",
+  "description_fr": "Un assistant d’étude en ligne pour comparer les réponses de trois modèles d’IA sans voir leurs noms, voter pour une explication, puis révéler les modèles.",
+  "best_for": "Comparing explanations for study questions",
+  "best_for_fr": "Comparer des explications pour des questions d’étude",
+  "category": "assistant",
+  "free_type": "freemium",
+  "access": "cloud",
+  "difficulty": "beginner",
+  "platforms": [
+    "web"
+  ],
+  "homepage": "https://studyarena.com",
+  "account_required": true,
+  "card_required": false,
+  "commercial_use": "depends",
+  "privacy": "provider-processed",
+  "license": null,
+  "limits": "The public $0 plan includes three-model comparisons, voting, model reveals and saved history. An account is required. Model choice and six-model comparisons require Supporter. Free features and paid plans can differ by country and platform.",
+  "limits_fr": "L’offre publique à 0 $ comprend la comparaison de trois modèles, le vote, la révélation des modèles et l’historique enregistré. Un compte est nécessaire. Le choix des modèles et la comparaison de six modèles nécessitent Supporter. Les fonctions gratuites et les offres payantes peuvent varier selon le pays et la plateforme.",
+  "caveats": [
+    "Prompts and attachments are sent to multiple third-party AI providers; review the privacy policy before submitting sensitive information.",
+    "AI answers can be inaccurate. Verify explanations and follow your school’s rules on AI assistance.",
+    "Users must be at least 13 or the higher local minimum; parental permission is required below the local age of majority. Output rights also depend on the selected providers’ terms."
+  ],
+  "caveats_fr": [
+    "Les requêtes et pièces jointes sont envoyées à plusieurs fournisseurs d’IA tiers ; consultez la politique de confidentialité avant de transmettre des informations sensibles.",
+    "Les réponses de l’IA peuvent être inexactes. Vérifiez les explications et respectez les règles de votre établissement concernant l’IA.",
+    "Il faut avoir au moins 13 ans ou l’âge minimum local supérieur ; une autorisation parentale est nécessaire avant la majorité locale. Les droits sur les réponses dépendent aussi des conditions des fournisseurs sélectionnés."
+  ],
+  "tags": [
+    "study",
+    "chat",
+    "model-comparison",
+    "education"
+  ],
+  "source": {
+    "url": "https://studyarena.com/pricing",
+    "type": "official-pricing",
+    "official": true
+  },
+  "last_verified": "2026-11-17",
+  "status": "active",
+  "confidence": "medium"
+}
